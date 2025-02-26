@@ -13,25 +13,8 @@ from rdflib import Graph, DCTERMS
 
 html_parser = etree.HTMLParser()
 
-links = set()
-JSON_LICENSE_PATHS = [jsonpath_ng.ext.parse(x) for x in (
-'"gmd:identificationInfo"."gmd:MD_DataIdentification"."gmd:resourceConstraints"[*]."gmd:MD_LegalConstraints"."gmd:otherConstraints"."gco:CharacterString"."#text"',
-'"mdb:identificationInfo"."mri:MD_DataIdentification"."mri:resourceConstraints"."mco:MD_LegalConstraints"."mco:otherConstraints"."gco:CharacterString"."#text"',
-'"mdb:identificationInfo"."mri:MD_DataIdentification"."mri:resourceConstraints"."mco:MD_LegalConstraints"."mco:reference"."cit:CI_Citation"."cit:title"."gco:CharacterString"."#text"',
-'"gmd:identificationInfo"."gmd:MD_DataIdentification"."gmd:resourceConstraints"[*]."gmd:MD_LegalConstraints"."gmd:otherConstraints"[*]."gco:CharacterString"."#text"',)]
-
-
-def extract_licenses_json(dataset: dict):
-    licenses = set()
-    for jp in JSON_LICENSE_PATHS:
-        try:
-            licenses.update(e.value.strip() for e in jp.find(dataset))
-        except:
-            # ignore
-            pass
-    return licenses
-
 def extract_licenses(fn: Path) -> Generator[dict, None, None]:
+    links = set()
     doc = etree.parse(fn)
     root = doc.getroot()
     objects = root.cssselect('UserObject[label]')
