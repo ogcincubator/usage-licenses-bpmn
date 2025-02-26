@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="GZ-UHI" id="Krvi3zgOJTbH_F1lKnKt">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-0" />
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-1" parent="k6mhYjpQpfvVJ8LvTSOb-0" />
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-5" value="&lt;font color=&quot;#ff0000&quot;&gt;???&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-1">
+          <mxGeometry x="130" y="-4350" width="1920" height="1310" as="geometry">
+            <mxRectangle x="99" y="-2240" width="40" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-6" value="&lt;div&gt;Estimate LST from satellite images&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-5">
+          <mxGeometry x="20" width="1900" height="440" as="geometry">
+            <mxRectangle x="20" width="1133" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="k6mhYjpQpfvVJ8LvTSOb-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-8" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+          <mxGeometry x="74" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-14" value="&lt;h6 style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;generate Materials map from aerial images;&amp;nbsp; The algorithm combination classifies the pixels in a hyperspectral aerial image into pre-defined classes describing the materials covering roofs and the ground&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;AVT&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/ger/catalog.search#/metadata/fd520039-50a1-46c0-94a1-9b5369333e2a&quot;&gt;Surface materials classification&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/h6&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+          <mxGeometry x="135" y="100" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="k6mhYjpQpfvVJ8LvTSOb-16" target="k6mhYjpQpfvVJ8LvTSOb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;aerial hyperspectral images&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/ae30b8cd-dbab-412f-aea7-62f427f24b55&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="k6mhYjpQpfvVJ8LvTSOb-16">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+            <mxGeometry x="220.5" y="20" width="30" height="37" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Surface material map from hyperspectral image&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/e6991462-e031-4deb-a362-c5b55139316a&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="k6mhYjpQpfvVJ8LvTSOb-17">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+            <mxGeometry x="226.5" y="182" width="30" height="32" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=7.5;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="k6mhYjpQpfvVJ8LvTSOb-14" target="k6mhYjpQpfvVJ8LvTSOb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.146;entryY=-0.111;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=30;exitDy=15;exitPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="k6mhYjpQpfvVJ8LvTSOb-17" target="AlwzMYm-ZSlX3xYWYxc7-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="k6mhYjpQpfvVJ8LvTSOb-14" target="AlwzMYm-ZSlX3xYWYxc7-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlwzMYm-ZSlX3xYWYxc7-0" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Algorithms that produce Land surface temperature raster layer at 30m including emissivity correction from hyperspectral images&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Arial&quot; style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/64646d7a-906a-418e-8c29-708c110b81a0&quot;&gt;FBK_UHI_DETECTION&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;strokeColor=#d79b00;gradientColor=none;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+          <mxGeometry x="490" y="260" width="277" height="41" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Land surface temperature raster at 30m 10 years&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Links to metadata&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/aff2d2a4-f9ab-45c5-abed-f10d376fbd80&quot;&gt;April&lt;/a&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/4ccbb858-4121-44dd-abe7-034310ac998c&quot;&gt;May&amp;nbsp;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/3def935f-0346-4d03-aa3d-8190eb6eb513&quot;&gt;June&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/1e5516d5-3c9e-45b9-b2ae-fc5a6879417a&quot;&gt;July&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/031fedaa-0c58-42bd-bdcd-8bd4509bc34d&quot;&gt;August&amp;nbsp;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/4fe37493-c38b-41a7-a944-6562df7aa672&quot;&gt;September&amp;nbsp;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="AlwzMYm-ZSlX3xYWYxc7-1">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+            <mxGeometry x="971" y="313" width="30" height="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AlwzMYm-ZSlX3xYWYxc7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="AlwzMYm-ZSlX3xYWYxc7-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="629" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;line-height: 100%; font-size: 8px;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;Satellite Landsat TIRS images TOA Reflectance&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;a href=&quot;https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#description&quot;&gt;&amp;nbsp;(link to dataset metadata)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="AlwzMYm-ZSlX3xYWYxc7-3">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+            <mxGeometry x="1014" y="96" width="30" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AlwzMYm-ZSlX3xYWYxc7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.726;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="AlwzMYm-ZSlX3xYWYxc7-3" target="AlwzMYm-ZSlX3xYWYxc7-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1029" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;NCEP/NCAR Reanalysis Data, Water Vapor&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;a style=&quot;font-size: 8px; background-color: initial;&quot; href=&quot;https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description&quot;&gt;(link to dataset metadata)&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="AlwzMYm-ZSlX3xYWYxc7-5">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+            <mxGeometry x="1120" y="40" width="30" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AlwzMYm-ZSlX3xYWYxc7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.845;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" target="AlwzMYm-ZSlX3xYWYxc7-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1209.67" y="164" as="sourcePoint" />
+            <mxPoint x="1061" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AlwzMYm-ZSlX3xYWYxc7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.599;entryY=-0.073;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="AlwzMYm-ZSlX3xYWYxc7-5" target="AlwzMYm-ZSlX3xYWYxc7-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1219.67" y="174" as="sourcePoint" />
+            <mxPoint x="1084" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;line-height: 100%; font-size: 8px;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;Satellite Landsat TIRS images SR&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;a href=&quot;https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description&quot;&gt;&amp;nbsp;(link to dataset metadata)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="AlwzMYm-ZSlX3xYWYxc7-8">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+            <mxGeometry x="1175" y="130" width="30" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="LC7-CDsK_31KNm7Xdk4L-0" value="create metadata in Geocat catalog" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+          <mxGeometry x="1230" y="30" width="186" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-54" value="&lt;div&gt;Prioritise interventions on city hotspots through analysis on the characteristics of the hotspots identified in the entire city&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-5">
+          <mxGeometry x="20" y="440" width="1900" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-55" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Automatic low level of detail (10m / 50m resolution) UHI simulation tool to generate a list of priorites among the whole list of hotspots identified (based on a set of parameters to be applied to all hotspots)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400; background-color: initial;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b&quot;&gt;Link to the metadata&lt;/a&gt;&lt;/span&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-54">
+          <mxGeometry x="1080" y="142" width="190" height="42.5" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;line-height: 100%; font-size: 8px;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;Vulnerabilty index from KIS&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/cb2a6526-c047-456f-b396-94b351f743ab&quot; style=&quot;background-color: initial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="k6mhYjpQpfvVJ8LvTSOb-57">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-54">
+            <mxGeometry x="920" y="100" width="30" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-54" source="k6mhYjpQpfvVJ8LvTSOb-57" target="k6mhYjpQpfvVJ8LvTSOb-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-61" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;Tool enabling the workflow automation (to be developed)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-54">
+          <mxGeometry x="1095" y="200" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-69" value="&lt;div&gt;Street level UHI simulation of possible interventions at a single selected hotspot&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-5">
+          <mxGeometry x="20" y="800" width="1900" height="370" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;line-height: 100%; font-size: 8px;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;Thermal Aerial Images&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;with corrections&lt;br&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/1937da1f-d858-4fde-b9ac-0745b9046454&quot;&gt;Link to dataset&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="k6mhYjpQpfvVJ8LvTSOb-70">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-69">
+            <mxGeometry x="1170" y="30" width="30" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;Difference Aerial / Satellite&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;One temporal stage (2021)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-family: Arial; background-color: initial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/012bbeff-2d58-4b57-ba23-9f8a96b1f176&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="k6mhYjpQpfvVJ8LvTSOb-72">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-69">
+            <mxGeometry x="1327" y="230" width="30" height="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-88" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Comparison Satellite / Airborne&amp;nbsp; (for the period of Thermal Aerial flight)&lt;br&gt;Raster subtraction in QGIS&lt;br&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/175ca8f9-8a4e-443d-a0c4-bf79f53d543f&quot;&gt;Link to the Tool&lt;/a&gt;&lt;/span&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-69">
+          <mxGeometry x="1247" y="140" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-69" source="k6mhYjpQpfvVJ8LvTSOb-70" target="k6mhYjpQpfvVJ8LvTSOb-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=7.5;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-69" source="k6mhYjpQpfvVJ8LvTSOb-88" target="k6mhYjpQpfvVJ8LvTSOb-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-76" value="&lt;div&gt;Communicate to citizens in attractive way&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-5">
+          <mxGeometry x="20" y="1170" width="1900" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-79" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-76">
+          <mxGeometry x="1770" y="67.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-76" target="k6mhYjpQpfvVJ8LvTSOb-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1718" y="82.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC7-CDsK_31KNm7Xdk4L-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-76" source="LC7-CDsK_31KNm7Xdk4L-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1629.2222222222222" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LC7-CDsK_31KNm7Xdk4L-5" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Present the results&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; background-color: initial; font-weight: normal;&quot;&gt;into open data portals&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;DCAT-AP metadata standards:&lt;/span&gt;&lt;span style=&quot;font-size: 8px; background-color: initial; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400; background-color: initial;&quot;&gt;1) via &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/2dccbea6-8c1f-4402-af6d-78382cc6e8a1&quot;&gt;QGIS&lt;/a&gt; with &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/547e29bd-4d1b-43d2-9be4-fba6f09ac14c&quot;&gt;GeoCatBridge plugin&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/9ba246d1-f530-4b8d-8049-b43d1c910205&quot;&gt;GeoNetwork&lt;/a&gt;&lt;/span&gt;&lt;br&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-76">
+          <mxGeometry x="1540" y="55" width="178" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="bko_9Ov73joKE5NBfAV9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="AlwzMYm-ZSlX3xYWYxc7-1" target="k6mhYjpQpfvVJ8LvTSOb-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="AlwzMYm-ZSlX3xYWYxc7-0" target="k6mhYjpQpfvVJ8LvTSOb-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010.8333333333334" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="k6mhYjpQpfvVJ8LvTSOb-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1649" y="1225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.329;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="k6mhYjpQpfvVJ8LvTSOb-55" target="k6mhYjpQpfvVJ8LvTSOb-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1195.5" y="932" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0Jo-nN4tf8y0OHAd4Br-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.645;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.3;exitY=0.794;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="AlwzMYm-ZSlX3xYWYxc7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="613" as="sourcePoint" />
+            <mxPoint x="1674.81" y="1224.0100000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0Jo-nN4tf8y0OHAd4Br-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="k6mhYjpQpfvVJ8LvTSOb-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="613" as="sourcePoint" />
+            <mxPoint x="1604.5" y="1225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6mhYjpQpfvVJ8LvTSOb-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="k6mhYjpQpfvVJ8LvTSOb-17" target="k6mhYjpQpfvVJ8LvTSOb-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="180" as="sourcePoint" />
+            <mxPoint x="1163.92" y="969.7600000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="262" y="963" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4u7s_X4l6vlv1W2Hgk9h-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="k6mhYjpQpfvVJ8LvTSOb-55" target="k6mhYjpQpfvVJ8LvTSOb-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="948" as="targetPoint" />
+            <mxPoint x="1205" y="635" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1243" y="700" />
+              <mxPoint x="1410" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
