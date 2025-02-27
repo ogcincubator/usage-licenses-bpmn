@@ -1,0 +1,95 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://usage.geocat.live/catalogue/srv/api/records/e8f53bfc-6b4f-4607-a69c-a5670a60ada8> a prov:Entity ;
+    rdfs:label "Flood reports 2020-2022" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> a prov:Entity ;
+    rdfs:label "Orthophoto (via WMS)" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/2572fd30-294f-4350-85aa-bac6de8d7ad1> a prov:Entity ;
+    rdfs:label "DTM" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "QGIS" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/4a561dec-b977-4bb1-a5e3-6743c8e98fcd> a prov:Entity ;
+    rdfs:label "Polygonal layer footprints of buildings" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/547e29bd-4d1b-43d2-9be4-fba6f09ac14c> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "GeoCatBridge plugin" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/78cf7716-e521-441e-92b5-87f6fe86c5f0> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to tool metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/a2831652-6de6-42a9-8cfa-83f0ad1f39d8> a prov:Entity ;
+    rdfs:label "Flooding from heavyrains in urban areas" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/dc92bc51-6824-42bc-857b-8742bdd8a42b> a prov:Entity ;
+    rdfs:label "Flood reports 2015-2019" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/e68fc0f1-f55a-4578-9797-4898eac8ae4c> a prov:Entity ;
+    rdfs:label "Mapping of area subject to flooding" ;
+    prov:wasGeneratedBy _:N5b121d375fcc464783d346309a0c02a9 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/f4fe374e-0a56-4910-9f3a-e8b7519c373e> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to tool metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/2d239512-faaa-4024-8c0f-ac369fbeb404> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to tools metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5> a prov:Entity ;
+    rdfs:label "Merged flooded areas reported",
+        "Simplified flooded areas reported" ;
+    prov:wasGeneratedBy _:N952787fe357a479d828916f8228ac8c4,
+        _:Ne401d4e3bb584b79834cca886d34a7f8 .
+
+[] a prov:Activity ;
+    rdfs:label "Create metadata and publish in dati.comune.fe.it (e.g. withGeoNext)" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f4fe374e-0a56-4910-9f3a-e8b7519c373e> ;
+    prov:wasInformedBy [ a prov:Activity ;
+            rdfs:label "Publish DRI" ;
+            prov:used <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5>,
+                <https://usage.geocat.live/catalogue/srv/api/records/e68fc0f1-f55a-4578-9797-4898eac8ae4c> ;
+            prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1>,
+                <https://usage.geocat.live/catalogue/srv/api/records/547e29bd-4d1b-43d2-9be4-fba6f09ac14c> ;
+            prov:wasInformedBy _:N5b121d375fcc464783d346309a0c02a9 ] .
+
+[] a prov:Entity ;
+    rdfs:label "OSM" .
+
+_:N73f1f85b94c2498f8ad48461893ecb48 a prov:Entity ;
+    rdfs:label "Empty layer for floodedarea reporting" .
+
+_:N9a85f2562cfa460eb2ac62664ac63efd a prov:Activity ;
+    rdfs:label "Synchronise QGIS projectQGIS" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2d239512-faaa-4024-8c0f-ac369fbeb404> ;
+    prov:wasInformedBy _:N952787fe357a479d828916f8228ac8c4 .
+
+_:N5b121d375fcc464783d346309a0c02a9 a prov:Activity ;
+    rdfs:label "Citizen Science Ferrara flooded area Python script" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/2572fd30-294f-4350-85aa-bac6de8d7ad1>,
+        <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5>,
+        <https://usage.geocat.live/catalogue/srv/api/records/4a561dec-b977-4bb1-a5e3-6743c8e98fcd> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/78cf7716-e521-441e-92b5-87f6fe86c5f0> ;
+    prov:wasInformedBy _:N9a85f2562cfa460eb2ac62664ac63efd .
+
+_:N952787fe357a479d828916f8228ac8c4 a prov:Activity ;
+    rdfs:label "Publish simplified flooded areas inQField Cloud" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2d239512-faaa-4024-8c0f-ac369fbeb404> ;
+    prov:wasInformedBy _:Ne401d4e3bb584b79834cca886d34a7f8 .
+
+_:Ne401d4e3bb584b79834cca886d34a7f8 a prov:Activity ;
+    rdfs:label "Draw (simplified) flooded areas usingQfield" ;
+    prov:used _:N73f1f85b94c2498f8ad48461893ecb48,
+        <https://usage.geocat.live/catalogue/srv/api/records/a2831652-6de6-42a9-8cfa-83f0ad1f39d8>,
+        <https://usage.geocat.live/catalogue/srv/api/records/dc92bc51-6824-42bc-857b-8742bdd8a42b> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2d239512-faaa-4024-8c0f-ac369fbeb404> .
+

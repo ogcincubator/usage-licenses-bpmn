@@ -1,0 +1,134 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/cb5317bf-2e1e-43f2-8959-d10af1e8f0b6> a prov:Entity ;
+    rdfs:label "Weather stations" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/6f454b69-57f3-49a2-ae08-47aadf03435a> a prov:Entity ;
+    rdfs:label "Vulnerability index map" ;
+    prov:wasGeneratedBy _:N7d5954e025d04271938ca09764555382 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/84020065-66b0-4e71-a914-26170799cadd> a prov:Entity ;
+    rdfs:label "Validation report" ;
+    prov:wasGeneratedBy _:Nc620404f6b814635a7d6f9061af1a14b .
+
+<https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/0202b8dd-1c7e-4331-8ba7-35e1fef4037a> a prov:Entity ;
+    rdfs:label "Vulnerable population density:n. of vulnerable inhabitants(kids and over 75 people)" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/3979c72d-2ab2-43d0-a0c2-2170b5fcf6f8> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Classification Algorithm" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/59928240-3aff-4666-9f36-0c31530d90b4> a prov:Entity ;
+    rdfs:label "Training data" ;
+    prov:wasGeneratedBy _:N0848a2425af147e0b9a8fe620f51b5f4 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/64646d7a-906a-418e-8c29-708c110b81a0> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "FBK_UHI_DETECTION" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/7750576f-23af-48ce-941a-40dfdb3e5bc3> a prov:Entity ;
+    rdfs:label "Hyperspectral Image 2021" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/7C823055-7BBF-4D62-B55E-F85C30D53162> a prov:Entity ;
+    rdfs:label "Ownership type (public/private)Cadaster" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to tool metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/baed5c00-3e28-4fac-9d88-e9c4657d2d86> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Validation algorithms" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/c4548cee-2ede-4065-946e-f1ad4dfd8f1b> a prov:Entity ;
+    rdfs:label "Air Temperature raster" ;
+    prov:wasGeneratedBy _:N6d49d5cca6a54c6a95f6fcea05d4c266 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/c59feb6e-cc22-439f-8633-03c54cc51970> a prov:Entity ;
+    rdfs:label "Regions of interest" ;
+    prov:wasGeneratedBy _:N8b1bd3cd055a4051a02bef04a4153258 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/200b7e3e-4e79-4300-ab9d-e63ebea05974> a prov:Entity ;
+    rdfs:label "Surface material dataset" ;
+    prov:wasGeneratedBy _:Nc620404f6b814635a7d6f9061af1a14b .
+
+<https://usage.geocat.live/catalogue/srv/api/records/7759f9f2-713a-4642-af56-b9f99306c13c> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Python, spectral indices",
+        "Spectral Python" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/caca9b99-3f3e-4d03-a3e8-9df00c238dd8> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "En-MAP Box QGIS Plugin" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/582d7122-5924-467b-ae28-a07819c98fb5> a prov:Entity ;
+    rdfs:label "NDVI, NDWIReduced spectral bands" ;
+    prov:wasGeneratedBy _:N6057c97465534618a39b4291543ae1e8 .
+
+[] a prov:Activity ;
+    rdfs:label "Decision ready information:1)Surface materials map, and2)Hot spots map of Leuven 3) Vulnerability index map of Leuven." ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/200b7e3e-4e79-4300-ab9d-e63ebea05974> ;
+    prov:wasInformedBy _:N7d5954e025d04271938ca09764555382 .
+
+_:N5623f4b802964e28a0204d7d7657b784 a prov:Entity ;
+    rdfs:label "Satellite Landsat TIRS images SR(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description)" .
+
+_:N7577e3c295074e8db5984f7f1143cc3d a prov:Entity ;
+    rdfs:label "Population density(resolution > 1/hot spot dimension)link to dataset metadata (https://www.geo.be/catalog/details/0202b8dd-1c7e-4331-8ba7-35e1fef4037a?l=nl)" .
+
+_:N9de796353def49f5ab5111c87aadd9ef a prov:Entity ;
+    rdfs:label "NCEP/NCAR Reanalysis Data, Water Vapor(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description)" .
+
+_:Nd6260bf04d3a44828c46dfbdd53a865e a prov:Entity ;
+    rdfs:label "Satellite Landsat TIRS images TOA Reflectance(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#description)" .
+
+_:Nd628b5a054a04a40bdab4c19ae39b051 a prov:Entity ;
+    rdfs:label "Selected Spectral librarieslink to dataset metadata (https://speclib.jpl.nasa.gov/)" .
+
+_:N0848a2425af147e0b9a8fe620f51b5f4 a prov:Activity ;
+    rdfs:label "Material endmember identification, and labelling training data." ;
+    prov:used _:Nd628b5a054a04a40bdab4c19ae39b051,
+        <https://usage.geocat.live/catalogue/srv/api/records/582d7122-5924-467b-ae28-a07819c98fb5>,
+        <https://usage.geocat.live/catalogue/srv/api/records/c59feb6e-cc22-439f-8633-03c54cc51970> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/7759f9f2-713a-4642-af56-b9f99306c13c> ;
+    prov:wasInformedBy _:N8b1bd3cd055a4051a02bef04a4153258 .
+
+_:N6057c97465534618a39b4291543ae1e8 a prov:Activity ;
+    rdfs:label "Reduce data dimensionality and emphasize relevant spectral information.Use mathematical formulas to combine reflectance values from different bands and extract specific information about the target of interest, like NDVI and NDWI -" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/7750576f-23af-48ce-941a-40dfdb3e5bc3> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/7759f9f2-713a-4642-af56-b9f99306c13c>,
+        <https://usage.geocat.live/catalogue/srv/api/records/caca9b99-3f3e-4d03-a3e8-9df00c238dd8> .
+
+_:N6d49d5cca6a54c6a95f6fcea05d4c266 a prov:Activity ;
+    rdfs:label "Urban heat Island detection usingalgorithms that produce Land surface temperature raster layer at 30m including emissivity correction from hyperspectral images.:" ;
+    prov:used _:N5623f4b802964e28a0204d7d7657b784,
+        _:N9de796353def49f5ab5111c87aadd9ef,
+        _:Nd6260bf04d3a44828c46dfbdd53a865e,
+        <https://usage.geocat.live/catalogue/srv/api/records/200b7e3e-4e79-4300-ab9d-e63ebea05974> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/64646d7a-906a-418e-8c29-708c110b81a0> ;
+    prov:wasInformedBy _:Nc620404f6b814635a7d6f9061af1a14b .
+
+_:N7d5954e025d04271938ca09764555382 a prov:Activity ;
+    rdfs:label "FBK_UHI_vulnerability.Automatic low level of detail (10m / 50m resolution) UHI simulation tool to generate a list of vulnerabilities among the whole list of hotspots identified (based on a set of parameters to be applied to all hotspots)" ;
+    prov:used _:N7577e3c295074e8db5984f7f1143cc3d,
+        <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/0202b8dd-1c7e-4331-8ba7-35e1fef4037a>,
+        <https://usage.geocat.live/catalogue/srv/api/records/7C823055-7BBF-4D62-B55E-F85C30D53162>,
+        <https://usage.geocat.live/catalogue/srv/api/records/c4548cee-2ede-4065-946e-f1ad4dfd8f1b> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b> ;
+    prov:wasInformedBy _:N6d49d5cca6a54c6a95f6fcea05d4c266 .
+
+_:N8b1bd3cd055a4051a02bef04a4153258 a prov:Activity ;
+    rdfs:label "Manually select regions of interest. Supported by visualisation and tools to compare the spectra;" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/582d7122-5924-467b-ae28-a07819c98fb5> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/caca9b99-3f3e-4d03-a3e8-9df00c238dd8> ;
+    prov:wasInformedBy _:N6057c97465534618a39b4291543ae1e8 .
+
+_:Nc620404f6b814635a7d6f9061af1a14b a prov:Activity ;
+    rdfs:label "Use supervised machine learning techniques, to classify input data into predefined classes based on labeled data andevaluate classification accuracy/conduct error analysis, by performing cross-validation and producing  a confusion matrix" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/582d7122-5924-467b-ae28-a07819c98fb5>,
+        <https://usage.geocat.live/catalogue/srv/api/records/59928240-3aff-4666-9f36-0c31530d90b4> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/3979c72d-2ab2-43d0-a0c2-2170b5fcf6f8>,
+        <https://usage.geocat.live/catalogue/srv/api/records/baed5c00-3e28-4fac-9d88-e9c4657d2d86> ;
+    prov:wasInformedBy _:N0848a2425af147e0b9a8fe620f51b5f4 .
+

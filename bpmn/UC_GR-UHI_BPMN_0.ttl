@@ -1,0 +1,83 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://usage.geocat.live/catalogue/srv/api/records/012bbeff-2d58-4b57-ba23-9f8a96b1f176> a prov:Entity ;
+    rdfs:label "Difference Aerial / SatelliteOne temporal stage (2021)" ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            rdfs:label "Comparison Satellite / Airborne  (for the period of Thermal Aerial flight)Raster subtraction in QGIS" ;
+            prov:used <https://usage.geocat.live/catalogue/srv/api/records/1937da1f-d858-4fde-b9ac-0745b9046454>,
+                <https://usage.geocat.live/catalogue/srv/api/records/e6991462-e031-4deb-a362-c5b55139316a> ;
+            prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/175ca8f9-8a4e-443d-a0c4-bf79f53d543f> ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    rdfs:label "Automatic low level of detail (10m / 50m resolution) UHI simulation tool to generate a list of priorites among the whole list of hotspots identified (based on a set of parameters to be applied to all hotspots)" ;
+                    prov:used <https://usage.geocat.live/catalogue/srv/api/records/aff2d2a4-f9ab-45c5-abed-f10d376fbd80>,
+                        <https://usage.geocat.live/catalogue/srv/api/records/cb2a6526-c047-456f-b396-94b351f743ab> ;
+                    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b> ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            rdfs:label "Algorithms that produce Land surface temperature raster layer at 30m including emissivity correction from hyperspectral images." ;
+                            prov:used [ a prov:Entity ;
+                                    rdfs:label "NCEP/NCAR Reanalysis Data, Water Vapor(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description)" ],
+                                [ a prov:Entity ;
+                                    rdfs:label "Satellite Landsat TIRS images TOA Reflectance(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#description)" ],
+                                <https://usage.geocat.live/catalogue/srv/api/records/e6991462-e031-4deb-a362-c5b55139316a> ;
+                            prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/64646d7a-906a-418e-8c29-708c110b81a0> ;
+                            prov:wasInformedBy _:N02a48168cf0a4c3fb7cd1b9861ce3dfc ] ] ] .
+
+<https://usage.geocat.live/catalogue/srv/api/records/175ca8f9-8a4e-443d-a0c4-bf79f53d543f> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to the Tool" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/1937da1f-d858-4fde-b9ac-0745b9046454> a prov:Entity ;
+    rdfs:label "Thermal Aerial Imageswith corrections" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "QGIS" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/547e29bd-4d1b-43d2-9be4-fba6f09ac14c> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "GeoCatBridge plugin" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/64646d7a-906a-418e-8c29-708c110b81a0> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "FBK_UHI_DETECTION" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to the metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/9ba246d1-f530-4b8d-8049-b43d1c910205> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "GeoNetwork" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/ae30b8cd-dbab-412f-aea7-62f427f24b55> a prov:Entity ;
+    rdfs:label "aerial hyperspectral images" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/aff2d2a4-f9ab-45c5-abed-f10d376fbd80> a prov:Entity ;
+    rdfs:label "Land surface temperature raster at 30m 10 yearsLinks to metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/cb2a6526-c047-456f-b396-94b351f743ab> a prov:Entity ;
+    rdfs:label "Vulnerabilty index from KIS" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Surface materials classification" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/e6991462-e031-4deb-a362-c5b55139316a> a prov:Entity ;
+    rdfs:label "Surface material map from hyperspectral image" ;
+    prov:wasGeneratedBy _:N02a48168cf0a4c3fb7cd1b9861ce3dfc .
+
+[] a prov:Activity ;
+    rdfs:label "Present the resultsinto open data portalsDCAT-AP metadata standards:1) via" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1>,
+        <https://usage.geocat.live/catalogue/srv/api/records/547e29bd-4d1b-43d2-9be4-fba6f09ac14c>,
+        <https://usage.geocat.live/catalogue/srv/api/records/9ba246d1-f530-4b8d-8049-b43d1c910205> .
+
+[] a prov:Entity ;
+    rdfs:label "Satellite Landsat TIRS images SR(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description)" .
+
+_:N02a48168cf0a4c3fb7cd1b9861ce3dfc a prov:Activity ;
+    rdfs:label "generate Materials map from aerial images;  The algorithm combination classifies the pixels in a hyperspectral aerial image into pre-defined classes describing the materials covering roofs and the groundAVT" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ae30b8cd-dbab-412f-aea7-62f427f24b55> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> .
+
