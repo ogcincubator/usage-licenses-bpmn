@@ -18,10 +18,10 @@
                             prov:used [ a prov:Entity ;
                                     rdfs:label "NCEP/NCAR Reanalysis Data, Water Vapor(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description)" ],
                                 [ a prov:Entity ;
-                                    rdfs:label "Satellite Landsat TIRS images TOA Reflectance(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#description)" ],
+                                    rdfs:label "Satellite Landsat TIRS images TOA Reflectance (link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA#description)" ],
                                 <https://usage.geocat.live/catalogue/srv/api/records/e6991462-e031-4deb-a362-c5b55139316a> ;
                             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/64646d7a-906a-418e-8c29-708c110b81a0> ;
-                            prov:wasInformedBy _:N02a48168cf0a4c3fb7cd1b9861ce3dfc ] ] ] .
+                            prov:wasInformedBy _:Ned1ea5e4b07e49419b1a18ae28924976 ] ] ] .
 
 <https://usage.geocat.live/catalogue/srv/api/records/175ca8f9-8a4e-443d-a0c4-bf79f53d543f> a prov:Agent,
         prov:SoftwareAgent ;
@@ -65,18 +65,18 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/e6991462-e031-4deb-a362-c5b55139316a> a prov:Entity ;
     rdfs:label "Surface material map from hyperspectral image" ;
-    prov:wasGeneratedBy _:N02a48168cf0a4c3fb7cd1b9861ce3dfc .
+    prov:wasGeneratedBy _:Ned1ea5e4b07e49419b1a18ae28924976 .
+
+[] a prov:Entity ;
+    rdfs:label "Satellite Landsat TIRS images SR (link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description)" .
 
 [] a prov:Activity ;
-    rdfs:label "Present the resultsinto open data portalsDCAT-AP metadata standards:1) via" ;
+    rdfs:label "Present the results into open data portals DCAT-AP metadata standards:1) via" ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1>,
         <https://usage.geocat.live/catalogue/srv/api/records/547e29bd-4d1b-43d2-9be4-fba6f09ac14c>,
         <https://usage.geocat.live/catalogue/srv/api/records/9ba246d1-f530-4b8d-8049-b43d1c910205> .
 
-[] a prov:Entity ;
-    rdfs:label "Satellite Landsat TIRS images SR(link to dataset metadata) (https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#description)" .
-
-_:N02a48168cf0a4c3fb7cd1b9861ce3dfc a prov:Activity ;
+_:Ned1ea5e4b07e49419b1a18ae28924976 a prov:Activity ;
     rdfs:label "generate Materials map from aerial images;  The algorithm combination classifies the pixels in a hyperspectral aerial image into pre-defined classes describing the materials covering roofs and the groundAVT" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/ae30b8cd-dbab-412f-aea7-62f427f24b55> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> .

@@ -8,16 +8,16 @@
     rdfs:label "districts" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/55c04ef2-2d4b-4b74-a4ec-08b03e2fd678> a prov:Entity ;
-    rdfs:label "roadnetwork" .
+    rdfs:label "road network" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/7c840141-dce0-4b54-9bd7-7f0127b8745c> a prov:Entity ;
-    rdfs:label "Land use map forparks and water (public accessible areas)" .
+    rdfs:label "Land use map for parks and water (public accessible areas)" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/9a4b1116-7c73-43df-8176-d8864c7b51b8> a prov:Entity ;
     rdfs:label "Tree positions" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/c9c64337-8bae-484b-a959-cda5557b7c39> a prov:Entity ;
-    rdfs:label "hexagon result 3-30-300classification" ;
+    rdfs:label "hexagon result 3-30-300 classification" ;
     prov:wasGeneratedBy [ a prov:Activity ;
             rdfs:label "create a hexagon map for better interpretation of regions" ;
             prov:used <https://usage.geocat.live/catalogue/srv/api/records/c35095df-b407-4050-8c42-89e0c24e1104> ;
@@ -40,7 +40,7 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/a23ca88a-9fb1-4ea0-9313-8de2e01a61b9> a prov:Entity ;
     rdfs:label "Boolean buildings - 300m criterion" ;
-    prov:wasGeneratedBy _:N1bed2e3a674c4118873a0a7dcd173e7b .
+    prov:wasGeneratedBy _:N6582a9823d8241f4be1eaedff5086b9d .
 
 <https://usage.geocat.live/catalogue/srv/api/records/ba1d5529-ae39-420b-a8e6-5331dd29e531> a prov:Entity ;
     rdfs:label "Digital Terrain Model" .
@@ -48,7 +48,7 @@
 <https://usage.geocat.live/catalogue/srv/api/records/c35095df-b407-4050-8c42-89e0c24e1104> a prov:Entity ;
     rdfs:label "building with 3-30-300 classification" ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            rdfs:label "merge all output criteria.If there are 3 trees visible from the building andif there is a green/blue infrastructure reachable in 300m andif the building is within a district that has enough tree canopy--> the building should get a color depending on how many of the criterias are matched" ;
+            rdfs:label "merge all output criteria. If there are 3 trees visible from the building andif there is a green/blue infrastructure reachable in 300m andif the building is within a district that has enough tree canopy--> the building should get a color depending on how many of the criterias are matched" ;
             prov:used <https://usage.geocat.live/catalogue/srv/api/records/59025e88-1ba8-4247-8f5d-2c8bb87ccc20>,
                 <https://usage.geocat.live/catalogue/srv/api/records/a23ca88a-9fb1-4ea0-9313-8de2e01a61b9>,
                 <https://usage.geocat.live/catalogue/srv/api/records/f1ca52d3-faba-4291-afe4-53f3cd42845b> ;
@@ -56,7 +56,7 @@
             prov:wasInformedBy [ a <http://example.org/usage/prov/MergeActivity>,
                         prov:Activity ;
                     rdfs:label "Merge entities" ;
-                    prov:wasInformedBy _:N1bed2e3a674c4118873a0a7dcd173e7b,
+                    prov:wasInformedBy _:N6582a9823d8241f4be1eaedff5086b9d,
                         [ a prov:Activity ;
                             rdfs:label "calculate the amount of trees visible from each building (H: 3 m). Test: is the amount >3 or not? 0: no, 1: yes" ;
                             prov:used <https://usage.geocat.live/catalogue/srv/api/records/3f8220eb-fe9e-4dd4-85bb-e04faf7fa3e2>,
@@ -95,22 +95,22 @@
             rdfs:label "extraction single tree from Lidar data" ;
             prov:used <https://usage.geocat.live/catalogue/srv/api/records/e8aadb78-8eeb-4ac1-89b5-669cefb967ec> ;
             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/48e58f2f-286f-4c92-b989-cb9bd8d22c1b> ;
-            prov:wasInformedBy _:Ndb59c8827bcd4d73b4b53fd1b4c820d4 ] .
+            prov:wasInformedBy _:N67671d0e25b5457897f0646938e489a2 ] .
 
 [] a prov:Activity ;
     rdfs:label "calculate the % of coverage of tree canopy in each district and check if the percentage is >30%. Assign the district characteristics to all buildings." ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/3f8220eb-fe9e-4dd4-85bb-e04faf7fa3e2>,
         <https://usage.geocat.live/catalogue/srv/api/records/6339aef0-d289-4d4c-b988-8ba5bdd9a830> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/8309b176-983c-4460-8361-d55bd8829c9c> ;
-    prov:wasInformedBy _:Ndb59c8827bcd4d73b4b53fd1b4c820d4 .
+    prov:wasInformedBy _:N67671d0e25b5457897f0646938e489a2 .
 
-_:N1bed2e3a674c4118873a0a7dcd173e7b a prov:Activity ;
+_:N6582a9823d8241f4be1eaedff5086b9d a prov:Activity ;
     rdfs:label "calculate the distance between the address point and  all green/blue infrastructure. Is the distance <300m to any of the green/blue infrastructures?" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/d676fe14-c4e5-4d43-80ca-d88facff75bf> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/0977038e-28c9-4354-89fe-1a9b52c7da3a> ;
-    prov:wasInformedBy _:Ndb59c8827bcd4d73b4b53fd1b4c820d4 .
+    prov:wasInformedBy _:N67671d0e25b5457897f0646938e489a2 .
 
-_:Ndb59c8827bcd4d73b4b53fd1b4c820d4 a <http://example.org/usage/prov/MergeActivity>,
+_:N67671d0e25b5457897f0646938e489a2 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" .
 

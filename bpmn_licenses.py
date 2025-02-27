@@ -5,7 +5,6 @@ from pathlib import Path
 from time import sleep
 from typing import Generator
 
-import jsonpath_ng.ext
 import requests
 from bs4 import BeautifulSoup
 from lxml import etree

@@ -2,12 +2,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <https://usage.geocat.live/catalogue/srv/api/records/13ed1e71-5c88-4894-bc7f-79034fc2a074> a prov:Entity ;
-    rdfs:label "Raster surface materials in the ”approximated front yards”of residential plots (without buildings)" ;
-    prov:wasGeneratedBy _:Nbb9d4f45b3d54ebaa9cf1ef94e844b6b .
+    rdfs:label "Raster surface materials in the ”approximated front yards” of residential plots (without buildings)" ;
+    prov:wasGeneratedBy _:N9ab3b00becf64feb92582e5c2bfe9510 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/436a943d-c3ea-4bad-a057-ef0ff4dcd66c> a prov:Entity ;
     rdfs:label "Tree health raster(NDVI)" ;
-    prov:wasGeneratedBy _:N5b84c18242ea4cf2a026dcd5cf09e10a .
+    prov:wasGeneratedBy _:Nb35d59c0594743ac9cfa088d4fd37ba2 .
 
 <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/7C823055-7BBF-4D62-B55E-F85C30D53162> a prov:Entity ;
     rdfs:label "Roads vector" .
@@ -20,7 +20,7 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/01d55271-1ab4-4447-8f96-e854514038de> a prov:Entity ;
     rdfs:label "Reclassified ground materials raster" ;
-    prov:wasGeneratedBy _:Nf8585d01ef784e9b819fa57e41a4ef7e .
+    prov:wasGeneratedBy _:N223a68d552a9421ab17e667df4836341 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/1a0d3f9f-c877-4d36-aec7-461b4647c640> a prov:Agent,
         prov:SoftwareAgent ;
@@ -28,11 +28,11 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/1c3a1978-eeeb-448a-bb78-88554f880d87> a prov:Entity ;
     rdfs:label "Tree species raster" ;
-    prov:wasGeneratedBy _:N5b84c18242ea4cf2a026dcd5cf09e10a .
+    prov:wasGeneratedBy _:Nb35d59c0594743ac9cfa088d4fd37ba2 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/200b7e3e-4e79-4300-ab9d-e63ebea05974> a prov:Entity ;
     rdfs:label "Surface material dataset" ;
-    prov:wasGeneratedBy _:Nf208208f313f4f27b4bbe945e342e86b .
+    prov:wasGeneratedBy _:N4d694408dbf8488f88a5371d15ad87d4 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/2faeeda3-2044-4235-87d0-a1067774a72c> a prov:Agent,
         prov:SoftwareAgent ;
@@ -47,11 +47,11 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/592dcee7-8f31-4217-8906-2347bb4727f7> a prov:Entity ;
     rdfs:label "Potential unsealing areas" ;
-    prov:wasGeneratedBy _:Nda504bca6fc4436ea0e13bc83ea8ee49 .
+    prov:wasGeneratedBy _:N98c3b2ea26ac48eebb51ded884d72331 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/59756d20-c347-4472-b633-32aea9cebe7b> a prov:Entity ;
     rdfs:label "Tree cadastre (private domain)" ;
-    prov:wasGeneratedBy _:N31aa87c2063f447f85a3b5369fb5e77d .
+    prov:wasGeneratedBy _:N5682d52b953a4efe9f0159da398c8a29 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/5a90dbfe-e25e-4120-b32e-ddee0b2b9195> a prov:Agent,
         prov:SoftwareAgent ;
@@ -59,11 +59,11 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/740d9981-57b3-46b5-b2c3-bb1f26ba2d7d> a prov:Entity ;
     rdfs:label "Private gardens data vector" ;
-    prov:wasGeneratedBy _:N7f576f72766242cfa70ce41e5dd7e5ac .
+    prov:wasGeneratedBy _:Nfd9fa782c08d46b5affc01940a3c97fd .
 
 <https://usage.geocat.live/catalogue/srv/api/records/792a88fe-27a5-4f65-9675-b121bbe62b19> a prov:Entity ;
     rdfs:label "Tree canopies polygons" ;
-    prov:wasGeneratedBy _:N1d9812aef5cf40ada3d642f2b0c609ce .
+    prov:wasGeneratedBy _:Ne28ba16ad8d04a1bbb02275cedafaed3 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/88d91572-bc6f-44be-84fb-3f165817e467?language=all> a prov:Agent,
         prov:SoftwareAgent ;
@@ -71,18 +71,18 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/a907a8a1-fb4b-4458-a2f2-c418ab64c102> a prov:Entity ;
     rdfs:label "Plots + associated function of the contained buildings" ;
-    prov:wasGeneratedBy _:Na60c2d5826d24b579fa1169aed4941d7 .
+    prov:wasGeneratedBy _:N387dc7608e024d9a94f5f3a497a520aa .
 
 <https://usage.geocat.live/catalogue/srv/api/records/c4548cee-2ede-4065-946e-f1ad4dfd8f1b> a prov:Entity ;
     rdfs:label "Air temperature raster" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/ddd1132a-3c68-4ad3-9ec4-05318a47e411> a prov:Entity ;
     rdfs:label "Raster surface materials in the residential plots (without buildings)" ;
-    prov:wasGeneratedBy _:N5826d6d5be1f4876827738059437edec .
+    prov:wasGeneratedBy _:Nf343372cd1174a1297ff9339ac758853 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/f7137846-6ef5-4fa9-ac44-5f26277eed18> a prov:Entity ;
-    rdfs:label "Raster surface materials in the ”approximated back yards”of residential plots (without buildings)" ;
-    prov:wasGeneratedBy _:Nbb9d4f45b3d54ebaa9cf1ef94e844b6b .
+    rdfs:label "Raster surface materials in the ”approximated back yards” of residential plots (without buildings)" ;
+    prov:wasGeneratedBy _:N9ab3b00becf64feb92582e5c2bfe9510 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> a prov:Agent,
         prov:SoftwareAgent ;
@@ -99,98 +99,98 @@
     rdfs:label "Buildings data (functions)" .
 
 [] a prov:Activity ;
-    rdfs:label "Publish the map onArcGIS online (https://www.arcgis.com/index.html)" ;
+    rdfs:label "Publish the map on ArcGIS online (https://www.arcgis.com/index.html)" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/592dcee7-8f31-4217-8906-2347bb4727f7> ;
-    prov:wasInformedBy _:Nda504bca6fc4436ea0e13bc83ea8ee49 .
+    prov:wasInformedBy _:N98c3b2ea26ac48eebb51ded884d72331 .
 
-_:N023c7ec7e3b14e56aa714d80656a4a80 a <http://example.org/usage/prov/MergeActivity>,
+_:N17643c620a2947e8a25dcfaf6b7e3535 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" ;
-    prov:wasInformedBy _:N1d9812aef5cf40ada3d642f2b0c609ce,
-        _:N5b84c18242ea4cf2a026dcd5cf09e10a .
+    prov:wasInformedBy _:N5682d52b953a4efe9f0159da398c8a29,
+        _:Nfd9fa782c08d46b5affc01940a3c97fd .
 
-_:N26fbdad9d6d048229e6c09031474e33d a prov:Entity ;
+_:N7b399647844745889a53ae6cd59d673d a prov:Entity ;
     rdfs:label "Statistical sector blockslink to dataset metadata (https://publish.geo.be/geonetwork/igiljugb/eng/catalog.search#/metadata/4d8e0053-fdf5-42e4-a359-1a3386d95899)" .
 
-_:N91deeb1d6a1a452a878a0b367c5a966c a <http://example.org/usage/prov/MergeActivity>,
+_:Nd33594edf32344779f7e2cbaa974eca5 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" ;
-    prov:wasInformedBy _:Na60c2d5826d24b579fa1169aed4941d7,
-        _:Nf208208f313f4f27b4bbe945e342e86b .
+    prov:wasInformedBy _:Nb35d59c0594743ac9cfa088d4fd37ba2,
+        _:Ne28ba16ad8d04a1bbb02275cedafaed3 .
 
-_:Nc48029283e1d435ea87fbad8d6ca5af6 a <http://example.org/usage/prov/MergeActivity>,
+_:Nf37ee8c1006240d88d52cf5e55e21b36 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" ;
-    prov:wasInformedBy _:N31aa87c2063f447f85a3b5369fb5e77d,
-        _:N7f576f72766242cfa70ce41e5dd7e5ac .
+    prov:wasInformedBy _:N387dc7608e024d9a94f5f3a497a520aa,
+        _:N4d694408dbf8488f88a5371d15ad87d4 .
 
-_:N1d9812aef5cf40ada3d642f2b0c609ce a prov:Activity ;
-    rdfs:label "Classify point cloud (trees) and perform segmentation to identify individual trees." ;
-    prov:used <https://metadata.vlaanderen.be/srv/api/records/242ddabc-3cbc-44f0-9623-bee874b29549?language=all> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2faeeda3-2044-4235-87d0-a1067774a72c> ;
-    prov:wasInformedBy _:Nb3d74d6921474f25b5d44fdc4d63ce72 .
+_:N223a68d552a9421ab17e667df4836341 a prov:Activity ;
+    rdfs:label "Reclassify the raster into pervious or impervious based on the surface materials category table using the reclassify tool in Desktop GIS (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX)" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/30496a40-541e-47e3-b973-f4de8028dafe?language=all>,
+        <https://usage.geocat.live/catalogue/srv/api/records/ddd1132a-3c68-4ad3-9ec4-05318a47e411> ;
+    prov:wasInformedBy _:Nf343372cd1174a1297ff9339ac758853 .
 
-_:N31aa87c2063f447f85a3b5369fb5e77d a prov:Activity ;
-    rdfs:label "Perform an overlay of the tree canopy polygons and  species raster, and add species attribute to the polygons. Perform similar overlay with the NDVI and based on various thresholds, add health attributes to the polygons. Convert the treePolygons to points  to produce final tree cadastreinDesktop GIS (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX)" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/1c3a1978-eeeb-448a-bb78-88554f880d87>,
-        <https://usage.geocat.live/catalogue/srv/api/records/792a88fe-27a5-4f65-9675-b121bbe62b19> ;
-    prov:wasInformedBy _:N023c7ec7e3b14e56aa714d80656a4a80 .
-
-_:N5826d6d5be1f4876827738059437edec a prov:Activity ;
-    rdfs:label "Using overlay and clip tools, extract ground surface materials on residential plots and exclude buildings (from building vector map footprints) usingDesktop GIS (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX)" ;
-    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/b5835e44-e554-496b-b930-da4fca628a45>,
-        <https://usage.geocat.live/catalogue/srv/api/records/200b7e3e-4e79-4300-ab9d-e63ebea05974>,
-        <https://usage.geocat.live/catalogue/srv/api/records/a907a8a1-fb4b-4458-a2f2-c418ab64c102> ;
-    prov:wasInformedBy _:N91deeb1d6a1a452a878a0b367c5a966c .
-
-_:N7f576f72766242cfa70ce41e5dd7e5ac a prov:Activity ;
-    rdfs:label "Vectorize the reclassified raster and quantify the surface materials by calculating the amount of pixels representing each category.Desktop GIS (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX)" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/f7137846-6ef5-4fa9-ac44-5f26277eed18> ;
-    prov:wasInformedBy _:Nbb9d4f45b3d54ebaa9cf1ef94e844b6b .
-
-_:Na60c2d5826d24b579fa1169aed4941d7 a prov:Activity ;
-    rdfs:label "Assign functions to plots by combining the building stock data containing functions attribute with the plots data, andextract residential plotsusing the intersect function from the overlay tool in" ;
+_:N387dc7608e024d9a94f5f3a497a520aa a prov:Activity ;
+    rdfs:label "Assign functions to plots by combining the building stock data containing functions attribute with the plots data, and extract residential plots using the intersect function from the overlay tool in" ;
     prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/b5835e44-e554-496b-b930-da4fca628a45>,
         <https://metadata.vlaanderen.be/srv/api/records/7C823055-7BBF-4D62-B55E-F85C30D53162> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/3ab7aa66-0352-443a-8934-f0df08b97f30?language=all> ;
-    prov:wasInformedBy _:Nb3d74d6921474f25b5d44fdc4d63ce72 .
+    prov:wasInformedBy _:Ne03ede171717424d9a102675bcd06d87 .
 
-_:Nda504bca6fc4436ea0e13bc83ea8ee49 a prov:Activity ;
+_:N4d694408dbf8488f88a5371d15ad87d4 a prov:Activity ;
+    rdfs:label "Generate surface material raster output from hyperspectral images classification (coming from other use cases)" ;
+    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> ;
+    prov:wasInformedBy _:Ne03ede171717424d9a102675bcd06d87 .
+
+_:N5682d52b953a4efe9f0159da398c8a29 a prov:Activity ;
+    rdfs:label "Perform an overlay of the tree canopy polygons and  species raster, and add species attribute to the polygons. Perform similar overlay with the NDVI and based on various thresholds, add health attributes to the polygons. Convert the tree Polygons to points  to produce final tree cadastre in Desktop GIS (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX)" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/1c3a1978-eeeb-448a-bb78-88554f880d87>,
+        <https://usage.geocat.live/catalogue/srv/api/records/792a88fe-27a5-4f65-9675-b121bbe62b19> ;
+    prov:wasInformedBy _:Nd33594edf32344779f7e2cbaa974eca5 .
+
+_:N98c3b2ea26ac48eebb51ded884d72331 a prov:Activity ;
     rdfs:label "Combine garden data and tree data, and aggregate by block and neighborhood to identify areas of potential unsealing at different levels ." ;
-    prov:used _:N26fbdad9d6d048229e6c09031474e33d,
+    prov:used _:N7b399647844745889a53ae6cd59d673d,
         <https://usage.geocat.live/catalogue/srv/api/records/59756d20-c347-4472-b633-32aea9cebe7b>,
         <https://usage.geocat.live/catalogue/srv/api/records/740d9981-57b3-46b5-b2c3-bb1f26ba2d7d>,
         <https://usage.geocat.live/catalogue/srv/api/records/c4548cee-2ede-4065-946e-f1ad4dfd8f1b> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/5a90dbfe-e25e-4120-b32e-ddee0b2b9195> ;
-    prov:wasInformedBy _:Nc48029283e1d435ea87fbad8d6ca5af6 .
+    prov:wasInformedBy _:N17643c620a2947e8a25dcfaf6b7e3535 .
 
-_:Nf208208f313f4f27b4bbe945e342e86b a prov:Activity ;
-    rdfs:label "Generate surface material raster output from hyperspectral images classification (coming from other use cases)" ;
-    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> ;
-    prov:wasInformedBy _:Nb3d74d6921474f25b5d44fdc4d63ce72 .
+_:Ne28ba16ad8d04a1bbb02275cedafaed3 a prov:Activity ;
+    rdfs:label "Classify point cloud (trees) and perform segmentation to identify individual trees." ;
+    prov:used <https://metadata.vlaanderen.be/srv/api/records/242ddabc-3cbc-44f0-9623-bee874b29549?language=all> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2faeeda3-2044-4235-87d0-a1067774a72c> ;
+    prov:wasInformedBy _:Ne03ede171717424d9a102675bcd06d87 .
 
-_:Nf8585d01ef784e9b819fa57e41a4ef7e a prov:Activity ;
-    rdfs:label "Reclassify the raster into pervious or impervious based on the surface materials category table using the reclassify tool inDesktop GIS (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX)" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/30496a40-541e-47e3-b973-f4de8028dafe?language=all>,
-        <https://usage.geocat.live/catalogue/srv/api/records/ddd1132a-3c68-4ad3-9ec4-05318a47e411> ;
-    prov:wasInformedBy _:N5826d6d5be1f4876827738059437edec .
+_:Nf343372cd1174a1297ff9339ac758853 a prov:Activity ;
+    rdfs:label "Using overlay and clip tools, extract ground surface materials on residential plots and exclude buildings (from building vector map footprints) using  Desktop GIS (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX)" ;
+    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/b5835e44-e554-496b-b930-da4fca628a45>,
+        <https://usage.geocat.live/catalogue/srv/api/records/200b7e3e-4e79-4300-ab9d-e63ebea05974>,
+        <https://usage.geocat.live/catalogue/srv/api/records/a907a8a1-fb4b-4458-a2f2-c418ab64c102> ;
+    prov:wasInformedBy _:Nf37ee8c1006240d88d52cf5e55e21b36 .
 
-_:N5b84c18242ea4cf2a026dcd5cf09e10a a prov:Activity ;
-    rdfs:label "Perform tree species classification using hyperspectral data and identified existing tree species as training data and produce an NDVI raster to determine plant health." ;
-    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1a0d3f9f-c877-4d36-aec7-461b4647c640> ;
-    prov:wasInformedBy _:Nb3d74d6921474f25b5d44fdc4d63ce72 .
+_:Nfd9fa782c08d46b5affc01940a3c97fd a prov:Activity ;
+    rdfs:label "Vectorize the reclassified raster and quantify the surface materials by calculating the amount of pixels representing each category. Desktop GIS (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX)" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/f7137846-6ef5-4fa9-ac44-5f26277eed18> ;
+    prov:wasInformedBy _:N9ab3b00becf64feb92582e5c2bfe9510 .
 
-_:Nbb9d4f45b3d54ebaa9cf1ef94e844b6b a prov:Activity ;
+_:N9ab3b00becf64feb92582e5c2bfe9510 a prov:Activity ;
     rdfs:label "Delineate front gardens using building footprints corner points as reference points to calculate proximity to a road, and extract approximated front and back gardens surface materials from the clipped raster." ;
     prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/7C823055-7BBF-4D62-B55E-F85C30D53162>,
         <https://usage.geocat.live/catalogue/srv/api/records/01d55271-1ab4-4447-8f96-e854514038de> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/88d91572-bc6f-44be-84fb-3f165817e467?language=all>,
         <https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview?srsltid=AfmBOooen0b60ZW1apNNcPdyDsIS3n9Me9n3aKkS-6x5gCYpVL30W5HX> ;
-    prov:wasInformedBy _:Nf8585d01ef784e9b819fa57e41a4ef7e .
+    prov:wasInformedBy _:N223a68d552a9421ab17e667df4836341 .
 
-_:Nb3d74d6921474f25b5d44fdc4d63ce72 a <http://example.org/usage/prov/MergeActivity>,
+_:Nb35d59c0594743ac9cfa088d4fd37ba2 a prov:Activity ;
+    rdfs:label "Perform tree species classification using hyperspectral data and identified existing tree species as training data and produce an NDVI raster to determine plant health." ;
+    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1a0d3f9f-c877-4d36-aec7-461b4647c640> ;
+    prov:wasInformedBy _:Ne03ede171717424d9a102675bcd06d87 .
+
+_:Ne03ede171717424d9a102675bcd06d87 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" .
 

@@ -1,11 +1,10 @@
 import sys
 from pathlib import Path
 
-import networkx as nx
 from rdflib import Graph, URIRef, BNode, RDFS, Literal, Namespace
 from rdflib.namespace import RDF, PROV
 from lxml import etree
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 
 ENTITY_SHAPE = 'mxgraph.bpmn.data'
 MERGE_SHAPE = 'mxgraph.bpmn.gateway2'
@@ -23,6 +22,10 @@ def extract_label(label: str):
 
     soup = BeautifulSoup(label, 'html.parser')
 
+    for tag in soup.find_all(True):
+
+        if ''.join(str(c) for c in tag.children if isinstance(c, NavigableString)).strip().startswith('%3CmxGraphModel'):
+            tag.decompose()
     for tag in soup.find_all(True):
         if tag.name != 'a' or not tag.attrs.get('href'):
             tag.unwrap()
@@ -42,7 +45,7 @@ def extract_label(label: str):
         for a in soup.find_all('a'):
             a.replace_with(soup.new_string(f"{a.get_text()} ({a['href']})"))
 
-    return soup.get_text(strip=True).strip(), links
+    return soup.get_text().strip(), links
 
 
 def to_uri(s: str):

@@ -14,7 +14,7 @@
     rdfs:label "Public Transport sector" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/1c29bd7a-8819-4828-ba9b-5b6910ed793c> a prov:Entity ;
-    rdfs:label "Final Aggregated emissions bysector and year (json)" ;
+    rdfs:label "Final Aggregated emissions by sector and year (json)" ;
     prov:wasGeneratedBy [ a prov:Activity ;
             rdfs:label "Transformation of csv into JSON file for its storage in the Municipality's" ;
             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ca4b6c71-6f14-4bba-ba8c-4b91b81624fe> ] .
@@ -81,8 +81,8 @@
 <https://usage.geocat.live/catalogue/srv/api/records/01d3eb36-e5b4-4e3e-b963-373a1e89e473> a prov:Entity ;
     rdfs:label "Ontology Conceptualization - Zaragoza Emissions Inventory" ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            rdfs:label "Collect requirements for the designs of the ontology (data model). Check the attributes of the data from the csv and draft the first version of the conceptualization of the ontology (in XML) using theLinked Open Terms Methodology (LOT) (https://lot.linkeddata.es/).Tool:draw.io (https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/3368d504-19ae-40dc-b41e-f678b4b719c5)" ;
-            prov:used _:N142c48aabee34318b8a5d588bc90c5f5 ] .
+            rdfs:label "Collect requirements for the designs of the ontology (data model). Check the attributes of the data from the csv and draft the first version of the conceptualization of the ontology (in XML) using the Linked Open Terms Methodology (LOT) (https://lot.linkeddata.es/). Tool: draw.io (https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/3368d504-19ae-40dc-b41e-f678b4b719c5)" ;
+            prov:used _:N9f54a62789a4488e894892bf365b917c ] .
 
 <https://usage.geocat.live/catalogue/srv/api/records/03eaa2d5-562f-4d30-90d9-51eae73c47f2> a prov:Agent,
         prov:SoftwareAgent ;
@@ -113,9 +113,9 @@
     rdfs:label "Virtuoso" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/eac98d99-4576-4fac-8f74-4102b1d5363c> a prov:Entity ;
-    rdfs:label "Final Aggregated emissions bysector and year (shapefiles)" ;
+    rdfs:label "Final Aggregated emissions by sector and year (shapefiles)" ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            rdfs:label "Transform the data into shapefile format.Tool:" ;
+            rdfs:label "Transform the data into shapefile format. Tool:" ;
             prov:used <https://usage.geocat.live/catalogue/srv/api/records/298eb8e8-72c1-43bd-b144-aa7118ecd704> ;
             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> ;
             prov:wasInformedBy [ a <http://example.org/usage/prov/MergeActivity>,
@@ -159,35 +159,122 @@
         "tool Chowlk" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/298eb8e8-72c1-43bd-b144-aa7118ecd704> a prov:Entity ;
-    rdfs:label "District level aggregated emissionsby sector and year (csv)",
-        "District level final aggregated emissionsby sector and year (csv) (DRI)" ;
-    prov:wasGeneratedBy _:N56d0e1b7ea504bc9b43831128feb3d88,
+    rdfs:label "District level aggregated emissions by sector and year (csv)",
+        "District level final aggregated emissions by sector and year (csv) (DRI)" ;
+    prov:wasGeneratedBy _:N3de1011fd52e46378364e963b32cf358,
         [ a prov:Activity ;
-            rdfs:label "Refine and correct possible errors the data may contain.Tool:" ;
+            rdfs:label "Refine and correct possible errors the data may contain. Tool:" ;
             prov:used <https://usage.geocat.live/catalogue/srv/api/records/298eb8e8-72c1-43bd-b144-aa7118ecd704> ;
             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ad9205a9-c185-47c8-b3c1-30d0d6c89197> ] .
 
 [] a prov:Entity ;
     rdfs:label "" .
 
+[] a prov:Entity ;
+    rdfs:label "" .
+
 [] a prov:Activity ;
-    rdfs:label "Upload and storage the data into the Municipality'sGeoserver (https://geoserver.org/)instance" .
+    rdfs:label "Validation of the ontology. Check if there is any pitfall in the ontology. Tool:" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/71adf383-90c2-4e43-b4c1-5776b078af02> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1a5f6bbf-6278-41eb-a37f-df7e555e9afb> .
+
+[] a prov:Activity ;
+    rdfs:label "Materialization of the mappings into RDF ntriples. Tool:" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/54c247ef-1ea9-45b1-84f3-31e76dfa3177> .
 
 [] a prov:Entity ;
-    rdfs:label "Livestock sectorlink to dataset metadata" .
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
 
 [] a prov:Activity ;
-    rdfs:label "Map formally the data from the csv to the classes and properties of the ontology in RML. As output, there is a xml file with the mappings diagram per sector.Tool:" ;
-    prov:used _:N142c48aabee34318b8a5d588bc90c5f5,
+    rdfs:label "Check each file for possible errors in the data and fixed them. E.g. Incorrect year in the data. Create wkt formatted cell polygons from the given coordinates. Tool: OpenRefine (https://usage.geocat.live/) with a shell script for batch processing" ;
+    prov:wasInformedBy _:N67f4db68b8454e2eacd0f7382484ca4e .
+
+[] a prov:Entity ;
+    rdfs:label "Tree cover sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Activity ;
+    rdfs:label "Store the data in the municipality's triplestore. Tool:" ;
+    prov:used [ a prov:Entity ;
+            rdfs:label "District level sub graph (nt) link to dataset metadata (https://usage.geocat.live/)" ;
+            prov:wasGeneratedBy _:N3de1011fd52e46378364e963b32cf358 ] ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/89dfd4ef-11c0-4223-ad98-a50d57c1b692> .
+
+[] a prov:Activity ;
+    rdfs:label "Map formally the data from the csv to the classes and properties of the ontology in RML. As output, there is a xml file with the mappings diagram per sector. Tool:" ;
+    prov:used _:N9f54a62789a4488e894892bf365b917c,
         <https://usage.geocat.live/catalogue/srv/api/records/71adf383-90c2-4e43-b4c1-5776b078af02> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/3368d504-19ae-40dc-b41e-f678b4b719c5> .
 
+[] a prov:Entity ;
+    rdfs:label "Livestock sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "Tree cover sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
 [] a prov:Activity ;
-    rdfs:label "Generation of the dashboard with the aggregated data.Tool:" ;
+    rdfs:label "Generation of the dashboard with the aggregated data. Tool:" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/298eb8e8-72c1-43bd-b144-aa7118ecd704> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ca4b6c71-6f14-4bba-ba8c-4b91b81624fe> .
 
 [] a prov:Entity ;
+    rdfs:label "IPPU sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Dashboard Requirements link to dataset metadata (https://docs.google.com/document/d/1V8L-nuOVWu0gRtdpm8-0Fwur1nQDfbIWrJPW_Yff3q8/edit?usp=sharing)" ;
+    prov:wasGeneratedBy _:N217ae6ff1edb4228853d10f36d59994e .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Zaragoza's districts from IDEZAR (gml) link to dataset metadata (https://usage.geocat.live/)" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Tree cover sector link to dataset metadata" .
+
+[] a prov:Entity ;
     rdfs:label "" .
 
 [] a prov:Entity ;
@@ -206,7 +293,10 @@
     rdfs:label "" .
 
 [] a prov:Entity ;
-    rdfs:label "Livestock sectorlink to dataset metadata" .
+    rdfs:label "" .
+
+[] a prov:Activity ;
+    rdfs:label "Upload and storage the data into the Municipality's Geoserver (https://geoserver.org/) instance" .
 
 [] a prov:Entity ;
     rdfs:label "" .
@@ -215,70 +305,14 @@
     rdfs:label "" .
 
 [] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Dashboard Requirementslink to dataset metadata (https://docs.google.com/document/d/1V8L-nuOVWu0gRtdpm8-0Fwur1nQDfbIWrJPW_Yff3q8/edit?usp=sharing)" ;
-    prov:wasGeneratedBy _:Nc46d2de48a0a4bcd8e8bc396d388223e .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sectorlink to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Ontology Documentation formatlink to resource metadata (https://usage.geocat.live/)" ;
+    rdfs:label "Ontology Documentation format link to resource metadata (https://usage.geocat.live/)" ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            rdfs:label "Documentation of the ontology. Document the ontology by adding the diagram, and the definition of the classes and relations it contains in a html.Tool:" ;
+            rdfs:label "Documentation of the ontology. Document the ontology by adding the diagram, and the definition of the classes and relations it contains in a html. Tool:" ;
             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/03eaa2d5-562f-4d30-90d9-51eae73c47f2> ] .
 
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Zaragoza's districts from IDEZAR (gml)link to dataset metadata (https://usage.geocat.live/)" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sectorlink to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sectorlink to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "Ontology validation reportlink to resource metadata (https://usage.geocat.live/)" .
-
 [] a prov:Activity ;
-    rdfs:label "Validation of the ontology. Check if there is any pitfall in the ontology.Tool:" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/71adf383-90c2-4e43-b4c1-5776b078af02> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1a5f6bbf-6278-41eb-a37f-df7e555e9afb> .
+    rdfs:label "Transform the xml mappings into turtle (ttl) format. Tool:" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/d0dbf9f2-1d82-408e-a97c-de164c075042> .
 
 [] a prov:Entity ;
     rdfs:label "" .
@@ -287,22 +321,10 @@
     rdfs:label "" .
 
 [] a prov:Entity ;
-    rdfs:label "" .
+    rdfs:label "Ontology validation report link to resource metadata (https://usage.geocat.live/)" .
 
 [] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "IPPU sectorlink to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
+    rdfs:label "Livestock sector link to dataset metadata" .
 
 [] a prov:Entity ;
     rdfs:label "" .
@@ -314,60 +336,10 @@
     rdfs:label "" .
 
 [] a prov:Activity ;
-    rdfs:label "Store the data in the municipality's triplestore.Tool:" ;
+    rdfs:label "Generation of the visualization service with the aggregated data in shapefile. Tool:" ;
     prov:used [ a prov:Entity ;
-            rdfs:label "District level sub graph (nt)link to dataset metadata (https://usage.geocat.live/)" ;
-            prov:wasGeneratedBy _:N56d0e1b7ea504bc9b43831128feb3d88 ] ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/89dfd4ef-11c0-4223-ad98-a50d57c1b692> .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Activity ;
-    rdfs:label "Check each file for possible errors in the data and fixed them. E.g. Incorrect year in the data. Create wkt formatted cell polygons from the given coordinates.Tool:OpenRefine (https://usage.geocat.live/)with a shell script for batch processing" ;
-    prov:wasInformedBy _:N757cba5c41c04cbc8dd10eb959dbe22e .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sectorlink to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Activity ;
-    rdfs:label "Generation of the visualization service with the aggregated data in shapefile.Tool:" ;
-    prov:used [ a prov:Entity ;
-            rdfs:label "Visualization Service Requirementslink to dataset metadata (https://docs.google.com/presentation/d/11xBaoOx_yzrOTxgNgxCOMDbBqFCtumwa2TiuEKEXiyE/edit?usp=sharing)" ;
-            prov:wasGeneratedBy _:Nc46d2de48a0a4bcd8e8bc396d388223e ],
+            rdfs:label "Visualization Service Requirements link to dataset metadata (https://docs.google.com/presentation/d/11xBaoOx_yzrOTxgNgxCOMDbBqFCtumwa2TiuEKEXiyE/edit?usp=sharing)" ;
+            prov:wasGeneratedBy _:N217ae6ff1edb4228853d10f36d59994e ],
         <https://usage.geocat.live/catalogue/srv/api/records/eac98d99-4576-4fac-8f74-4102b1d5363c> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f6218a1f-845b-4cfb-a24d-9f64fda65cb7> .
 
@@ -375,53 +347,81 @@
     rdfs:label "" .
 
 [] a prov:Entity ;
-    rdfs:label "IPPU sectorlink to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "IPPU sectorlink to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sectorlink to dataset metadata" .
-
-[] a prov:Activity ;
-    rdfs:label "Transform the xml mappings into turtle (ttl) format.Tool:" ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/d0dbf9f2-1d82-408e-a97c-de164c075042> .
-
-[] a prov:Entity ;
-    rdfs:label "Livestock sectorlink to dataset metadata" .
+    rdfs:label "Tree cover sector link to dataset metadata" .
 
 [] a prov:Entity ;
     rdfs:label "" .
 
-[] a prov:Activity ;
-    rdfs:label "Materialization of the mappings into RDF ntriples.Tool:" ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/54c247ef-1ea9-45b1-84f3-31e76dfa3177> .
+[] a prov:Entity ;
+    rdfs:label "" .
 
-_:Ncc5205a187f24a9d867c4b29f191ef6f a prov:Entity ;
-    rdfs:label "Knowledge Graph Emissions ZGZlink to dataset metadata (https://usage.geocat.live/)" ;
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Tree cover sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "IPPU sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "IPPU sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Livestock sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+_:N3abd68fbe00a4e468c096470225dc55d a prov:Activity ;
+    rdfs:label "Transform the  gml file containing the districts into a csv in which the geometry data of the gml is converted into a polygons in wkt format. Each polygon is mapped to a district. Tool:" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ad9205a9-c185-47c8-b3c1-30d0d6c89197>,
+        <https://www.python.org/about/> ;
+    prov:wasInformedBy _:N67f4db68b8454e2eacd0f7382484ca4e .
+
+_:Nc3dd2b9795284f9a91d2ad41d2057e99 a prov:Entity ;
+    rdfs:label "Knowledge Graph Emissions ZGZ link to dataset metadata (https://usage.geocat.live/)" ;
     prov:wasGeneratedBy [ a prov:Activity ;
             rdfs:label "Create the Knowledge Graph by joining and uploading the RDF ntriples in" ;
             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/034dbe1e-ce4f-40ae-a29f-a83a476d220c> ] .
 
-_:Nf7d5377e560e4b54bf54ebfa460831ff a prov:Activity ;
-    rdfs:label "Transform the  gml file containing the districts into a csv in which the geometry data of the gml is converted into a polygons in wkt format. Each polygon is mapped to a district.Tool:" ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ad9205a9-c185-47c8-b3c1-30d0d6c89197>,
-        <https://www.python.org/about/> ;
-    prov:wasInformedBy _:N757cba5c41c04cbc8dd10eb959dbe22e .
+_:N217ae6ff1edb4228853d10f36d59994e a prov:Activity ;
+    rdfs:label "Define the requirements of the dashboard and visualization service" .
 
-_:N142c48aabee34318b8a5d588bc90c5f5 a prov:Entity ;
-    rdfs:label "Zaragoza's districts (csv)link to dataset metadata (https://usage.geocat.live/)" ;
-    prov:wasGeneratedBy _:Nf7d5377e560e4b54bf54ebfa460831ff .
-
-_:N56d0e1b7ea504bc9b43831128feb3d88 a prov:Activity ;
-    rdfs:label "Perform a SPARQL query to the Knowledge Graph in order to obtain  the data at district level aggregated by sector and year.Tool:" ;
-    prov:used _:Ncc5205a187f24a9d867c4b29f191ef6f ;
+_:N3de1011fd52e46378364e963b32cf358 a prov:Activity ;
+    rdfs:label "Perform a SPARQL query to the Knowledge Graph in order to obtain  the data at district level aggregated by sector and year. Tool:" ;
+    prov:used _:Nc3dd2b9795284f9a91d2ad41d2057e99 ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/034dbe1e-ce4f-40ae-a29f-a83a476d220c> .
 
-_:N757cba5c41c04cbc8dd10eb959dbe22e a <http://example.org/usage/prov/MergeActivity>,
+_:N67f4db68b8454e2eacd0f7382484ca4e a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" .
 
-_:Nc46d2de48a0a4bcd8e8bc396d388223e a prov:Activity ;
-    rdfs:label "Define the requirements of the dashboard and visualization service" .
+_:N9f54a62789a4488e894892bf365b917c a prov:Entity ;
+    rdfs:label "Zaragoza's districts (csv)  link to dataset metadata (https://usage.geocat.live/)" ;
+    prov:wasGeneratedBy _:N3abd68fbe00a4e468c096470225dc55d .
 

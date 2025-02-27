@@ -6,13 +6,13 @@
     rdfs:label "spatial interpolation" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/20ff581e-6e69-4558-90f4-f7fdd717d765> a prov:Entity ;
-    rdfs:label "%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3B%26quot%3B%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20color%3D%26quot%3B%23009900%26quot%3B%26gt%3BSem%20DR%3A%20OK%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20color%3D%26quot%3B%23ff0000%26quot%3B%26gt%3BGeo%20DR%3A%26amp%3Bnbsp%3B%26lt%3Ba%20href%3D%26quot%3Bhttps%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1OgpCYTEZuagBoJJZAzg2JbDfwky-oHMB%2Fedit%3Fusp%3Ddrive_link%26amp%3Bamp%3Bouid%3D100401313820260785715%26amp%3Bamp%3Brtpof%3Dtrue%26amp%3Bamp%3Bsd%3Dtrue%26quot%3B%26gt%3B(AL_r30)%26lt%3B%2Fa%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3D%23d5e8d4%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3BwhiteSpace%3Dwrap%3Bspacing%3D2%3BfontSize%3D6%3BlabelBackgroundColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22327.5%22%20y%3D%22-4025%22%20width%3D%2269%22%20height%3D%2214%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3ESky View Factor (SVF) - UHI of Zaragoza" ;
-    prov:wasGeneratedBy _:N43e73b3996c747eaaf906468ecc8cee2 .
+    rdfs:label "Sky View Factor (SVF) - UHI of Zaragoza" ;
+    prov:wasGeneratedBy _:N89e4d27202b6476291538a3bece795e4 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/2e794929-cb87-4458-bfaa-ade25220a3c4> a prov:Entity ;
-    rdfs:label "Raster data Surface TemperatureZaragoza (DRI)" ;
+    rdfs:label "Raster data Surface Temperature Zaragoza (DRI)" ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            rdfs:label "Processing of Sentinel-3 images and the sensors data to obtain a raster layer of surface temperature.Tool:Google Earth Engine and SAGA-GIS???" ;
+            rdfs:label "Processing of Sentinel-3 images and the sensors data to obtain a raster layer of surface temperature. Tool: Google Earth Engine and SAGA-GIS???" ;
             prov:used <https://usage.geocat.live/catalogue/srv/api/records/7f48edc5-547d-459c-a4a1-236a7dc88908> ] .
 
 <https://usage.geocat.live/catalogue/srv/api/records/558a09a9-73ae-4519-a574-dbb58a306778> a prov:Agent,
@@ -28,14 +28,14 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/80fd5dcb-2dbf-4fca-aff4-1a8a85507905> a prov:Entity ;
     rdfs:label "Green Leaf Index (GLI) - UHI Zaragoza" ;
-    prov:wasGeneratedBy _:N0b6cea93b45f447eb1a2114a8178ad22 .
+    prov:wasGeneratedBy _:Ne26e1482545e45f9ab09c4cde0ac17bc .
 
 <https://usage.geocat.live/catalogue/srv/api/records/87091cb4-83b4-47c3-91bd-a7c8a5d9508f> a prov:Entity ;
     rdfs:label "Raster data UHI Zaragoza (DRI)" ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            rdfs:label "Produce an air temperature raster layer from urban morphology and sensor measurements using theCokriging method.For interpolation, all predictors were rescaled to a 100 m grid, as this was considered an adequate resolution to represent the information of an average city. Spatial resampling of the data was performed in R by applying the raster package and the “bilinear” option." ;
+            rdfs:label "Produce an air temperature raster layer from urban morphology and sensor measurements using the Cokriging method. For interpolation, all predictors were rescaled to a 100 m grid, as this was considered an adequate resolution to represent the information of an average city. Spatial resampling of the data was performed in R by applying the raster package and the “bilinear” option." ;
             prov:used [ a prov:Entity ;
-                    rdfs:label "Digital Terrain Model (DTM) - UHI ZaragozaFrom theInstituto Geográfico Nacional (https://www.ign.es/)link to dataset metadata (https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/cdda0222-103d-44fb-83ca-1953f7468c4d)" ],
+                    rdfs:label "Digital Terrain Model (DTM) - UHI ZaragozaFrom the Instituto Geográfico Nacional (https://www.ign.es/)link to dataset metadata (https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/cdda0222-103d-44fb-83ca-1953f7468c4d)" ],
                 <https://usage.geocat.live/catalogue/srv/api/records/20ff581e-6e69-4558-90f4-f7fdd717d765>,
                 <https://usage.geocat.live/catalogue/srv/api/records/7f48edc5-547d-459c-a4a1-236a7dc88908>,
                 <https://usage.geocat.live/catalogue/srv/api/records/80fd5dcb-2dbf-4fca-aff4-1a8a85507905>,
@@ -47,11 +47,11 @@
             prov:wasInformedBy [ a <http://example.org/usage/prov/MergeActivity>,
                         prov:Activity ;
                     rdfs:label "Merge entities" ;
-                    prov:wasInformedBy _:N0b6cea93b45f447eb1a2114a8178ad22,
-                        _:N3af5c39475f947389f9594236c23fe28,
-                        _:N43e73b3996c747eaaf906468ecc8cee2,
-                        _:Nac76aca772e4466e8cf0a4203421223c,
-                        _:Ne64546fa22ab4ab4af562e17ecba219c ] ] .
+                    prov:wasInformedBy _:N0d1133240b6a4d58bfb2dea0642d3057,
+                        _:N1855ff6f856a4cd080d80b3040af58d8,
+                        _:N7e6aeaff401d4708a3a96be3d316c0e9,
+                        _:N89e4d27202b6476291538a3bece795e4,
+                        _:Ne26e1482545e45f9ab09c4cde0ac17bc ] ] .
 
 <https://usage.geocat.live/catalogue/srv/api/records/bee7740e-90a9-43fc-bd92-9bca0b847880> a prov:Entity ;
     rdfs:label "Raster data Air Temperature Zaragoza (DRI)" .
@@ -60,10 +60,10 @@
     rdfs:label "Air temperature Rural Area - UHI Zaragoza" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/e4fbf560-3025-46d4-aba4-8c87d8dd8ffa> a prov:Entity ;
-    rdfs:label "%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%20style%3D%26quot%3B%26quot%3B%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20color%3D%26quot%3B%23009900%26quot%3B%26gt%3BSem%20DR%3A%20OK%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bfont%20color%3D%26quot%3B%23ff0000%26quot%3B%26gt%3BGeo%20DR%3A%26amp%3Bnbsp%3B%26lt%3Ba%20href%3D%26quot%3Bhttps%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1OgpCYTEZuagBoJJZAzg2JbDfwky-oHMB%2Fedit%3Fusp%3Ddrive_link%26amp%3Bamp%3Bouid%3D100401313820260785715%26amp%3Bamp%3Brtpof%3Dtrue%26amp%3Bamp%3Bsd%3Dtrue%26quot%3B%26gt%3B(AL_r30)%26lt%3B%2Fa%26gt%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3D%23d5e8d4%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3BwhiteSpace%3Dwrap%3Bspacing%3D2%3BfontSize%3D6%3BlabelBackgroundColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22327.5%22%20y%3D%22-4025%22%20width%3D%2269%22%20height%3D%2214%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3ENormalized Difference Turbidity Index (NDTI) - UHI Zaragoza",
-        "Normalized Built-up Area Index (NBAI) - UHI Zaragoza" ;
-    prov:wasGeneratedBy _:N3af5c39475f947389f9594236c23fe28,
-        _:Ne64546fa22ab4ab4af562e17ecba219c .
+    rdfs:label "Normalized Built-up Area Index (NBAI) - UHI Zaragoza",
+        "Normalized Difference Turbidity Index (NDTI) - UHI Zaragoza" ;
+    prov:wasGeneratedBy _:N1855ff6f856a4cd080d80b3040af58d8,
+        _:N7e6aeaff401d4708a3a96be3d316c0e9 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/f24f72f0-eccb-41ff-ac52-c5841dbe3b17> a prov:Agent,
         prov:SoftwareAgent ;
@@ -71,7 +71,7 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/7f48edc5-547d-459c-a4a1-236a7dc88908> a prov:Entity ;
     rdfs:label "Zaragoza Thermo-hygrometric sensor data, hourly: Air temperature and humidity" ;
-    prov:wasGeneratedBy _:Nac76aca772e4466e8cf0a4203421223c .
+    prov:wasGeneratedBy _:N0d1133240b6a4d58bfb2dea0642d3057 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> a prov:Agent,
         prov:SoftwareAgent ;
@@ -82,74 +82,74 @@
     rdfs:label "Landsat images" .
 
 [] a prov:Entity ;
-    rdfs:label "Harmonised datasetsmissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+    rdfs:label "Harmonised datasetsmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            rdfs:label "Harmonise data towards a common (and well documented) data model, including vocabulariesData transformation Tool (e.g. hale studio); tool to manage vocabularies (e.g. Re3gistry?)Link to tool metadata missing" ;
+            rdfs:label "Harmonise data towards a common (and well documented) data model, including vocabularies Data transformation Tool (e.g. hale studio); tool to manage vocabularies (e.g. Re3gistry?) Link to tool metadata missing" ;
             prov:used [ a prov:Entity ;
-                    rdfs:label "Environmental and vulnerability indicatorsmissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+                    rdfs:label "Environmental and vulnerability indicatorsmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
                     prov:wasGeneratedBy [ a prov:Activity ;
-                            rdfs:label "Identify which indicators you want to publish, then find the methodology for their calculation.Tool?Link to tool metadata missing" ;
+                            rdfs:label "Identify which indicators you want to publish, then find the methodology for their calculation. Tool? Link to tool metadata missing" ;
                             prov:used [ a prov:Entity ;
-                                    rdfs:label "Housing datasetmissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+                                    rdfs:label "Populationmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
                                 [ a prov:Entity ;
-                                    rdfs:label "Income datasetmissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+                                    rdfs:label "Income datasetmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
                                 [ a prov:Entity ;
-                                    rdfs:label "Equipmentmissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+                                    rdfs:label "Housing datasetmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
                                 [ a prov:Entity ;
-                                    rdfs:label "Vulnerability indicatormissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+                                    rdfs:label "Equipment missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
                                 [ a prov:Entity ;
-                                    rdfs:label "Demographic datamissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+                                    rdfs:label "Mobility missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
                                 [ a prov:Entity ;
-                                    rdfs:label "Urban scenariomissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+                                    rdfs:label "Urban scenario missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
                                 [ a prov:Entity ;
-                                    rdfs:label "Mobilitymissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+                                    rdfs:label "Demographic datamissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
                                 [ a prov:Entity ;
-                                    rdfs:label "Populationmissinglink to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+                                    rdfs:label "Vulnerability indicator missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
                                 <https://usage.geocat.live/catalogue/srv/api/records/7f48edc5-547d-459c-a4a1-236a7dc88908> ] ] ] .
 
 [] a prov:Activity ;
-    rdfs:label "Publication of the datasets harmonized in theOpen data Portal of the municipality (https://www.zaragoza.es/sede/portal/conoce-explora-zgz/servicio/catalogo/explora)." .
-
-[] a prov:Activity ;
-    rdfs:label "Development of avisualization servicethat displays the three type of data temperature (surface, air and UHI):- For the air and UHI data, there will be season, year and indicator layers.- For the surface temperature there will be year and night/day layers.This visualization service is implemented in theZaragoza Spatial Data Infrastructure (IDEZAR (https://www.zaragoza.es/sede/portal/idezar/)) using the toolLeaflet (https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f6218a1f-845b-4cfb-a24d-9f64fda65cb7)" ;
+    rdfs:label "Development of a visualization service that displays the three type of data temperature (surface, air and UHI): - For the air and UHI data, there will be season, year and indicator layers.- For the surface temperature there will be year and night/day layers.This visualization service is implemented in the Zaragoza Spatial Data Infrastructure (IDEZAR (https://www.zaragoza.es/sede/portal/idezar/)) using the tool Leaflet (https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f6218a1f-845b-4cfb-a24d-9f64fda65cb7)" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/2e794929-cb87-4458-bfaa-ade25220a3c4>,
         <https://usage.geocat.live/catalogue/srv/api/records/87091cb4-83b4-47c3-91bd-a7c8a5d9508f>,
         <https://usage.geocat.live/catalogue/srv/api/records/bee7740e-90a9-43fc-bd92-9bca0b847880> .
 
-_:N0046fbd575c34944a6769ee2ba364f9a a prov:Entity ;
+[] a prov:Activity ;
+    rdfs:label "Publication of the datasets harmonized in the Open data Portal of the municipality (https://www.zaragoza.es/sede/portal/conoce-explora-zgz/servicio/catalogo/explora)." .
+
+_:N5dbc287a698349e8a7eebfd83f5cfdef a prov:Entity ;
     rdfs:label "Zaragoza Thermo-hygrometric sensor data, hourly: Air temperature and humiditylink to dataset metadata (https://usage.geocat.live/catalogue/)" .
 
-_:N0b6cea93b45f447eb1a2114a8178ad22 a prov:Activity ;
-    rdfs:label "Calculate Green Leaf Index (GLI)Tool:" ;
+_:N0d1133240b6a4d58bfb2dea0642d3057 a prov:Activity ;
+    rdfs:label "Preprocess sensor data" ;
+    prov:used _:N5dbc287a698349e8a7eebfd83f5cfdef ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/558a09a9-73ae-4519-a574-dbb58a306778> ;
+    prov:wasInformedBy _:N006c0aee52304af19e669d0a0c28bf1a .
+
+_:N1855ff6f856a4cd080d80b3040af58d8 a prov:Activity ;
+    rdfs:label "Calculate Normalised Build-up Area Index (NBAI) Tool:" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> ;
-    prov:wasInformedBy _:N7ea03944ba8f404a837633ede81bc2c4 .
+    prov:wasInformedBy _:N006c0aee52304af19e669d0a0c28bf1a .
 
-_:N3af5c39475f947389f9594236c23fe28 a prov:Activity ;
-    rdfs:label "Calculate Normalised Build-up Area Index (NBAI)Tool:" ;
+_:N7e6aeaff401d4708a3a96be3d316c0e9 a prov:Activity ;
+    rdfs:label "Calculate Normalized Difference Turbidity Index (NDTI). Tool:" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> ;
-    prov:wasInformedBy _:N7ea03944ba8f404a837633ede81bc2c4 .
+    prov:wasInformedBy _:N006c0aee52304af19e669d0a0c28bf1a .
 
-_:N43e73b3996c747eaaf906468ecc8cee2 a prov:Activity ;
-    rdfs:label "Calculate Sky View Factor (SVF) from LiDAR data.Tool:" ;
+_:N89e4d27202b6476291538a3bece795e4 a prov:Activity ;
+    rdfs:label "Calculate Sky View Factor (SVF) from LiDAR data. Tool:" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/58c4d5de-1c86-4c26-b51d-fff998163c5e> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f24f72f0-eccb-41ff-ac52-c5841dbe3b17> ;
-    prov:wasInformedBy _:N7ea03944ba8f404a837633ede81bc2c4 .
+    prov:wasInformedBy _:N006c0aee52304af19e669d0a0c28bf1a .
 
-_:Nac76aca772e4466e8cf0a4203421223c a prov:Activity ;
-    rdfs:label "Preprocess sensor data" ;
-    prov:used _:N0046fbd575c34944a6769ee2ba364f9a ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/558a09a9-73ae-4519-a574-dbb58a306778> ;
-    prov:wasInformedBy _:N7ea03944ba8f404a837633ede81bc2c4 .
-
-_:Ne64546fa22ab4ab4af562e17ecba219c a prov:Activity ;
-    rdfs:label "Calculate Normalized Difference Turbidity Index (NDTI).Tool:" ;
+_:Ne26e1482545e45f9ab09c4cde0ac17bc a prov:Activity ;
+    rdfs:label "Calculate Green Leaf Index (GLI) Tool:" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> ;
-    prov:wasInformedBy _:N7ea03944ba8f404a837633ede81bc2c4 .
+    prov:wasInformedBy _:N006c0aee52304af19e669d0a0c28bf1a .
 
-_:N7ea03944ba8f404a837633ede81bc2c4 a <http://example.org/usage/prov/MergeActivity>,
+_:N006c0aee52304af19e669d0a0c28bf1a a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" .
 
