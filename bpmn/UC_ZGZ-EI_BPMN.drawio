@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.10" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0" pages="2">
   <diagram name="DecisionMakers-EmissionInventory-ZGZ" id="yITqx3BHYA7Q2pvuCm3x">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gUWtP375bY4jK0gCFB5f-0" />
         <mxCell id="gUWtP375bY4jK0gCFB5f-1" parent="gUWtP375bY4jK0gCFB5f-0" />
-        <mxCell id="gUWtP375bY4jK0gCFB5f-2" value="Emissions Inventory: Citizen" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-1">
-          <mxGeometry x="93" y="-4510" width="1653" height="2828" as="geometry">
+        <mxCell id="gUWtP375bY4jK0gCFB5f-2" value="Emissions Inventory: Decision Makers" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-1">
+          <mxGeometry x="93" y="-4510" width="1653" height="2859" as="geometry">
             <mxRectangle x="99" y="-2240" width="40" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -21,18 +21,10 @@
           <mxGeometry x="137" y="99" width="1038" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-6">
-          <mxGeometry x="-12.506024096385543" y="5.53" width="1050.5060240963855" height="124.47" as="geometry" />
+          <mxGeometry x="-12.51" y="5.53" width="932.51" height="124.47" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-size: 6px; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-8">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-6">
-            <mxGeometry x="877.2975903614458" y="51.17021276595745" width="25.012048192771086" height="27.659574468085108" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="gUWtP375bY4jK0gCFB5f-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Input data:&amp;nbsp; 2 XLSX Files per sector (years 2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-6">
           <mxGeometry width="365.1759036144578" height="41.48936170212766" as="geometry" />
-        </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-11" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-6">
-          <mxGeometry x="867.2927710843375" y="13.829787234042554" width="75.03614457831326" height="31.808510638297875" as="geometry" />
         </mxCell>
         <mxCell id="cuJ28by3qQDjeVqu262e-0" value="" style="group" connectable="0" vertex="1" parent="gUWtP375bY4jK0gCFB5f-6">
           <mxGeometry x="31.890361445783135" y="45.638297872340424" width="34.39156626506024" height="31.808510638297882" as="geometry" />
@@ -100,7 +92,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-9" value="" style="group" connectable="0" vertex="1" parent="gUWtP375bY4jK0gCFB5f-6">
-          <mxGeometry x="964.8397590361446" y="48.40425531914894" width="32.51566265060241" height="29.042553191489368" as="geometry" />
+          <mxGeometry x="849.9997590361446" y="48.40425531914894" width="32.51566265060241" height="29.042553191489368" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-29">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-9">
@@ -162,17 +154,11 @@
             <mxGeometry y="2.765957446808507" width="20" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="41DRKs7uMhwIGHh1SMFF-0" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2019&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-6">
-          <mxGeometry x="676.0027710843374" y="22.82978723404267" width="75.03614457831326" height="31.808510638297875" as="geometry" />
-        </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.497;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-3" source="gUWtP375bY4jK0gCFB5f-7" target="gUWtP375bY4jK0gCFB5f-39">
+        <mxCell id="gUWtP375bY4jK0gCFB5f-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-3" source="gUWtP375bY4jK0gCFB5f-7" target="gUWtP375bY4jK0gCFB5f-39">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445.32000000000016" y="230.99151999999958" as="sourcePoint" />
             <mxPoint x="415.60000000000014" y="253.27599999999984" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="647" y="239" />
-              <mxPoint x="647" y="239" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-39" value="&lt;h6 style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Check each file for possible errors in the data and fixed them. E.g. Incorrect year in the data. Create wkt formatted cell polygons from the given coordinates.&amp;nbsp;&lt;/span&gt;Tool&lt;span style=&quot;font-weight: 400;&quot;&gt;: &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/ad9205a9-c185-47c8-b3c1-30d0d6c89197&quot;&gt;OpenRefine&lt;/a&gt; with a shell script for batch processing&lt;/span&gt;&lt;/h6&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-3">
@@ -188,151 +174,143 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cuJ28by3qQDjeVqu262e-11" value="" style="group" connectable="0" vertex="1" parent="gUWtP375bY4jK0gCFB5f-3">
-          <mxGeometry x="137" y="380" width="980" height="130" as="geometry" />
+          <mxGeometry x="137" y="380" width="933" height="130" as="geometry" />
         </mxCell>
         <mxCell id="cuJ28by3qQDjeVqu262e-12" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="-10" y="5.53" width="990" height="124.47" as="geometry" />
+          <mxGeometry x="-9.52" y="5.53" width="839.52" height="124.47" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot; style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-13">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-            <mxGeometry x="818.5" y="51.17021276595745" width="20" height="27.659574468085108" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2 CSV Files refined per sector (years 2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry width="292" height="41.48936170212766" as="geometry" />
-        </mxCell>
-        <mxCell id="cuJ28by3qQDjeVqu262e-16" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="810.5" y="13.829787234042554" width="60" height="31.808510638297875" as="geometry" />
+          <mxGeometry width="277.9959183673469" height="41.48936170212766" as="geometry" />
         </mxCell>
         <mxCell id="cuJ28by3qQDjeVqu262e-17" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="25.5" y="45.638297872340424" width="27.5" height="31.808510638297882" as="geometry" />
+          <mxGeometry x="24.27704081632653" y="45.638297872340424" width="26.18112244897959" height="31.808510638297882" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-18">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-17">
-            <mxGeometry x="7.5" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="7.140306122448979" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;Industrial sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/48a18809-f89e-4257-b3af-f8b5b7818b7c&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;2019&lt;/font&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/034a31f1-4d10-4db0-8e3e-89afaf67f7f5&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;background-color: initial; font-size: 6px;&quot;&gt;20&lt;/font&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;21&lt;/span&gt;&lt;/font&gt;&lt;/a&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-19">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-17">
-            <mxGeometry x="-1" y="4.148936170212771" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="-0.9520408163265305" y="4.148936170212771" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-20" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="105.5" y="45.638297872340424" width="23" height="31.808510638297882" as="geometry" />
+          <mxGeometry x="100.44030612244897" y="45.638297872340424" width="21.896938775510204" height="31.808510638297882" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-21">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-20">
-            <mxGeometry x="3" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="2.8561224489795918" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Residential sector&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/3d8adbed-233c-4213-928a-aef69880a95b&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 6px;&quot;&gt;2019&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/c43d1617-8cc5-47b4-b90b-698b40b651a1&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;color: rgb(0, 0, 238);&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;color: rgb(0, 0, 238); font-size: 6px;&quot;&gt;2021&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-22">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-20">
-            <mxGeometry y="4.148936170212771" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry y="4.148936170212771" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-23" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="188.5" y="45.02127659574469" width="23" height="31.808510638297868" as="geometry" />
+          <mxGeometry x="179.45969387755102" y="45.02127659574469" width="21.896938775510204" height="31.808510638297868" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-24">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-23">
-            <mxGeometry x="3" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="2.8561224489795918" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;IPPU sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/ee0ba754-0085-4543-a6eb-cc3dbaa73358&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata2019&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/4890ea73-99c5-4ad9-b33d-7f98c66739ce&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata20&lt;/span&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;21&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-25">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-23">
-            <mxGeometry y="4.148936170212764" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry y="4.148936170212764" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-26" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="270.5" y="47.02127659574469" width="25" height="30.425531914893618" as="geometry" />
+          <mxGeometry x="257.5270408163265" y="47.02127659574469" width="23.801020408163264" height="30.425531914893618" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-27">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-26">
-            <mxGeometry x="5" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="4.7602040816326525" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;Waste sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/6ede5c22-79d9-411e-8169-0b9db95c588f&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;2019&lt;/font&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/c3d182c8-c139-4cd7-b11a-6ea3aa2afff8&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 6px;&quot;&gt;20&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;21&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-28">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-26">
-            <mxGeometry y="2.765957446808507" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry y="2.765957446808507" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-29" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="358.5" y="45.638297872340424" width="25" height="31.808510638297882" as="geometry" />
+          <mxGeometry x="341.30663265306123" y="45.638297872340424" width="23.801020408163264" height="31.808510638297882" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-30">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-29">
-            <mxGeometry x="5" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="4.7602040816326525" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;Agriculture sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/ad9880d0-3cc1-474c-a150-46cf46455192&quot;&gt;&lt;span style=&quot;font-size: 6px; background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadat&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;a2019&lt;/font&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/b837b165-0aff-4bd5-989c-e55dbe57be62&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadat&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;a20&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 6px;&quot;&gt;21&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-31">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-29">
-            <mxGeometry y="4.148936170212771" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry y="4.148936170212771" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-32" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="373.5" y="15.212765957446809" width="300" height="110.64" as="geometry" />
+          <mxGeometry x="355.5872448979592" y="15.212765957446809" width="285.61224489795916" height="110.64" as="geometry" />
         </mxCell>
         <mxCell id="cuJ28by3qQDjeVqu262e-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Transport&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="cuJ28by3qQDjeVqu262e-32">
-          <mxGeometry x="50" width="250" height="110.64" as="geometry" />
+          <mxGeometry x="47.60204081632652" width="238.01020408163262" height="110.64" as="geometry" />
         </mxCell>
         <mxCell id="cuJ28by3qQDjeVqu262e-34" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-32">
-          <mxGeometry x="84.25" y="31.80851063829788" width="24.75" height="30.425531914893618" as="geometry" />
+          <mxGeometry x="80.2094387755102" y="31.80851063829788" width="23.56301020408163" height="30.425531914893618" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-35">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-34">
-            <mxGeometry x="0.75" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="0.7140306122448978" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;Public Transport sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/19764900-df94-4e2d-bbd0-598915e4588e&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 6px;&quot;&gt;2019&lt;/font&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/a74fb01c-0223-47c9-a30f-44a1b78dedc5&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;20&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 6px;&quot;&gt;21&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-36">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-34">
-            <mxGeometry x="-3" y="2.765957446808507" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="-2.8561224489795913" y="2.765957446808507" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-37" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-32">
-          <mxGeometry x="163" y="29.80851063829788" width="26" height="30.425531914893618" as="geometry" />
+          <mxGeometry x="155.18265306122447" y="29.80851063829788" width="24.75306122448979" height="30.425531914893618" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-38">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-37">
-            <mxGeometry x="6" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="5.712244897959183" width="19.040816326530607" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;Private Transport sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/20ec9482-b5d7-4c00-965b-f15636d93e18&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadat&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 6px;&quot;&gt;a2019&lt;/font&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/3c874b45-73b8-43e9-8d84-5e855b06bc98&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadat&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;a20&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 6px;&quot;&gt;21&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-39">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-37">
-            <mxGeometry y="2.765957446808507" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry y="2.765957446808507" width="19.040816326530607" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-40" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="727.5" y="47.02127659574469" width="25" height="30.425531914893618" as="geometry" />
+          <mxGeometry x="692.609693877551" y="47.02127659574469" width="23.801020408163264" height="30.425531914893618" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-41">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-40">
-            <mxGeometry x="5" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="4.7602040816326525" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;Livestock sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/12973fc7-4421-4a79-a836-90a0e6a6b397&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata 2019&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/356ec4da-05fe-4293-98dc-c942896a555d&quot;&gt;&lt;span style=&quot;font-size: 6px; background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadata 20&lt;/span&gt;&lt;font style=&quot;font-size: 6px;&quot; face=&quot;Arial&quot;&gt;21&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-42">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-40">
-            <mxGeometry y="2.765957446808507" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry y="2.765957446808507" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-43" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="899.5" y="48.40425531914894" width="26" height="29.042553191489368" as="geometry" />
+          <mxGeometry x="771.1530612244898" y="48.40425531914894" width="24.753061224489795" height="29.042553191489368" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-44">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-43">
-            <mxGeometry x="6" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry x="5.7122448979591836" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;Tree cover sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-45">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-43">
-            <mxGeometry y="1.382978723404257" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry y="1.382978723404257" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cuJ28by3qQDjeVqu262e-47" value="" style="group" connectable="0" vertex="1" parent="cuJ28by3qQDjeVqu262e-11">
-          <mxGeometry x="620" y="45.021276595744894" width="26" height="30.425531914893618" as="geometry" />
+          <mxGeometry x="590.2653061224489" y="45.021276595744894" width="24.753061224489795" height="30.425531914893618" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;Municipal Transport sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/c4cd1d70-3151-40b6-bf40-c811b9380355&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;link to dataset metadat&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 6px;&quot;&gt;a2019&lt;/font&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cuJ28by3qQDjeVqu262e-49">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cuJ28by3qQDjeVqu262e-47">
-            <mxGeometry y="2.765957446808507" width="20" height="27.659574468085108" as="geometry" />
+            <mxGeometry y="2.765957446808507" width="19.04081632653061" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="gUWtP375bY4jK0gCFB5f-70" value="Ontology and Knowledge Graph construction" style="swimlane;html=1;startSize=58;horizontal=0;autosize=0;fixedWidth=0;whiteSpace=wrap;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-2">
@@ -477,21 +455,10 @@
           <mxGeometry x="420" y="670" width="683.5" height="94" as="geometry" />
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-92" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-91">
-          <mxGeometry x="-10" y="4" width="693.5" height="90" as="geometry" />
+          <mxGeometry x="-10" y="4" width="640" height="90" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-size: 6px; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-93">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-91">
-            <mxGeometry x="564.5" y="37" width="20" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="gUWtP375bY4jK0gCFB5f-94" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1 mapping file (xml) per sector and year (2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-91">
           <mxGeometry width="283.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-95" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Discarded for now&amp;nbsp; because errors in input data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-91">
-          <mxGeometry x="543.5" y="10" width="60" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-96" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-91">
-          <mxGeometry x="613.5" y="10" width="60" height="23" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-97">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-91">
@@ -578,12 +545,12 @@
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-114">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-91">
-            <mxGeometry x="639.5" y="35" width="20" height="20" as="geometry" />
+            <mxGeometry x="573" y="35" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;Tree cover sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-115">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-91">
-            <mxGeometry x="633.5" y="36" width="20" height="20" as="geometry" />
+            <mxGeometry x="567" y="36" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="gUWtP375bY4jK0gCFB5f-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.544;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" source="gUWtP375bY4jK0gCFB5f-92" target="gUWtP375bY4jK0gCFB5f-117">
@@ -602,21 +569,10 @@
           <mxGeometry x="413.5" y="866" width="683.5" height="94" as="geometry" />
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-119" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-118">
-          <mxGeometry x="-10" y="4" width="693.5" height="90" as="geometry" />
+          <mxGeometry x="-10" y="4" width="630" height="90" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot; style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-120">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-118">
-            <mxGeometry x="564.5" y="37" width="20" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="gUWtP375bY4jK0gCFB5f-121" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1 mapping file (ttl) per sector and per year (2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-118">
           <mxGeometry width="283.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-122" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Discarded for now&amp;nbsp; because errors in input data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-118">
-          <mxGeometry x="543.5" y="10" width="60" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-123" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-118">
-          <mxGeometry x="613.5" y="10" width="60" height="23" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-124">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-118">
@@ -703,28 +659,25 @@
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-141">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-118">
-            <mxGeometry x="639.5" y="35" width="20" height="20" as="geometry" />
+            <mxGeometry x="569.5" y="35" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;Tree cover sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-142">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-118">
-            <mxGeometry x="633.5" y="36" width="20" height="20" as="geometry" />
+            <mxGeometry x="563.5" y="36" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" source="gUWtP375bY4jK0gCFB5f-119" target="gUWtP375bY4jK0gCFB5f-144">
+        <mxCell id="gUWtP375bY4jK0gCFB5f-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" source="gUWtP375bY4jK0gCFB5f-119" target="gUWtP375bY4jK0gCFB5f-144">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="758.5" y="1011" as="sourcePoint" />
             <mxPoint x="743.5" y="1051" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="750" y="985" />
-              <mxPoint x="750" y="985" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-144" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Materialization of the mappings into RDF ntriples.&lt;/span&gt; &lt;span&gt;Tool&lt;/span&gt;: &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/54c247ef-1ea9-45b1-84f3-31e76dfa3177&quot;&gt;MorphKG&lt;/a&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;fontStyle=1" vertex="1" parent="gUWtP375bY4jK0gCFB5f-70">
           <mxGeometry x="636" y="1006" width="222" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.536;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" source="gUWtP375bY4jK0gCFB5f-117" target="gUWtP375bY4jK0gCFB5f-119">
+        <mxCell id="gUWtP375bY4jK0gCFB5f-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.536;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" source="gUWtP375bY4jK0gCFB5f-117" target="gUWtP375bY4jK0gCFB5f-119">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="757" y="842" as="sourcePoint" />
             <mxPoint x="750" y="881" as="targetPoint" />
@@ -739,21 +692,10 @@
           <mxGeometry x="426" y="1067" width="683.5" height="94" as="geometry" />
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-147" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-146">
-          <mxGeometry x="-10" y="4" width="693.5" height="90" as="geometry" />
+          <mxGeometry x="-10" y="4" width="640" height="90" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-size: 6px; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-148">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-146">
-            <mxGeometry x="564.5" y="37" width="20" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="gUWtP375bY4jK0gCFB5f-149" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1 file containing the RDF ntriples per sector and per year (2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-146">
           <mxGeometry y="4" width="279" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-150" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Discarded for now&amp;nbsp; because errors in input data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-146">
-          <mxGeometry x="543.5" y="10" width="60" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-151" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-146">
-          <mxGeometry x="613.5" y="10" width="60" height="23" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-152">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-146">
@@ -840,12 +782,12 @@
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-169">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-146">
-            <mxGeometry x="639.5" y="35" width="20" height="20" as="geometry" />
+            <mxGeometry x="577" y="35" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;Tree cover sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-170">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-146">
-            <mxGeometry x="633.5" y="36" width="20" height="20" as="geometry" />
+            <mxGeometry x="571" y="36" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="gUWtP375bY4jK0gCFB5f-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.48;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" source="gUWtP375bY4jK0gCFB5f-144" target="gUWtP375bY4jK0gCFB5f-147">
@@ -861,14 +803,11 @@
         <mxCell id="gUWtP375bY4jK0gCFB5f-172" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Create the Knowledge Graph by joining and uploading the RDF ntriples in &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/034dbe1e-ce4f-40ae-a29f-a83a476d220c&quot;&gt;GraphDB&lt;/a&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-70">
           <mxGeometry x="640" y="1199" width="220" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.481;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" source="gUWtP375bY4jK0gCFB5f-147" target="gUWtP375bY4jK0gCFB5f-172">
+        <mxCell id="gUWtP375bY4jK0gCFB5f-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" source="gUWtP375bY4jK0gCFB5f-147" target="gUWtP375bY4jK0gCFB5f-172">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750.5" y="1164" as="sourcePoint" />
             <mxPoint x="729" y="1186" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="750" y="1185" />
-              <mxPoint x="750" y="1185" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-174" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-70" target="gUWtP375bY4jK0gCFB5f-172">
@@ -1010,8 +949,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Final Aggregated emissions by&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;sector and year by cells (shapefiles)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/e4dd1b7f-e4d1-4f47-b05e-562b1ffd379e&quot; style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-193">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-175">
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Final Aggregated emissions by&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;sector and year by cells (shapefiles) (DRI)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/e4dd1b7f-e4d1-4f47-b05e-562b1ffd379e&quot; style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="gUWtP375bY4jK0gCFB5f-193">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=light-dark(#A3A3FF,var(--ge-dark-color, #121212));" vertex="1" parent="gUWtP375bY4jK0gCFB5f-175">
             <mxGeometry x="533" y="540" width="28" height="34" as="geometry" />
           </mxCell>
         </UserObject>
@@ -1041,12 +980,16 @@
             <mxPoint x="1127" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gUWtP375bY4jK0gCFB5f-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.353;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-2" source="cuJ28by3qQDjeVqu262e-12" target="gUWtP375bY4jK0gCFB5f-71">
+        <mxCell id="2xQJEnrQkDspXfVRTE-u-0" value="gestion solicitudes de acceso" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-175">
+          <mxGeometry x="308.5" y="589" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gUWtP375bY4jK0gCFB5f-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gUWtP375bY4jK0gCFB5f-2" source="cuJ28by3qQDjeVqu262e-12" target="gUWtP375bY4jK0gCFB5f-71">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="381.047" y="485.90999999999985" as="sourcePoint" />
             <mxPoint x="377.89" y="649" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="495" y="509" />
+              <mxPoint x="567" y="600" />
+              <mxPoint x="495" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1070,7 +1013,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-203" value="&lt;div&gt;Data publication and visualization&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-2">
-          <mxGeometry x="20" y="2639" width="1633" height="189" as="geometry" />
+          <mxGeometry x="20" y="2639" width="1633" height="220" as="geometry" />
         </mxCell>
         <mxCell id="gUWtP375bY4jK0gCFB5f-204" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Define the requirements of the dashboard and visualization service for the DecisionMakers. This data won&#39;t be available to the citizen.&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="gUWtP375bY4jK0gCFB5f-203">
           <mxGeometry x="210" y="26" width="152" height="64" as="geometry" />
@@ -1423,21 +1366,10 @@
           <mxGeometry x="420" y="670" width="683.5" height="94" as="geometry" />
         </mxCell>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-476" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-475">
-          <mxGeometry x="-10" y="4" width="693.5" height="90" as="geometry" />
+          <mxGeometry x="-10" y="4" width="630" height="90" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-size: 6px; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-477">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-475">
-            <mxGeometry x="564.5" y="37" width="20" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-478" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1 mapping file (xml) per sector and year (2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-475">
           <mxGeometry width="283.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="cUeV7uRaCyKnS77aiA3U-479" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Discarded for now&amp;nbsp; because errors in input data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-475">
-          <mxGeometry x="543.5" y="10" width="60" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="cUeV7uRaCyKnS77aiA3U-480" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-475">
-          <mxGeometry x="613.5" y="10" width="60" height="23" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-481">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-475">
@@ -1524,12 +1456,12 @@
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-498">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-475">
-            <mxGeometry x="639.5" y="35" width="20" height="20" as="geometry" />
+            <mxGeometry x="571" y="35" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;Tree cover sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-499">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-475">
-            <mxGeometry x="633.5" y="36" width="20" height="20" as="geometry" />
+            <mxGeometry x="565" y="36" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-500" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.544;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fVKOIIe36WZtbHT_SHKV-55" source="cUeV7uRaCyKnS77aiA3U-476" target="cUeV7uRaCyKnS77aiA3U-526">
@@ -1548,21 +1480,10 @@
           <mxGeometry x="413.5" y="865" width="683.5" height="94" as="geometry" />
         </mxCell>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-529" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-528">
-          <mxGeometry x="-10" y="4" width="693.5" height="90" as="geometry" />
+          <mxGeometry x="-10" y="4" width="640" height="90" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot; style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-530">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-528">
-            <mxGeometry x="564.5" y="37" width="20" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-531" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1 mapping file (ttl) per sector and per year (2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-528">
           <mxGeometry width="283.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="cUeV7uRaCyKnS77aiA3U-532" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Discarded for now&amp;nbsp; because errors in input data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-528">
-          <mxGeometry x="543.5" y="10" width="60" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="cUeV7uRaCyKnS77aiA3U-533" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-528">
-          <mxGeometry x="613.5" y="10" width="60" height="23" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-534">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-528">
@@ -1649,12 +1570,12 @@
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-551">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-528">
-            <mxGeometry x="639.5" y="35" width="20" height="20" as="geometry" />
+            <mxGeometry x="577.5" y="34" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;Tree cover sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-552">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-528">
-            <mxGeometry x="633.5" y="36" width="20" height="20" as="geometry" />
+            <mxGeometry x="571.5" y="35" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-553" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="fVKOIIe36WZtbHT_SHKV-55" source="cUeV7uRaCyKnS77aiA3U-529" target="cUeV7uRaCyKnS77aiA3U-554">
@@ -1670,7 +1591,7 @@
         <mxCell id="cUeV7uRaCyKnS77aiA3U-554" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Materialization of the mappings into RDF ntriples.&lt;/span&gt; &lt;span&gt;Tool&lt;/span&gt;: &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/54c247ef-1ea9-45b1-84f3-31e76dfa3177&quot;&gt;MorphKG&lt;/a&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;fontStyle=1" vertex="1" parent="fVKOIIe36WZtbHT_SHKV-55">
           <mxGeometry x="636" y="1006" width="222" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="cUeV7uRaCyKnS77aiA3U-556" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.536;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fVKOIIe36WZtbHT_SHKV-55" source="cUeV7uRaCyKnS77aiA3U-526" target="cUeV7uRaCyKnS77aiA3U-529">
+        <mxCell id="cUeV7uRaCyKnS77aiA3U-556" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.536;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fVKOIIe36WZtbHT_SHKV-55" source="cUeV7uRaCyKnS77aiA3U-526" target="cUeV7uRaCyKnS77aiA3U-529">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="757" y="842" as="sourcePoint" />
             <mxPoint x="750" y="881" as="targetPoint" />
@@ -1685,21 +1606,10 @@
           <mxGeometry x="426" y="1067" width="683.5" height="94" as="geometry" />
         </mxCell>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-558" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-557">
-          <mxGeometry x="-10" y="4" width="693.5" height="90" as="geometry" />
+          <mxGeometry x="-10" y="4" width="640" height="90" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-size: 6px; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-559">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-557">
-            <mxGeometry x="564.5" y="37" width="20" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-560" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1 file containing the RDF ntriples per sector and per year (2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-557">
           <mxGeometry y="4" width="279" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="cUeV7uRaCyKnS77aiA3U-561" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Discarded for now&amp;nbsp; because errors in input data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-557">
-          <mxGeometry x="543.5" y="10" width="60" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="cUeV7uRaCyKnS77aiA3U-562" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-557">
-          <mxGeometry x="613.5" y="10" width="60" height="23" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-563">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-557">
@@ -1786,12 +1696,12 @@
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-580">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-557">
-            <mxGeometry x="639.5" y="35" width="20" height="20" as="geometry" />
+            <mxGeometry x="575" y="35" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;Tree cover sector&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;link to dataset metadata&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-581">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="cUeV7uRaCyKnS77aiA3U-557">
-            <mxGeometry x="633.5" y="36" width="20" height="20" as="geometry" />
+            <mxGeometry x="569" y="36" width="20" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="cUeV7uRaCyKnS77aiA3U-582" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.48;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fVKOIIe36WZtbHT_SHKV-55" source="cUeV7uRaCyKnS77aiA3U-554" target="cUeV7uRaCyKnS77aiA3U-558">
@@ -1807,14 +1717,11 @@
         <mxCell id="cUeV7uRaCyKnS77aiA3U-583" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Create the Knowledge Graph by joining and uploading the RDF ntriples in &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/034dbe1e-ce4f-40ae-a29f-a83a476d220c&quot;&gt;GraphDB&lt;/a&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="fVKOIIe36WZtbHT_SHKV-55">
           <mxGeometry x="640" y="1199" width="220" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="cUeV7uRaCyKnS77aiA3U-584" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.481;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fVKOIIe36WZtbHT_SHKV-55" source="cUeV7uRaCyKnS77aiA3U-558" target="cUeV7uRaCyKnS77aiA3U-583">
+        <mxCell id="cUeV7uRaCyKnS77aiA3U-584" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fVKOIIe36WZtbHT_SHKV-55" source="cUeV7uRaCyKnS77aiA3U-558" target="cUeV7uRaCyKnS77aiA3U-583">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750.5" y="1164" as="sourcePoint" />
             <mxPoint x="729" y="1186" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="750" y="1185" />
-              <mxPoint x="750" y="1185" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gF8sLtPpWvlW-jnVyOqd-4" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fVKOIIe36WZtbHT_SHKV-55" target="cUeV7uRaCyKnS77aiA3U-583">
@@ -1953,7 +1860,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Final Aggregated emissions by&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;sector and year (shapefiles)&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/eac98d99-4576-4fac-8f74-4102b1d5363c&quot; style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-608">
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px;&quot;&gt;&lt;b&gt;Final Aggregated emissions by sector and year by districts&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px;&quot;&gt;&lt;b&gt;(shapefile)&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/eac98d99-4576-4fac-8f74-4102b1d5363c&quot; style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="cUeV7uRaCyKnS77aiA3U-608">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="fVKOIIe36WZtbHT_SHKV-62">
             <mxGeometry x="533" y="540" width="28" height="34" as="geometry" />
           </mxCell>
@@ -2168,18 +2075,10 @@
           <mxGeometry x="220" y="-4401" width="1038" height="130" as="geometry" />
         </mxCell>
         <mxCell id="reJoo4RcGOVQgid5lGMx-38" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="reJoo4RcGOVQgid5lGMx-37">
-          <mxGeometry x="-12.506024096385543" y="5.53" width="1050.5060240963855" height="124.47" as="geometry" />
+          <mxGeometry x="-12.51" y="5.53" width="932.51" height="124.47" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot; style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="reJoo4RcGOVQgid5lGMx-39">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="reJoo4RcGOVQgid5lGMx-37">
-            <mxGeometry x="877.2975903614458" y="51.17021276595745" width="25.012048192771086" height="27.659574468085108" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="reJoo4RcGOVQgid5lGMx-40" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Input data:&amp;nbsp; 2 XLSX Files per sector (years 2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="reJoo4RcGOVQgid5lGMx-37">
           <mxGeometry width="365.1759036144578" height="41.48936170212766" as="geometry" />
-        </mxCell>
-        <mxCell id="reJoo4RcGOVQgid5lGMx-41" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="reJoo4RcGOVQgid5lGMx-37">
-          <mxGeometry x="867.2927710843375" y="13.829787234042554" width="75.03614457831326" height="31.808510638297875" as="geometry" />
         </mxCell>
         <mxCell id="reJoo4RcGOVQgid5lGMx-42" value="" style="group" connectable="0" vertex="1" parent="reJoo4RcGOVQgid5lGMx-37">
           <mxGeometry x="31.890361445783135" y="45.638297872340424" width="34.39156626506024" height="31.808510638297882" as="geometry" />
@@ -2247,7 +2146,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="reJoo4RcGOVQgid5lGMx-57" value="" style="group" connectable="0" vertex="1" parent="reJoo4RcGOVQgid5lGMx-37">
-          <mxGeometry x="964.8397590361446" y="48.40425531914894" width="32.51566265060241" height="29.042553191489368" as="geometry" />
+          <mxGeometry x="849.9997590361446" y="47.78425531914894" width="32.51566265060241" height="29.042553191489368" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="reJoo4RcGOVQgid5lGMx-58">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="reJoo4RcGOVQgid5lGMx-57">
@@ -2309,9 +2208,6 @@
             <mxGeometry y="2.765957446808507" width="20" height="27.659574468085108" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="reJoo4RcGOVQgid5lGMx-72" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2019&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="reJoo4RcGOVQgid5lGMx-37">
-          <mxGeometry x="676.0027710843374" y="22.82978723404267" width="75.03614457831326" height="31.808510638297875" as="geometry" />
-        </mxCell>
         <mxCell id="I6kJKMpnUkkcvJrvAT3o-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.478;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="I6kJKMpnUkkcvJrvAT3o-66">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="474" y="-4270" as="sourcePoint" />
@@ -2323,18 +2219,10 @@
           <mxGeometry x="217" y="-4130" width="980" height="130" as="geometry" />
         </mxCell>
         <mxCell id="TdP23XZit970ca6EiSvc-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TdP23XZit970ca6EiSvc-1">
-          <mxGeometry x="-10" y="5.53" width="990" height="124.47" as="geometry" />
+          <mxGeometry x="-10" y="5.53" width="870" height="124.47" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Institutional sector&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 151, 125);&quot;&gt;&lt;span style=&quot;font-size: 6px; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-size: 6px; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/spa/catalog.search#/metadata/e67c7d16-e67e-4864-8f0d-23e54a13a388&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="TdP23XZit970ca6EiSvc-3">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;fillColor=#FF977D;" vertex="1" parent="TdP23XZit970ca6EiSvc-1">
-            <mxGeometry x="818.5" y="51.17021276595745" width="20" height="27.659574468085108" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="TdP23XZit970ca6EiSvc-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2 CSV Files refined per sector (years 2019 and 2021)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="TdP23XZit970ca6EiSvc-1">
           <mxGeometry width="292" height="41.48936170212766" as="geometry" />
-        </mxCell>
-        <mxCell id="TdP23XZit970ca6EiSvc-5" value="&lt;font style=&quot;background-color: rgb(255, 151, 125); font-size: 6px;&quot;&gt;Only data from 2021&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TdP23XZit970ca6EiSvc-1">
-          <mxGeometry x="810.5" y="13.829787234042554" width="60" height="31.808510638297875" as="geometry" />
         </mxCell>
         <mxCell id="TdP23XZit970ca6EiSvc-6" value="" style="group" connectable="0" vertex="1" parent="TdP23XZit970ca6EiSvc-1">
           <mxGeometry x="25.5" y="45.638297872340424" width="27.5" height="31.808510638297882" as="geometry" />
@@ -2447,7 +2335,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="TdP23XZit970ca6EiSvc-32" value="" style="group" connectable="0" vertex="1" parent="TdP23XZit970ca6EiSvc-1">
-          <mxGeometry x="899.5" y="48.40425531914894" width="26" height="29.042553191489368" as="geometry" />
+          <mxGeometry x="803" y="48.40425531914894" width="26" height="29.042553191489368" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="TdP23XZit970ca6EiSvc-33">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=7;html=1;" vertex="1" parent="TdP23XZit970ca6EiSvc-32">
