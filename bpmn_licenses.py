@@ -5,12 +5,13 @@ from pathlib import Path
 from time import sleep
 from typing import Generator
 
-import requests
-from bs4 import BeautifulSoup
 from lxml import etree
-from rdflib import Graph, DCTERMS
+from rdflib import Graph, DCTERMS, RDF, DCAT
+from requests_cache import CachedSession
 
 html_parser = etree.HTMLParser()
+
+session = CachedSession('requests_cache')
 
 def extract_licenses(fn: Path) -> Generator[dict, None, None]:
     links = set()
@@ -27,14 +28,18 @@ def extract_licenses(fn: Path) -> Generator[dict, None, None]:
             links.add(a.get('href'))
 
     for link in links:
+        link = link.replace('/igiljugb/', '/srv/')
+
         if not '/srv/' in link:
             print('Skipping {}'.format(link), file=sys.stderr)
+            yield {
+                'url': link,
+                'error': 'Unknown or unprocessable link',
+            }
             continue
 
         if throttle:
             sleep(0.3)
-        else:
-            throttle = True
 
         srv_url = re.sub(r'/srv/.*$', '/srv', link)
         dataset_id = re.search(r'([a-z0-9]+-)+[a-z0-9]+', link, flags=re.IGNORECASE).group(0)
@@ -52,7 +57,8 @@ def extract_licenses(fn: Path) -> Generator[dict, None, None]:
             'url': f"{srv_url}/eng/catalog.search#/metadata/{dataset_id}",
         }
         try:
-            r = requests.get(url, params=params)
+            r = session.get(url, params=params)
+            throttle = not r.from_cache
             error = None
             if not r.ok:
                 print(f'Error fetching dataset {dataset_id} from {srv_url}: {r.status_code} {r.reason}', file=sys.stderr)
@@ -74,12 +80,14 @@ def extract_licenses(fn: Path) -> Generator[dict, None, None]:
                 else:
                     rdf_elem = resp.getchildren()[0]
                     g = Graph().parse(data=etree.tostring(rdf_elem).decode('utf-8'), format='xml')
-                    licenses = [str(l) for l in g.objects(predicate=DCTERMS.license) if str(l) and str(l) not in ('license',)]
-                    title = next(g.objects(predicate=DCTERMS.title), None)
-                    if title:
-                        title = str(title).strip()
-                    row['title'] = title
-                    row['licenses'] = '\n'.join(licenses)
+                    for dataset in g.subjects(RDF.type, DCAT.Dataset, True):
+                        licenses = [str(l) for l in g.objects(dataset, DCTERMS.license)
+                                    if str(l) and str(l) not in ('license',)]
+                        title = next(g.objects(dataset, DCTERMS.title), None)
+                        if title:
+                            title = str(title).strip()
+                        row['title'] = title
+                        row['licenses'] = '\n'.join(licenses)
             row['error'] = error
             yield row
         except Exception as e:
