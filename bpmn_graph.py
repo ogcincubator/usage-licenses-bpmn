@@ -60,19 +60,20 @@ def create_graphs(fn: Path):
     root = doc.getroot()
 
     graphs = []
-    shapes = set()
+    skipped_nodes = set()
     diagrams = root.findall("./diagram")
     for diagram in diagrams:
         nodes = {}
         g = Graph()
         for e in diagram.findall('.//*[@vertex="1"]'):
+            node_id = e.get('id') or e.getparent().get('id')
             style = dict(x.split('=') for x in e.get('style').split(';') if '=' in x)
             shape = style.get('shape')
             if not shape or shape not in USED_SHAPES:
+                skipped_nodes.add(node_id)
                 continue
 
             label = e.get('value') or e.getparent().get('label')
-            node_id = e.get('id') or e.getparent().get('id')
             parsed_label, links = extract_label(label)
 
             node = {
@@ -116,6 +117,9 @@ def create_graphs(fn: Path):
             source, target = e.get('source'), e.get('target')
             if not source or not target:
                 print(f"WARNING: Edge {e.get('id')} has source={source}, target={target}", file=sys.stderr)
+                continue
+            if source in skipped_nodes or target in skipped_nodes:
+                # Skipping events
                 continue
 
             source_node, target_node = nodes.get(source), nodes.get(target)
