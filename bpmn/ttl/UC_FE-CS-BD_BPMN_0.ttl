@@ -1,0 +1,174 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://usage.geocat.live/catalogue/srv/api/records/179894de-144d-4c0c-9a87-52f2431d5d95> a prov:Entity ;
+    rdfs:label "Pollinators" ;
+    prov:wasGeneratedBy _:Nae17ac2f8d9342969d459ff6035f5ae5 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/2509d0d4-2946-4f74-b600-2c9d20d6d17a> a prov:Entity ;
+    rdfs:label "Trees species raster (pixel based)" ;
+    prov:wasGeneratedBy _:Nbdd8d585984443d084af6d871c40b09f .
+
+<https://usage.geocat.live/catalogue/srv/api/records/799a2f82-902f-435f-80c6-a1bc545c49c6> a prov:Entity ;
+    rdfs:label "Protected areas (Natura 2000, etc.)" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/809fc09c-9bbc-4e33-817d-b06d9d4abd77> a prov:Entity ;
+    rdfs:label "Road surfaces" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/8ef2226c-7a3e-45cd-9a56-ff7ff7f6ff5d> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "link to tool metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/9288b9bd-f4af-4f56-9e48-dff8d1c4face> a prov:Entity ;
+    rdfs:label "Tree cadaster" ;
+    prov:wasGeneratedBy _:N6c013605543a46dfb3e71e51eacb77c9 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/a482dbaa-ba7e-43d5-ad4d-5a9638b40637> a prov:Entity ;
+    rdfs:label "Ground and roof surface materials" ;
+    prov:wasGeneratedBy _:Na558edbe0365458792b3a0ae2268fad4 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/a71f0877-1b9d-4471-8124-6475e7545ceb> a prov:Entity ;
+    rdfs:label "Trees canopies (polygons) and points" ;
+    prov:wasGeneratedBy _:Nc57f01e4a348408a9f189d513655be79 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/b02556cf-89e6-461e-b8eb-e1898823838f> a prov:Entity ;
+    rdfs:label "Vegetation indexes (e.g. NDVI)" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/cedf359a-8389-4835-8b45-c9ab1720bffd> a prov:Entity ;
+    rdfs:label "Biodiversity" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/da7dc732-d338-491f-819e-0e455faaae17> a prov:Entity ;
+    rdfs:label "Areas of ecological rebalancing)" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/0f9c9ad5-e3e8-4fb2-88e9-422908c2c9e2> a prov:Entity ;
+    rdfs:label "Data registered in iNaturalist",
+        "Roadkill" ;
+    prov:wasGeneratedBy _:N41db48e1836c432cb1e695bb78c6661a,
+        _:Nae17ac2f8d9342969d459ff6035f5ae5,
+        _:Ndebaee8fa6974a919e7485f25460c316 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/1a0d3f9f-c877-4d36-aec7-461b4647c640> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Tree species classification",
+        "link to tools metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/684b76aa-101f-48a2-9c32-7f63f279cf9b> a prov:Entity ;
+    rdfs:label "Citizen Science observation areas (Biotopes): Layer of 'priority areas' of interest",
+        "Citizen Science observation areas (Biotopes)" ;
+    prov:wasGeneratedBy _:Nf9f53ecccccf4a0485ab7b77a7bb1611 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/bc80bcfb-f193-4d86-aa17-5fb4aa3ce8cc> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "link to tool metadata",
+        "link to tools metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> a prov:Entity ;
+    rdfs:label "aerial hyperspectral images" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to tool metadata",
+        "ink to tools metadata",
+        "link to tool metadata" .
+
+[] a prov:Activity ;
+    rdfs:label "Action/processing step" .
+
+[] a prov:Activity ;
+    rdfs:label "Publish data stories. Tool? Link to tools metadata missing" ;
+    prov:wasInformedBy [ a prov:Activity ;
+            rdfs:label "Publish data for visualization and interaction with citizens. Open data portal Link to tools metadata (https://dati.comune.fe.it) GeoNext Link to tools metadata (https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f4fe374e-0a56-4910-9f3a-e8b7519c373e)" ;
+            prov:used <https://usage.geocat.live/catalogue/srv/api/records/0f9c9ad5-e3e8-4fb2-88e9-422908c2c9e2>,
+                <https://usage.geocat.live/catalogue/srv/api/records/179894de-144d-4c0c-9a87-52f2431d5d95>,
+                <https://usage.geocat.live/catalogue/srv/api/records/cedf359a-8389-4835-8b45-c9ab1720bffd> ;
+            prov:wasInformedBy _:Nae17ac2f8d9342969d459ff6035f5ae5 ] .
+
+[] a prov:Entity ;
+    rdfs:label "intermediate/source asset" .
+
+[] a prov:Entity ;
+    rdfs:label "DRI asset" .
+
+_:N4d51d464ccc04ec7b297aaba3b6e7087 a <http://example.org/usage/prov/MergeActivity>,
+        prov:Activity ;
+    rdfs:label "Merge entities" ;
+    prov:wasInformedBy _:N6c013605543a46dfb3e71e51eacb77c9,
+        _:Na558edbe0365458792b3a0ae2268fad4 .
+
+_:N95c11ed78baf43e68136d92ada9ac2cc a prov:Entity ;
+    rdfs:label "Biotopes by Natural History Museum link to dataset metadata (https://usage.geocat.live/)" .
+
+_:Nacde179d1d294f3ba2b877b728c4b924 a prov:Activity ;
+    rdfs:label "iNaturalist: Participate to meetings with the owners of the projects to have explanations about the projects themselves and about the use of the app iNaturalist. iNaturalist (" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bc80bcfb-f193-4d86-aa17-5fb4aa3ce8cc> .
+
+_:Nff1d5931bb42456a8bb671599c461733 a prov:Activity ;
+    rdfs:label "Subscribe to the website iNaturalist.org, download  the mobile app iNaturalist and practice in their use; practice with the method and the forms used to collect data on pollinators. iNaturalist (app+website) (" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/8ef2226c-7a3e-45cd-9a56-ff7ff7f6ff5d> ;
+    prov:wasInformedBy _:Nacde179d1d294f3ba2b877b728c4b924 .
+
+_:N41db48e1836c432cb1e695bb78c6661a a prov:Activity ;
+    rdfs:label "View/download data collected and analyse them. iNaturalist website, QGIS, uMap" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/0f9c9ad5-e3e8-4fb2-88e9-422908c2c9e2> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> ;
+    prov:wasInformedBy _:Ndebaee8fa6974a919e7485f25460c316 .
+
+_:N56afc54006a343f2b51864f6ed02e783 a prov:Entity ;
+    rdfs:label "Ortofoto Agea 2020link to dataset metadata (https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/cartografia-di-base/service-34)" .
+
+_:N6c013605543a46dfb3e71e51eacb77c9 a prov:Activity ;
+    rdfs:label "Combine raster and vector information (QGis)" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/2509d0d4-2946-4f74-b600-2c9d20d6d17a>,
+        <https://usage.geocat.live/catalogue/srv/api/records/a71f0877-1b9d-4471-8124-6475e7545ceb> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> ;
+    prov:wasInformedBy _:Nbdd8d585984443d084af6d871c40b09f,
+        _:Nc57f01e4a348408a9f189d513655be79 .
+
+_:Na558edbe0365458792b3a0ae2268fad4 a prov:Activity ;
+    rdfs:label "classify hyperspectral images per surface materialSurface_materials classification (Surface materials classification)" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
+    prov:wasInformedBy _:Na2dfc2c3d883400b8ab1d99b7ddc51a2 .
+
+_:Nbdd8d585984443d084af6d871c40b09f a prov:Activity ;
+    rdfs:label "classify hyperspectral images per tree species" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1a0d3f9f-c877-4d36-aec7-461b4647c640> ;
+    prov:wasInformedBy _:Na2dfc2c3d883400b8ab1d99b7ddc51a2 .
+
+_:Nc57f01e4a348408a9f189d513655be79 a prov:Activity ;
+    rdfs:label "Tree species classification from hyperspectral aerial images (DL/algorithm)" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1a0d3f9f-c877-4d36-aec7-461b4647c640> ;
+    prov:wasInformedBy _:Na2dfc2c3d883400b8ab1d99b7ddc51a2 .
+
+_:Ndebaee8fa6974a919e7485f25460c316 a prov:Activity ;
+    rdfs:label "Collect data, if possible together with photographs (not always possible in roadkill projects), and upload the observations on the iNaturalist website, adding them to the specific projects on the platform. iNaturalist app/website (" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/684b76aa-101f-48a2-9c32-7f63f279cf9b> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bc80bcfb-f193-4d86-aa17-5fb4aa3ce8cc> ;
+    prov:wasInformedBy _:Nf9f53ecccccf4a0485ab7b77a7bb1611 .
+
+_:Nf9f53ecccccf4a0485ab7b77a7bb1611 a prov:Activity ;
+    rdfs:label "Identification and characterization or areas of higher interest for citizen science activity with Desktop GIS" ;
+    prov:used _:N56afc54006a343f2b51864f6ed02e783,
+        _:N95c11ed78baf43e68136d92ada9ac2cc,
+        <https://usage.geocat.live/catalogue/srv/api/records/799a2f82-902f-435f-80c6-a1bc545c49c6>,
+        <https://usage.geocat.live/catalogue/srv/api/records/da7dc732-d338-491f-819e-0e455faaae17> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> ;
+    prov:wasInformedBy _:Nff1d5931bb42456a8bb671599c461733 .
+
+_:Na2dfc2c3d883400b8ab1d99b7ddc51a2 a <http://example.org/usage/prov/MergeActivity>,
+        prov:Activity ;
+    rdfs:label "Merge entities" ;
+    prov:wasInformedBy _:N41db48e1836c432cb1e695bb78c6661a .
+
+_:Nae17ac2f8d9342969d459ff6035f5ae5 a prov:Activity ;
+    rdfs:label "Run spatial analysis and calculate indexes and to make statistics and graphs QGIS (other software?)" ;
+    prov:used _:N56afc54006a343f2b51864f6ed02e783,
+        <https://usage.geocat.live/catalogue/srv/api/records/684b76aa-101f-48a2-9c32-7f63f279cf9b>,
+        <https://usage.geocat.live/catalogue/srv/api/records/809fc09c-9bbc-4e33-817d-b06d9d4abd77>,
+        <https://usage.geocat.live/catalogue/srv/api/records/9288b9bd-f4af-4f56-9e48-dff8d1c4face>,
+        <https://usage.geocat.live/catalogue/srv/api/records/a482dbaa-ba7e-43d5-ad4d-5a9638b40637>,
+        <https://usage.geocat.live/catalogue/srv/api/records/b02556cf-89e6-461e-b8eb-e1898823838f> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> ;
+    prov:wasInformedBy _:N4d51d464ccc04ec7b297aaba3b6e7087 .
+

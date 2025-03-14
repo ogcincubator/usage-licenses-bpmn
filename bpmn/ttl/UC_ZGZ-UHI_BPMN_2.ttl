@@ -1,0 +1,210 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://usage.geocat.live/catalogue/srv/api/records/1143ab2e-5f6a-4958-baf5-3e68d23dc9f4> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "spatial interpolation" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/558a09a9-73ae-4519-a574-dbb58a306778> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Quality control" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/64646d7a-906a-418e-8c29-708c110b81a0> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "UHI_detection" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/80fd5dcb-2dbf-4fca-aff4-1a8a85507905> a prov:Entity ;
+    rdfs:label "Green Leaf Index (GLI) calculated and used for the estimation of UHI of Zaragoza" ;
+    prov:wasGeneratedBy _:Nfbd365accf1c4c869b17831a52c9cfe0 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/e4fbf560-3025-46d4-aba4-8c87d8dd8ffa> a prov:Entity ;
+    rdfs:label "Normalized Built-up Area Index (NBAI) calculated and used for the estimation of UHI of Zaragoza",
+        "Normalized Difference Turbidity Index (NDTI) calculated and used for the estimation of UHI of Zaragoza",
+        "Sky View Factor (SVF) calculated and used for the estimation of UHI of Zaragoza" ;
+    prov:wasGeneratedBy _:N5ce40a5634eb485d8689393b36448090,
+        _:Nbde5f8ebc67e442ca84e833e8a06db42,
+        _:Nd1c635b5f78a489abedee11cdd8c9b03 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> a prov:Entity ;
+    rdfs:label "Landsat 8/9 images" .
+
+[] a prov:Activity ;
+    rdfs:label "A visualization service that allows to present the previously obtained data (sentinel data, sensor data, other intermediate products) together with other datasets which may influence the citizens’ behaviour, technicians analysis and politicians decisions. Users: citizens, technicians, politicians;Data download through API Zaragoza. To allow:Technicians to download data;Administrators to process the data , by combining them with others. IDEZar temperature display; API REST through the web tool Swagger (existing); UHI visualisation service. Links to tools metadata missing" ;
+    prov:used [ a prov:Entity ;
+            rdfs:label "Census data missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+        _:N2040652383c343b1b7e695cdf0e20127,
+        _:N2bf6c4359b04479f971b522c153db847,
+        _:N31da973d46c346f9a87c688d10082d54,
+        _:N37049bcc991f41f2ae131644b7d51887,
+        [ a prov:Entity ;
+            rdfs:label "Dataset on the city's taps and fountains missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
+        [ a prov:Entity ;
+            rdfs:label "Harmonised datasetsmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+            prov:wasGeneratedBy _:N0ce049b84d0c441da2982c47b1de4f82 ],
+        [ a prov:Entity ;
+            rdfs:label "Green areas (municipal), tree and Shrubs missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ] ;
+    prov:wasInformedBy [ a <http://example.org/usage/prov/MergeActivity>,
+                prov:Activity ;
+            rdfs:label "Merge entities" ;
+            prov:wasInformedBy _:N0ce049b84d0c441da2982c47b1de4f82,
+                _:N666d2468cf234f2188a80a42771d4eed ] .
+
+[] a prov:Entity ;
+    rdfs:label "Urban Heat Islandsmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+    prov:wasGeneratedBy _:N666d2468cf234f2188a80a42771d4eed .
+
+_:N05d389cb33d34f16b04f39e630d4c4d5 a prov:Entity ;
+    rdfs:label "Housing datasetmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:N0cfc39a615f94758a6f3c7d8e159ad9b a prov:Entity ;
+    rdfs:label "Demographic datamissing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:N1a6525d7aa96438caae22f323af3b7e3 a prov:Entity ;
+    rdfs:label "Populationmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:N23204091c80b4e4b9acc91a59eb93086 a prov:Entity ;
+    rdfs:label "Vulnerability indicator missing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:N42300110fa7348398482647e4834c531 a prov:Entity ;
+    rdfs:label "Urban scenario missing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:N74d665b7d77544ca93371053d90070f8 a prov:Entity ;
+    rdfs:label "Thermo-hygrometric sensor data, hourly (already existing): Air temperature and humiditymissing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:N7aafb24b4a0c45579c2f2e2b3d4ec151 a prov:Entity ;
+    rdfs:label "Lidar datamissing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:N8e81c9d56eb147fb80a88e93d5d8479d a prov:Entity ;
+    rdfs:label "Environmental and vulnerability indicatorsmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+    prov:wasGeneratedBy _:N0f34c8d19fa44dc5a0fdaa08f6756f37 .
+
+_:Na8fd40578a6c424fbfa49a29fc5e5d2a a <http://example.org/usage/prov/MergeActivity>,
+        prov:Activity ;
+    rdfs:label "Merge entities" ;
+    prov:wasInformedBy _:N5ce40a5634eb485d8689393b36448090,
+        _:N643220c4ae784eb69a0be372acb0042f,
+        _:Nbde5f8ebc67e442ca84e833e8a06db42,
+        _:Nd1c635b5f78a489abedee11cdd8c9b03,
+        _:Nfbd365accf1c4c869b17831a52c9cfe0 .
+
+_:Nb109c2d04aa7401ebed9d24ca9f610b6 a prov:Entity ;
+    rdfs:label "Mobility missing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:Nb798ad59c8254435840f704c433decb4 a prov:Entity ;
+    rdfs:label "Analysis-ready sensor thermohygrometric data aboutmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+    prov:wasGeneratedBy _:N643220c4ae784eb69a0be372acb0042f .
+
+_:Nbadb52692e95441c9a54357fa19aebdc a prov:Entity ;
+    rdfs:label "Equipment missing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:Nca538094a0ae4342bcf5ee1b2503c66e a prov:Entity ;
+    rdfs:label "Digital Terrain Model (DTM) calculated and used for the estimation of UHI of Zaragozalink to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:Nd356d1044b9d46e291ca96efb36459fb a prov:Entity ;
+    rdfs:label "Citizens data about comfort(mapa de emociones)missing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:Ne7994bd7546a454092c2c8e0047ac7d0 a prov:Entity ;
+    rdfs:label "Income datasetmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:Nf79d767aeffb45018766086e03d3a368 a prov:Entity ;
+    rdfs:label "Comfort level datamissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+    prov:wasGeneratedBy _:N07e234ca06634f1fb1b613b7d5f29f85 .
+
+_:N07e234ca06634f1fb1b613b7d5f29f85 a prov:Activity ;
+    rdfs:label "Define comfort in the city Tool? Link to tool metadata missing" ;
+    prov:used _:N2040652383c343b1b7e695cdf0e20127,
+        _:N31da973d46c346f9a87c688d10082d54,
+        _:N37049bcc991f41f2ae131644b7d51887,
+        _:Nd356d1044b9d46e291ca96efb36459fb ;
+    prov:wasInformedBy _:Nbc5b7a9e93914167960bb81b8021f37e .
+
+_:N0ce049b84d0c441da2982c47b1de4f82 a prov:Activity ;
+    rdfs:label "Harmonise data towards a common (and well documented) data model, including vocabularies Data transformation Tool (e.g. hale studio); tool to manage vocabularies (e.g. Re3gistry?) Link to tool metadata missing" ;
+    prov:used _:N2bf6c4359b04479f971b522c153db847,
+        _:N8e81c9d56eb147fb80a88e93d5d8479d ;
+    prov:wasInformedBy _:N0f34c8d19fa44dc5a0fdaa08f6756f37 .
+
+_:N0f34c8d19fa44dc5a0fdaa08f6756f37 a prov:Activity ;
+    rdfs:label "Identify which indicators you want to publish, then find the methodology for their calculation. Tool? Link to tool metadata missing" ;
+    prov:used _:N05d389cb33d34f16b04f39e630d4c4d5,
+        _:N0cfc39a615f94758a6f3c7d8e159ad9b,
+        _:N1a6525d7aa96438caae22f323af3b7e3,
+        _:N2040652383c343b1b7e695cdf0e20127,
+        _:N23204091c80b4e4b9acc91a59eb93086,
+        _:N31da973d46c346f9a87c688d10082d54,
+        _:N37049bcc991f41f2ae131644b7d51887,
+        _:N42300110fa7348398482647e4834c531,
+        _:Nb109c2d04aa7401ebed9d24ca9f610b6,
+        _:Nbadb52692e95441c9a54357fa19aebdc,
+        _:Ne7994bd7546a454092c2c8e0047ac7d0,
+        _:Nf79d767aeffb45018766086e03d3a368 ;
+    prov:wasInformedBy _:N07e234ca06634f1fb1b613b7d5f29f85 .
+
+_:N2bf6c4359b04479f971b522c153db847 a prov:Entity ;
+    rdfs:label "Ambient temperature from the thermo-hygrometric sensor network missing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
+
+_:N5ce40a5634eb485d8689393b36448090 a prov:Activity ;
+    rdfs:label "Calculate Sky View Factor (SVF) from LiDAR data. Tool? Link to tool metadata missing" ;
+    prov:used _:N7aafb24b4a0c45579c2f2e2b3d4ec151 ;
+    prov:wasInformedBy _:N268503dac5ad45df873d01880e912943 .
+
+_:N643220c4ae784eb69a0be372acb0042f a prov:Activity ;
+    rdfs:label "Preprocess sensor data" ;
+    prov:used _:N74d665b7d77544ca93371053d90070f8 ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/558a09a9-73ae-4519-a574-dbb58a306778> ;
+    prov:wasInformedBy _:N268503dac5ad45df873d01880e912943 .
+
+_:N666d2468cf234f2188a80a42771d4eed a prov:Activity ;
+    rdfs:label "Identify Urban heat islands (how???) Tool? Link to tool metadata missing" ;
+    prov:used _:N2040652383c343b1b7e695cdf0e20127,
+        _:N31da973d46c346f9a87c688d10082d54,
+        _:N37049bcc991f41f2ae131644b7d51887 ;
+    prov:wasInformedBy _:Nbc5b7a9e93914167960bb81b8021f37e .
+
+_:Nbc5b7a9e93914167960bb81b8021f37e a <http://example.org/usage/prov/MergeActivity>,
+        prov:Activity ;
+    rdfs:label "Merge entities" ;
+    prov:wasInformedBy _:N0ce22b106c2d4d79a3a7d0758ed125a3 .
+
+_:Nbde5f8ebc67e442ca84e833e8a06db42 a prov:Activity ;
+    rdfs:label "Calculate Normalised Build-up Area Index (NBAI) Tool? Link to tool metadata missing" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
+    prov:wasInformedBy _:N268503dac5ad45df873d01880e912943 .
+
+_:Nd1c635b5f78a489abedee11cdd8c9b03 a prov:Activity ;
+    rdfs:label "Calculate Normalized Difference Turbidity Index (NDTI). Tool? Link to tool metadata missing" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
+    prov:wasInformedBy _:N268503dac5ad45df873d01880e912943 .
+
+_:Nfbd365accf1c4c869b17831a52c9cfe0 a prov:Activity ;
+    rdfs:label "Calculate Green Leaf Index (GLI) Tool? Link to tool metadata missing" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
+    prov:wasInformedBy _:N268503dac5ad45df873d01880e912943 .
+
+_:N0ce22b106c2d4d79a3a7d0758ed125a3 a prov:Activity ;
+    rdfs:label "Produce an ambient [air or surface??] temperature raster layer from urban morphology and sensor measurements" ;
+    prov:used _:Nb798ad59c8254435840f704c433decb4,
+        _:Nca538094a0ae4342bcf5ee1b2503c66e,
+        <https://usage.geocat.live/catalogue/srv/api/records/80fd5dcb-2dbf-4fca-aff4-1a8a85507905>,
+        <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977>,
+        <https://usage.geocat.live/catalogue/srv/api/records/e4fbf560-3025-46d4-aba4-8c87d8dd8ffa> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1143ab2e-5f6a-4958-baf5-3e68d23dc9f4>,
+        <https://usage.geocat.live/catalogue/srv/api/records/64646d7a-906a-418e-8c29-708c110b81a0> ;
+    prov:wasInformedBy _:Na8fd40578a6c424fbfa49a29fc5e5d2a .
+
+_:N2040652383c343b1b7e695cdf0e20127 a prov:Entity ;
+    rdfs:label "Missing dataset titlemissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+    prov:wasGeneratedBy _:N0ce22b106c2d4d79a3a7d0758ed125a3 .
+
+_:N31da973d46c346f9a87c688d10082d54 a prov:Entity ;
+    rdfs:label "Missing dataset titlemissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+    prov:wasGeneratedBy _:N0ce22b106c2d4d79a3a7d0758ed125a3 .
+
+_:N37049bcc991f41f2ae131644b7d51887 a prov:Entity ;
+    rdfs:label "Missing dataset titlemissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ;
+    prov:wasGeneratedBy _:N0ce22b106c2d4d79a3a7d0758ed125a3 .
+
+_:N268503dac5ad45df873d01880e912943 a <http://example.org/usage/prov/MergeActivity>,
+        prov:Activity ;
+    rdfs:label "Merge entities" .
+
