@@ -33,7 +33,7 @@ def extract_label(label: str):
     first_link = soup.find_next('a')
     links = []
     if first_link:
-        if '/srv/' in first_link['href']:
+        if '/srv/' in first_link['href'] or 'link to dataset' in first_link.text:
             links.append({'href': first_link['href'], 'text': first_link.get_text(strip=True)})
             for sibling in first_link.next_siblings:
                 if sibling.name == 'a':
