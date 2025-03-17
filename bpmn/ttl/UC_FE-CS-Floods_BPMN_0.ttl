@@ -1,12 +1,6 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://usage.geocat.live/catalogue/srv/api/records/e8f53bfc-6b4f-4607-a69c-a5670a60ada8> a prov:Entity ;
-    rdfs:label "Flood reports 2020-2022" .
-
-<https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> a prov:Entity ;
-    rdfs:label "Orthophoto (via WMS)" .
-
 <https://usage.geocat.live/catalogue/srv/api/records/2572fd30-294f-4350-85aa-bac6de8d7ad1> a prov:Entity ;
     rdfs:label "DTM" .
 
@@ -32,8 +26,14 @@
     rdfs:label "Flood reports 2015-2019" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/e68fc0f1-f55a-4578-9797-4898eac8ae4c> a prov:Entity ;
-    rdfs:label "Mapping of area subject to flooding" ;
-    prov:wasGeneratedBy _:N576df129f34446b393ca00d8270d0f8c .
+    rdfs:label "Mapping of area subject to flooding from heavy rains" ;
+    prov:wasGeneratedBy _:N6bdeca3ae1c1490794b8f72ff2f9503a .
+
+<https://usage.geocat.live/catalogue/srv/api/records/e8f53bfc-6b4f-4607-a69c-a5670a60ada8> a prov:Entity ;
+    rdfs:label "Flood reports 2020-2022" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> a prov:Entity ;
+    rdfs:label "Orthophoto (via WMS)" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/f4fe374e-0a56-4910-9f3a-e8b7519c373e> a prov:Agent,
         prov:SoftwareAgent ;
@@ -46,11 +46,8 @@
 <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5> a prov:Entity ;
     rdfs:label "Merged flooded areas reported",
         "Simplified flooded areas reported" ;
-    prov:wasGeneratedBy _:N111a29aab6384ab08246df1c40ab9582,
-        _:N9a0ea64f80b44ee9ba887ab05683d43d .
-
-[] a prov:Entity ;
-    rdfs:label "OSM" .
+    prov:wasGeneratedBy _:N86039eae8aa547edb484e344c520019f,
+        _:N9dab19ccc19f4f88b2c314a25cc36857 .
 
 [] a prov:Activity ;
     rdfs:label "Create metadata and publish in dati.comune.fe.it (e.g. with GeoNext)" ;
@@ -61,35 +58,41 @@
                 <https://usage.geocat.live/catalogue/srv/api/records/e68fc0f1-f55a-4578-9797-4898eac8ae4c> ;
             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1>,
                 <https://usage.geocat.live/catalogue/srv/api/records/547e29bd-4d1b-43d2-9be4-fba6f09ac14c> ;
-            prov:wasInformedBy _:N576df129f34446b393ca00d8270d0f8c ] .
+            prov:wasInformedBy _:N6bdeca3ae1c1490794b8f72ff2f9503a ] .
 
-_:N26e98a63913e4c6dac5b0f36b277de8c a prov:Entity ;
+_:Nbfb68813271e4262a53f4c3273bcea69 a prov:Entity ;
     rdfs:label "Empty layer for flooded area reporting" .
 
-_:N61d8091321d840cca1a4801f1c42e1a1 a prov:Activity ;
+_:Ncdd9764cc3a94cf09da266774a304582 a prov:Activity ;
     rdfs:label "Synchronise QGIS project QGIS" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2d239512-faaa-4024-8c0f-ac369fbeb404> ;
-    prov:wasInformedBy _:N111a29aab6384ab08246df1c40ab9582 .
+    prov:wasInformedBy _:N86039eae8aa547edb484e344c520019f .
 
-_:N111a29aab6384ab08246df1c40ab9582 a prov:Activity ;
-    rdfs:label "Publish simplified flooded areas in QField Cloud" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2d239512-faaa-4024-8c0f-ac369fbeb404> ;
-    prov:wasInformedBy _:N9a0ea64f80b44ee9ba887ab05683d43d .
+_:Nd4df9f31329d4a2cbe00de95ac16866f a prov:Entity ;
+    rdfs:label "OSM" .
 
-_:N576df129f34446b393ca00d8270d0f8c a prov:Activity ;
+_:N6bdeca3ae1c1490794b8f72ff2f9503a a prov:Activity ;
     rdfs:label "Citizen Science Ferrara flooded area Python script" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/2572fd30-294f-4350-85aa-bac6de8d7ad1>,
         <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5>,
         <https://usage.geocat.live/catalogue/srv/api/records/4a561dec-b977-4bb1-a5e3-6743c8e98fcd> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/78cf7716-e521-441e-92b5-87f6fe86c5f0> ;
-    prov:wasInformedBy _:N61d8091321d840cca1a4801f1c42e1a1 .
+    prov:wasInformedBy _:Ncdd9764cc3a94cf09da266774a304582 .
 
-_:N9a0ea64f80b44ee9ba887ab05683d43d a prov:Activity ;
+_:N86039eae8aa547edb484e344c520019f a prov:Activity ;
+    rdfs:label "Publish simplified flooded areas in QField Cloud" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/2b147d2f-44ad-4a7f-a017-ba9abe6d4aa5> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2d239512-faaa-4024-8c0f-ac369fbeb404> ;
+    prov:wasInformedBy _:N9dab19ccc19f4f88b2c314a25cc36857 .
+
+_:N9dab19ccc19f4f88b2c314a25cc36857 a prov:Activity ;
     rdfs:label "Draw (simplified) flooded areas using Qfield" ;
-    prov:used _:N26e98a63913e4c6dac5b0f36b277de8c,
+    prov:used _:Nbfb68813271e4262a53f4c3273bcea69,
+        _:Nd4df9f31329d4a2cbe00de95ac16866f,
         <https://usage.geocat.live/catalogue/srv/api/records/a2831652-6de6-42a9-8cfa-83f0ad1f39d8>,
-        <https://usage.geocat.live/catalogue/srv/api/records/dc92bc51-6824-42bc-857b-8742bdd8a42b> ;
+        <https://usage.geocat.live/catalogue/srv/api/records/dc92bc51-6824-42bc-857b-8742bdd8a42b>,
+        <https://usage.geocat.live/catalogue/srv/api/records/e8f53bfc-6b4f-4607-a69c-a5670a60ada8>,
+        <https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2d239512-faaa-4024-8c0f-ac369fbeb404> .
 
