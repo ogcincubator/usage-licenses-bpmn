@@ -145,8 +145,9 @@ def create_graphs(fn: Path):
 
 
 def _main():
-    for fn in Path('bpmn').glob('*.drawio'):
-    #for fn in (Path('UC_BPMN_LEU_BD1_green_roofs.drawio'),):
+    filenames = sys.argv[1:] or Path('bpmn').glob('*.drawio')
+    for fn in filenames:
+        fn = Path(fn)
         for i, graph in enumerate(create_graphs(fn)):
             graph.serialize(fn.with_stem(fn.stem + f"_{i}").with_suffix('.ttl'), format='ttl')
 
