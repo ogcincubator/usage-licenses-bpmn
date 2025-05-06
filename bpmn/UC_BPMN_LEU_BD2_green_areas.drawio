@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram name="LEU-BD2_greening_areas" id="YNlgVWblwQ0pdyBOiy_m">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="QwNFrJvzd5y7ytUikWSW-0" />
         <mxCell id="QwNFrJvzd5y7ytUikWSW-1" parent="QwNFrJvzd5y7ytUikWSW-0" />
         <mxCell id="QwNFrJvzd5y7ytUikWSW-2" value="Potential areas for greening in public and private domain - &lt;a href=&quot;https://docs.google.com/document/d/1BFXskByQjdp2lKMLNY2Q-wz5IsqxI83f/edit&quot;&gt;LEU-BD_02&lt;/a&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-1">
-          <mxGeometry x="50" y="-4390" width="2450" height="3380" as="geometry">
+          <mxGeometry x="50" y="-4390" width="2450" height="3700" as="geometry">
             <mxRectangle x="99" y="-2240" width="40" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -272,12 +272,13 @@
           <mxGeometry x="1446" y="340" width="134" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fmtnqYsZUlKBPjlUTuKz-2" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="Ubtl0uk9UkTMrE4O7x2c-10">
-          <mxGeometry x="1976" y="182.5" width="50" height="50" as="geometry" />
+          <mxGeometry x="1855" y="182.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ubtl0uk9UkTMrE4O7x2c-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Ubtl0uk9UkTMrE4O7x2c-10" source="Ubtl0uk9UkTMrE4O7x2c-11" target="fmtnqYsZUlKBPjlUTuKz-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1976" y="208" />
+              <mxPoint x="1790" y="208" />
+              <mxPoint x="1855" y="208" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -289,11 +290,11 @@
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; color=&quot;#33001a&quot;&gt;Potential unsealing areas&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/592dcee7-8f31-4217-8906-2347bb4727f7&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="QwNFrJvzd5y7ytUikWSW-38">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=#A3A3FF;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-37">
-            <mxGeometry x="1994" y="289" width="28" height="34" as="geometry" />
+            <mxGeometry x="1873" y="289" width="28" height="34" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="QwNFrJvzd5y7ytUikWSW-39" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;Vector of neighborhood / blocks polygons with aggregated&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;potential unsealing areas based on;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Green area percentage,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;number of trees,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;number of trees in the front yard&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-37">
-          <mxGeometry x="1920" y="356" width="163" height="31" as="geometry" />
+          <mxGeometry x="1790" y="370" width="163" height="31" as="geometry" />
         </mxCell>
         <mxCell id="QwNFrJvzd5y7ytUikWSW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=6.5;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QwNFrJvzd5y7ytUikWSW-37" source="QwNFrJvzd5y7ytUikWSW-41" target="QwNFrJvzd5y7ytUikWSW-38">
           <mxGeometry relative="1" as="geometry">
@@ -301,10 +302,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QwNFrJvzd5y7ytUikWSW-41" value="&lt;h6 style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Combine garden data and tree data, and aggregate by block and neighborhood to identify areas of potential unsealing at different levels .&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/5a90dbfe-e25e-4120-b32e-ddee0b2b9195&quot;&gt;Tool&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8.04px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h6&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-37">
-          <mxGeometry x="1901" y="195" width="200" height="29" as="geometry" />
+          <mxGeometry x="1780" y="195" width="200" height="29" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Statistical sector blocks&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&lt;a href=&quot;https://publish.geo.be/geonetwork/igiljugb/eng/catalog.search#/metadata/4d8e0053-fdf5-42e4-a359-1a3386d95899&quot; style=&quot;font-family: Arial; background-color: initial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="gCtTiRd74Ebci8IssABV-1">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-37">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=13;html=1;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-37">
             <mxGeometry x="2071" y="50" width="30" height="32" as="geometry" />
           </mxCell>
         </UserObject>
@@ -313,34 +314,40 @@
             <mxPoint x="2080" y="170" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2086" y="138" />
-              <mxPoint x="2050" y="138" />
+              <mxPoint x="1940" y="138" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Efmt_ENlr2cC9OtDNEjx-13" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;b&gt;Decision Ready Information&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;potential areas for unsealing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Data for the city&lt;/b&gt;: tree cadaster for public and for private data; private gardens data (hard areas – sealed – and green areas)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- tree cadaster existing: point + tree species.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;We extend for private with:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- identify individual trees (point geometry),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-tree species,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tree health,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tree canopy span (polygon),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;height&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Unhardening priorities has also to do with existing trees in the area (need to know trees in private houses , especially bordering the streets)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Areas for unsealing:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Ratio hard/soft based on neighborhoods or blocks. Data from plots, to be aggregated in blocks or neighborhood.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Map of sealed areas, expressed in percentage. Potential for unhardening (all what is not a parking for one car)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-37">
-          <mxGeometry x="1843" y="401" width="330" height="109" as="geometry" />
+          <mxGeometry x="1680" y="410" width="330" height="109" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Air temperature raster&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/c4548cee-2ede-4065-946e-f1ad4dfd8f1b&quot; style=&quot;font-family: Arial; background-color: initial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="Q45UA_eah2gBYqcH_cTq-0">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-37">
-            <mxGeometry x="1880" y="50" width="30" height="32" as="geometry" />
+            <mxGeometry x="1780" y="40" width="30" height="32" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Q45UA_eah2gBYqcH_cTq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="QwNFrJvzd5y7ytUikWSW-37" source="Q45UA_eah2gBYqcH_cTq-0" target="QwNFrJvzd5y7ytUikWSW-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gCtTiRd74Ebci8IssABV-0" value="Share data" style="swimlane;html=1;startSize=60;horizontal=0;whiteSpace=wrap;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-2">
-          <mxGeometry x="20" y="3220" width="2430" height="160" as="geometry" />
+          <mxGeometry x="20" y="3220" width="2430" height="210" as="geometry" />
         </mxCell>
         <mxCell id="Efmt_ENlr2cC9OtDNEjx-14" value="&lt;h6 style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Publish the map on &lt;a href=&quot;https://www.arcgis.com/index.html&quot;&gt;ArcGIS online&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/h6&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="gCtTiRd74Ebci8IssABV-0">
-          <mxGeometry x="2089.5" y="44" width="200" height="29" as="geometry" />
+          <mxGeometry x="2000" y="44" width="200" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Efmt_ENlr2cC9OtDNEjx-17" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#33001a&quot;&gt;The maps will be published and accessible to the public using ArcGIS tools. The data will be available to the city, and can be findable from the metadata. A process of sharing data will be laid out later by the city.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="gCtTiRd74Ebci8IssABV-0">
-          <mxGeometry x="2108" y="90" width="163" height="40" as="geometry" />
+          <mxGeometry x="2018.5" y="85" width="163" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fmtnqYsZUlKBPjlUTuKz-3" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="gCtTiRd74Ebci8IssABV-0">
-          <mxGeometry x="2340" y="33.5" width="50" height="50" as="geometry" />
+        <mxCell id="YmxjxKhCmJVkOz-ZJNy0-0" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(251, 251, 251); float: none; display: inline !important;&quot;&gt;DRI presentation to decision makers&lt;/span&gt;" style="swimlane;html=1;startSize=60;horizontal=0;whiteSpace=wrap;" vertex="1" parent="QwNFrJvzd5y7ytUikWSW-2">
+          <mxGeometry x="20" y="3430" width="2430" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="fmtnqYsZUlKBPjlUTuKz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gCtTiRd74Ebci8IssABV-0" source="Efmt_ENlr2cC9OtDNEjx-14" target="fmtnqYsZUlKBPjlUTuKz-3">
+        <mxCell id="fmtnqYsZUlKBPjlUTuKz-3" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="YmxjxKhCmJVkOz-ZJNy0-0">
+          <mxGeometry x="2340" y="130" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmxjxKhCmJVkOz-ZJNy0-4" value="&lt;h6 style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Present the three aggregated maps as either print or digital format - to be determined&lt;/span&gt;&lt;/font&gt;&lt;/h6&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="YmxjxKhCmJVkOz-ZJNy0-0">
+          <mxGeometry x="1970" y="120.25" width="200" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YmxjxKhCmJVkOz-ZJNy0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YmxjxKhCmJVkOz-ZJNy0-0" source="YmxjxKhCmJVkOz-ZJNy0-4" target="fmtnqYsZUlKBPjlUTuKz-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QwNFrJvzd5y7ytUikWSW-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="QwNFrJvzd5y7ytUikWSW-2" source="QwNFrJvzd5y7ytUikWSW-19" target="QwNFrJvzd5y7ytUikWSW-27">
@@ -402,9 +409,6 @@
             <mxPoint x="2022" y="2502" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Efmt_ENlr2cC9OtDNEjx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QwNFrJvzd5y7ytUikWSW-2" source="QwNFrJvzd5y7ytUikWSW-38" target="Efmt_ENlr2cC9OtDNEjx-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Efmt_ENlr2cC9OtDNEjx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QwNFrJvzd5y7ytUikWSW-2" source="QwNFrJvzd5y7ytUikWSW-41" target="Efmt_ENlr2cC9OtDNEjx-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -448,6 +452,23 @@
             <Array as="points">
               <mxPoint x="935" y="2060" />
               <mxPoint x="1085" y="2060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmtnqYsZUlKBPjlUTuKz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QwNFrJvzd5y7ytUikWSW-2" source="Efmt_ENlr2cC9OtDNEjx-14" target="fmtnqYsZUlKBPjlUTuKz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2385" y="3279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YmxjxKhCmJVkOz-ZJNy0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="QwNFrJvzd5y7ytUikWSW-2" source="QwNFrJvzd5y7ytUikWSW-38" target="Efmt_ENlr2cC9OtDNEjx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YmxjxKhCmJVkOz-ZJNy0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="QwNFrJvzd5y7ytUikWSW-2" source="QwNFrJvzd5y7ytUikWSW-38" target="YmxjxKhCmJVkOz-ZJNy0-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1907" y="3585" />
             </Array>
           </mxGeometry>
         </mxCell>

@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2">
   <diagram name="GZ-UHI" id="Krvi3zgOJTbH_F1lKnKt">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="k6mhYjpQpfvVJ8LvTSOb-0" />
         <mxCell id="k6mhYjpQpfvVJ8LvTSOb-1" parent="k6mhYjpQpfvVJ8LvTSOb-0" />
         <mxCell id="k6mhYjpQpfvVJ8LvTSOb-5" value="&lt;font color=&quot;#ff0000&quot;&gt;???&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-1">
-          <mxGeometry x="130" y="-4350" width="1920" height="1490" as="geometry">
+          <mxGeometry x="130" y="-4350" width="1920" height="1573" as="geometry">
             <mxRectangle x="99" y="-2240" width="40" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -47,7 +47,7 @@
         <mxCell id="k6mhYjpQpfvVJ8LvTSOb-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" source="k6mhYjpQpfvVJ8LvTSOb-14" target="AlwzMYm-ZSlX3xYWYxc7-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AlwzMYm-ZSlX3xYWYxc7-0" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Algorithms that produce Land surface temperature raster layer at 30m including emissivity correction from hyperspectral images&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Arial&quot; style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/64646d7a-906a-418e-8c29-708c110b81a0&quot;&gt;FBK_UHI_DETECTION&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;strokeColor=#d79b00;gradientColor=none;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
+        <mxCell id="AlwzMYm-ZSlX3xYWYxc7-0" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Algorithms that produce Land surface temperature raster layer at 30m including emissivity correction from hyperspectral images&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Arial&quot; style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; color=&quot;#0000ee&quot;&gt;&lt;b&gt;&lt;u&gt;FBK_LST_from_Thermal_Satellite_Images&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;strokeColor=#d79b00;gradientColor=none;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
           <mxGeometry x="490" y="260" width="277" height="41" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Land surface temperature raster at 30m 10 years&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Links to metadata&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/aff2d2a4-f9ab-45c5-abed-f10d376fbd80&quot;&gt;April&lt;/a&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/4ccbb858-4121-44dd-abe7-034310ac998c&quot;&gt;May&amp;nbsp;&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/3def935f-0346-4d03-aa3d-8190eb6eb513&quot;&gt;June&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/1e5516d5-3c9e-45b9-b2ae-fc5a6879417a&quot;&gt;July&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/031fedaa-0c58-42bd-bdcd-8bd4509bc34d&quot;&gt;August&amp;nbsp;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/4fe37493-c38b-41a7-a944-6562df7aa672&quot;&gt;September&amp;nbsp;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="AlwzMYm-ZSlX3xYWYxc7-1">
@@ -98,6 +98,15 @@
         <mxCell id="LC7-CDsK_31KNm7Xdk4L-0" value="create metadata in Geocat catalog" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-6">
           <mxGeometry x="1230" y="30" width="186" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="deyBfgTp-uPs_R4OnKZf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-6" target="dOBSpZfp61ixVWhACqNp-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="330" as="sourcePoint" />
+            <mxPoint x="1552" y="1210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1502" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="k6mhYjpQpfvVJ8LvTSOb-54" value="&lt;div&gt;Prioritise interventions on city hotspots through analysis on the characteristics of the hotspots identified in the entire city&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-5">
           <mxGeometry x="20" y="440" width="1900" height="360" as="geometry" />
         </mxCell>
@@ -114,6 +123,9 @@
         </mxCell>
         <mxCell id="k6mhYjpQpfvVJ8LvTSOb-61" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;Tool enabling the workflow automation (to be developed)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-54">
           <mxGeometry x="1095" y="200" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="deyBfgTp-uPs_R4OnKZf-0" value="DP: vulnerability analysis not done - it can be deleted" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-54">
+          <mxGeometry x="1280" y="85" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k6mhYjpQpfvVJ8LvTSOb-69" value="&lt;div&gt;Street level UHI simulation of possible interventions at a single selected hotspot&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-5">
           <mxGeometry x="20" y="800" width="1900" height="370" as="geometry" />
@@ -173,6 +185,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1300" y="613" as="sourcePoint" />
             <mxPoint x="1674.81" y="1224.0100000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1693" y="333" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="k6mhYjpQpfvVJ8LvTSOb-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="k6mhYjpQpfvVJ8LvTSOb-5" source="k6mhYjpQpfvVJ8LvTSOb-17" target="k6mhYjpQpfvVJ8LvTSOb-88">
@@ -190,7 +205,7 @@
             <mxPoint x="1205" y="635" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1243" y="700" />
-              <mxPoint x="1410" y="700" />
+              <mxPoint x="1409" y="700" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -210,7 +225,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dOBSpZfp61ixVWhACqNp-1" value="DRI presentation to decision makers" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="k6mhYjpQpfvVJ8LvTSOb-5">
-          <mxGeometry x="20" y="1310" width="1900" height="180" as="geometry" />
+          <mxGeometry x="20" y="1310" width="1900" height="263" as="geometry" />
         </mxCell>
         <mxCell id="dOBSpZfp61ixVWhACqNp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dOBSpZfp61ixVWhACqNp-1" source="dOBSpZfp61ixVWhACqNp-5" target="k6mhYjpQpfvVJ8LvTSOb-79">
           <mxGeometry relative="1" as="geometry" />
@@ -222,12 +237,15 @@
           <mxGeometry x="1780" y="41.75" width="30" height="30" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;Technical Report&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="dOBSpZfp61ixVWhACqNp-10">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="dOBSpZfp61ixVWhACqNp-1">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="dOBSpZfp61ixVWhACqNp-1">
             <mxGeometry x="1495" y="106" width="30" height="34" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="dOBSpZfp61ixVWhACqNp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=7.5;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="dOBSpZfp61ixVWhACqNp-1" source="dOBSpZfp61ixVWhACqNp-5" target="dOBSpZfp61ixVWhACqNp-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deyBfgTp-uPs_R4OnKZf-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;DP: the technical report includes: characteristics of satellite and aerial thermal images, monthly analysis of Landsat thermal images in the last 10 years, comparison between satellite and aerial thermal images on one day&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dOBSpZfp61ixVWhACqNp-1">
+          <mxGeometry x="1610" y="73.5" width="141.75" height="141.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

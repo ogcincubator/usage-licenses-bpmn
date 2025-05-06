@@ -51,6 +51,7 @@ def extract_label(label: str):
 def to_uri(s: str):
     if '#/metadata/' in s:
         root, dataset_id = s.split('#/metadata/', 1)
+        root = root.replace('/igiljugb/', '/srv/')
         base, _ = root.split('/srv/', 1)
         s = f"{base}/srv/api/records/{dataset_id}"
     return URIRef(s)
@@ -126,6 +127,10 @@ def create_graphs(fn: Path):
             if not source_node or not target_node:
                 print(f"WARNING: Edge {e.get('id')} has source_node={source_node}, target_node={target_node}", file=sys.stderr)
                 continue
+            if source_node == target_node:
+                print(f"WARNING: Edge {e.get('id')} has same source_node and target_node ({target_node})",
+                      file=sys.stderr)
+                continue
 
             if source_node['type'] == PROV.Entity and target_node['type'] == PROV.Activity:
                 g.add((target_node['resource'], PROV.used, source_node['resource']))
@@ -135,7 +140,8 @@ def create_graphs(fn: Path):
                 g.add((target_node['resource'], PROV.wasInformedBy, source_node['resource']))
             else:
                 print(f"WARNING: Unexpected source and target type combination"
-                      f" for {e.get('id')}: source={source_node['type']}, target={target_node['type']}",
+                      f" for {e.get('id')}: source={source_node['type']} ({source_node['label']}),"
+                      f" target={target_node['type']} ({target_node['label']})",
                       file=sys.stderr)
 
         if g:

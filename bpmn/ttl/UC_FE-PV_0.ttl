@@ -1,9 +1,23 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://dati.comune.fe.it/dataset/v2-69> a prov:Entity ;
+    rdfs:label "PUG: flight path" .
+
 <https://usage.geocat.live/catalogue/srv/api/records/601806dd-3e61-40b4-8d47-6fec2e9addbe> a prov:Entity ;
     rdfs:label "Total solar radiation Ferrara" ;
-    prov:wasGeneratedBy _:N2f653724fa4446d8a76f306c5afa9770 .
+    prov:wasGeneratedBy _:N5ba92bd09d5e495996c2b852be7dd322 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/9116da0a-e521-4c19-adfc-8bcdb5716a3a> a prov:Entity ;
+    rdfs:label "PUG: framework knowledge - public parking lots" .
+
+<https://sit.comune.fe.it/allegati/mappe/usage/10_potenziale_di_irraggiamento_solare_edifici.html> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to embeddable map" .
+
+<https://sit.comune.fe.it/gnx/Accesso_diretto_usage_fast.html> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to Geonext map" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/15b32427-5162-46a0-b09c-2a3cd44efe00> a prov:Agent,
         prov:SoftwareAgent ;
@@ -11,27 +25,25 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/1a3f1915-039d-478f-91f6-bedeea62bbd0> a prov:Entity ;
     rdfs:label "Segmented Roofs Irradiation in historic centre" ;
-    prov:wasGeneratedBy _:Ndb7a8869bd77431dae6b33048dadcc4e .
+    prov:wasGeneratedBy _:N24bbe2dbddf8404cb10771b604c9cfe2 .
+
+<https://usage.geocat.live/catalogue/srv/api/records/1d76f6d0-7934-494f-af73-952dca3b9ef1> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "ink to tool metadata" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/1df99f59-c41c-4326-8998-2a82d28ad1c3> a prov:Entity ;
+    rdfs:label "Parking lot  irradiation" ;
+    prov:wasGeneratedBy _:N37b9e6cc80354b1496de0d2f5544a60a .
 
 <https://usage.geocat.live/catalogue/srv/api/records/2087f4e7-b631-4547-a5b6-17cb2dcf4d56> a prov:Entity ;
-    rdfs:label "Segmented Roof Irradiation" ;
-    prov:wasGeneratedBy [ a prov:Activity ;
-            rdfs:label "PV Surface IrradiationMedian irradiation values per roof part and parking areas" ;
-            prov:used <https://usage.geocat.live/catalogue/srv/api/records/60689a02-9b52-426e-bf90-6172f76147ea>,
-                <https://usage.geocat.live/catalogue/srv/api/records/a482dbaa-ba7e-43d5-ad4d-5a9638b40637> ;
-            prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/510510f7-c51b-465b-b8d4-ba39069d3100> ;
-            prov:wasInformedBy _:N2f653724fa4446d8a76f306c5afa9770,
-                _:N335cea400ab4472f8c8c3555f273edef ] .
+    rdfs:label "Segmented Roofs Irradiation" ;
+    prov:wasGeneratedBy _:N37b9e6cc80354b1496de0d2f5544a60a .
 
 <https://usage.geocat.live/catalogue/srv/api/records/2518f252-b150-4c40-995b-75bcdffa4977> a prov:Entity ;
     rdfs:label "Perimeter of the historic center of Ferrara" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/3318654a-3623-4a94-8f3c-84e2ed3a0fdb> a prov:Entity ;
     rdfs:label "Cultural Heritage" .
-
-<https://usage.geocat.live/catalogue/srv/api/records/4607d7fd-611a-4cb5-990f-e3215e5f7f3f> a prov:Entity ;
-    rdfs:label "Roof Pitches eligible of Photovoltaic panel installation (validated)" ;
-    prov:wasGeneratedBy _:N354c42f84c1d40ba90569f9456b1eae9 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/4a561dec-b977-4bb1-a5e3-6743c8e98fcd> a prov:Entity ;
     rdfs:label "Building footprints" .
@@ -42,7 +54,7 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/60689a02-9b52-426e-bf90-6172f76147ea> a prov:Entity ;
     rdfs:label "Segmented Roofs" ;
-    prov:wasGeneratedBy _:N335cea400ab4472f8c8c3555f273edef .
+    prov:wasGeneratedBy _:N47ed881f81f5470dbb4dfdca591a29ff .
 
 <https://usage.geocat.live/catalogue/srv/api/records/6f443f6d-c283-40c6-8c97-8047934f2cd5> a prov:Agent,
         prov:SoftwareAgent ;
@@ -51,31 +63,30 @@
 <https://usage.geocat.live/catalogue/srv/api/records/7909cbcf-8f81-44ee-8908-30a206398d67> a prov:Entity ;
     rdfs:label "OSM Ferrara road network" .
 
-<https://usage.geocat.live/catalogue/srv/api/records/7e081fdc-a43e-45ff-acaf-a674fe2546c7> a prov:Entity ;
-    rdfs:label "Roof Pitches eligible for Photovoltaic panel installation" ;
-    prov:wasGeneratedBy _:Nc35e40556d05441f829412a1bb774782 .
-
 <https://usage.geocat.live/catalogue/srv/api/records/85709f88-be74-46a8-977a-f15818d18739> a prov:Agent,
         prov:SoftwareAgent ;
-    rdfs:label "PV-potential" .
+    rdfs:label "Solar Irradiation Calculation" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/91874db4-7086-4198-926c-d9e99a5f3024> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "GDAL" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/9d7692d5-a22f-4e9d-80aa-8fea42d2e67e> a prov:Entity ;
     rdfs:label "Estimate of photovoltaic panels(non suitable areas)" ;
-    prov:wasGeneratedBy _:Ndc8776f6cac34a959e023057baa6c239 .
-
-<https://usage.geocat.live/catalogue/srv/api/records/a482dbaa-ba7e-43d5-ad4d-5a9638b40637> a prov:Entity ;
-    rdfs:label "Parking lot",
-        "Parking lot  irradiation" .
+    prov:wasGeneratedBy _:Nf601894b5c5f494195c9e1ddfb99dc75 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/a69ad095-02a5-40d1-a10c-41fb7a650d66> a prov:Entity ;
     rdfs:label "Listed buildings (Classe_int = 1)" .
 
+<https://usage.geocat.live/catalogue/srv/api/records/b42ea803-b355-478e-99ed-b2594618cc89> a prov:Entity ;
+    rdfs:label "PUG: indirect constraint (Cultural Heritage)" .
+
 <https://usage.geocat.live/catalogue/srv/api/records/de281376-ccbb-4703-bff6-716310e64c24> a prov:Entity ;
     rdfs:label "Area of interest" .
 
-<https://usage.geocat.live/catalogue/srv/api/records/f85f91a2-ef39-4b28-b199-96820b6fff1b> a prov:Agent,
-        prov:SoftwareAgent ;
-    rdfs:label "Link to tool metadata" .
+<https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> a prov:Entity ;
+    rdfs:label "Orthophoto 2022 10cm resolution" ;
+    prov:wasGeneratedBy _:Nf601894b5c5f494195c9e1ddfb99dc75 .
 
 <https://www.comune.ferrara.it/it/geoportale/dati/storie-di-dati> a prov:Agent,
         prov:SoftwareAgent ;
@@ -84,118 +95,90 @@
 <https://www.soda-pro.com/help/general-knowledge/linke-turbidity-factor?p_l_back_url=https%3A%2F%2Fwww.soda-pro.com%2Fhome%3Fp_p_id%3Dcom_liferay_portal_search_web_portlet_SearchPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26p_p_mode%3Dview%26_com_liferay_portal_search_web_portlet_SearchPortlet_redirect%3Dhttps%253A%252F%252Fwww.soda-pro.com%252Fhome%253Fp_p_id%253Dcom_liferay_portal_search_web_portlet_SearchPortlet%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%26_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath%3D%252Fsearch.jsp%26_com_liferay_portal_search_web_portlet_SearchPortlet_keywords%3Dlinke%26_com_liferay_portal_search_web_portlet_SearchPortlet_formDate%3D1697446902332%26_com_liferay_portal_search_web_portlet_SearchPortlet_scope%3Dthis-site> a prov:Entity ;
     rdfs:label "Linke-turbidity factor map" .
 
-<https://usage.geocat.live/catalogue/srv/api/records/0f9db234-fb86-40ad-824a-8f330d2c41d6> a prov:Entity ;
-    rdfs:label "Average potential ( KWH ) for each suitable roof pitch." ;
-    prov:wasGeneratedBy _:Ne8791842765d43f8bb872cdf2b01ff5d .
-
-<https://usage.geocat.live/catalogue/srv/api/records/1d76f6d0-7934-494f-af73-952dca3b9ef1> a prov:Agent,
-        prov:SoftwareAgent ;
-    rdfs:label "ink to tool metadata" .
-
-<https://usage.geocat.live/catalogue/srv/api/records/1de9f514-9291-4c37-98fb-be01ec8e45df> a prov:Entity ;
-    rdfs:label "Roof Pitches eligible of Photovoltaic panel installation sorted by solar potential" ;
-    prov:wasGeneratedBy _:N9c20198a211e4fca906fb47f1d4061b2 .
-
-<https://usage.geocat.live/catalogue/srv/api/records/91874db4-7086-4198-926c-d9e99a5f3024> a prov:Agent,
-        prov:SoftwareAgent ;
-    rdfs:label "GDAL" .
-
-<https://usage.geocat.live/catalogue/srv/api/records/bada953d-51d0-468f-81e2-8d22d80c6df0> a prov:Entity ;
-    rdfs:label "DSM - 1m res (" .
-
-<https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> a prov:Entity ;
-    rdfs:label "Orthophoto 2022 10cm resolution" .
-
-<https://usage.geocat.live/catalogue/srv/api/records/f4fe374e-0a56-4910-9f3a-e8b7519c373e> a prov:Agent,
-        prov:SoftwareAgent ;
-    rdfs:label "Link to tool metadata" .
+<https://usage.geocat.live/catalogue/srv/api/records/22d01fe4-c3b3-4b50-a01b-1ee69b212c23> a prov:Entity ;
+    rdfs:label "Segmented roofs solar potential (eligible for PV)",
+        "Segmented roofs solar potential (validated)" ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            rdfs:label "GIS application (qgis, etc..) to validate the dataset in input.  Well known and pubblicly available application" ;
+            prov:used <https://usage.geocat.live/catalogue/srv/api/records/22d01fe4-c3b3-4b50-a01b-1ee69b212c23> ;
+            prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> ],
+        [ a prov:Activity ;
+            rdfs:label "Overlay and add attribute from spatial layers of non-applicable areas" ;
+            prov:used <https://usage.geocat.live/catalogue/srv/api/records/1a3f1915-039d-478f-91f6-bedeea62bbd0>,
+                <https://usage.geocat.live/catalogue/srv/api/records/2518f252-b150-4c40-995b-75bcdffa4977>,
+                <https://usage.geocat.live/catalogue/srv/api/records/3318654a-3623-4a94-8f3c-84e2ed3a0fdb>,
+                <https://usage.geocat.live/catalogue/srv/api/records/9d7692d5-a22f-4e9d-80aa-8fea42d2e67e>,
+                <https://usage.geocat.live/catalogue/srv/api/records/a69ad095-02a5-40d1-a10c-41fb7a650d66> ;
+            prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1>,
+                <https://usage.geocat.live/catalogue/srv/api/records/91874db4-7086-4198-926c-d9e99a5f3024> ;
+            prov:wasInformedBy _:N24bbe2dbddf8404cb10771b604c9cfe2,
+                _:Nf601894b5c5f494195c9e1ddfb99dc75 ] .
 
 <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> a prov:Agent,
         prov:SoftwareAgent ;
     rdfs:label "Link to QGis",
         "QGIS" .
 
-[] a prov:Activity ;
-    rdfs:label "Solar and photovoltaic panels segmentation (Extract pv panels already installed from orthophoto) l" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1d76f6d0-7934-494f-af73-952dca3b9ef1> .
+<https://usage.geocat.live/catalogue/srv/api/records/bada953d-51d0-468f-81e2-8d22d80c6df0> a prov:Entity ;
+    rdfs:label "DSM - 1m res (" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/f4fe374e-0a56-4910-9f3a-e8b7519c373e> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Link to tool metadata" .
 
 [] a prov:Activity ;
     rdfs:label "webgis for visualization and interaction with citizens GeoNext" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/0f9db234-fb86-40ad-824a-8f330d2c41d6> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f4fe374e-0a56-4910-9f3a-e8b7519c373e> ;
+    prov:wasAssociatedWith <https://sit.comune.fe.it/allegati/mappe/usage/10_potenziale_di_irraggiamento_solare_edifici.html>,
+        <https://sit.comune.fe.it/gnx/Accesso_diretto_usage_fast.html>,
+        <https://usage.geocat.live/catalogue/srv/api/records/f4fe374e-0a56-4910-9f3a-e8b7519c373e> ;
     prov:wasInformedBy [ a prov:Activity ;
             rdfs:label "Share Decision Ready Information with decision makers with Gis viewers  as Geonext" ;
-            prov:used <https://usage.geocat.live/catalogue/srv/api/records/0f9db234-fb86-40ad-824a-8f330d2c41d6>,
-                <https://usage.geocat.live/catalogue/srv/api/records/1de9f514-9291-4c37-98fb-be01ec8e45df> ;
+            prov:used <https://usage.geocat.live/catalogue/srv/api/records/1df99f59-c41c-4326-8998-2a82d28ad1c3>,
+                <https://usage.geocat.live/catalogue/srv/api/records/22d01fe4-c3b3-4b50-a01b-1ee69b212c23> ;
             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f4fe374e-0a56-4910-9f3a-e8b7519c373e>,
-                <https://www.comune.ferrara.it/it/geoportale/dati/storie-di-dati> ;
-            prov:wasInformedBy _:Ne8791842765d43f8bb872cdf2b01ff5d ] .
+                <https://www.comune.ferrara.it/it/geoportale/dati/storie-di-dati> ] .
 
-_:N2f653724fa4446d8a76f306c5afa9770 a prov:Activity ;
-    rdfs:label "Calculate the irradiation values on the surfaces (from a nadir point of view) in the city [and calculate the received irradiation per year]" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/bada953d-51d0-468f-81e2-8d22d80c6df0>,
-        <https://www.soda-pro.com/help/general-knowledge/linke-turbidity-factor?p_l_back_url=https%3A%2F%2Fwww.soda-pro.com%2Fhome%3Fp_p_id%3Dcom_liferay_portal_search_web_portlet_SearchPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26p_p_mode%3Dview%26_com_liferay_portal_search_web_portlet_SearchPortlet_redirect%3Dhttps%253A%252F%252Fwww.soda-pro.com%252Fhome%253Fp_p_id%253Dcom_liferay_portal_search_web_portlet_SearchPortlet%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%26_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath%3D%252Fsearch.jsp%26_com_liferay_portal_search_web_portlet_SearchPortlet_keywords%3Dlinke%26_com_liferay_portal_search_web_portlet_SearchPortlet_formDate%3D1697446902332%26_com_liferay_portal_search_web_portlet_SearchPortlet_scope%3Dthis-site> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/85709f88-be74-46a8-977a-f15818d18739> ;
-    prov:wasInformedBy _:Ne436e6777d134aca8c943e62461c33f0 .
-
-_:N335cea400ab4472f8c8c3555f273edef a prov:Activity ;
-    rdfs:label "Roof SegmentationThe tool identifies, segments and classifies roofs falling within the specified Area of Interest, basing on surface aspect computed from DSM and using footprints to define roof outer limits. Segmented roof parts are labelled with respect to 4 aspect classes, corresponding to NE, SE, SW and NW." ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/4a561dec-b977-4bb1-a5e3-6743c8e98fcd>,
-        <https://usage.geocat.live/catalogue/srv/api/records/bada953d-51d0-468f-81e2-8d22d80c6df0> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/15b32427-5162-46a0-b09c-2a3cd44efe00> ;
-    prov:wasInformedBy _:Ne436e6777d134aca8c943e62461c33f0 .
-
-_:N354c42f84c1d40ba90569f9456b1eae9 a prov:Activity ;
-    rdfs:label "GIS application (qgis, etc..) to validate the dataset in input.  Well known and pubblicly available application" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/7e081fdc-a43e-45ff-acaf-a674fe2546c7> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1> ;
-    prov:wasInformedBy _:Nc35e40556d05441f829412a1bb774782 .
-
-_:N9c20198a211e4fca906fb47f1d4061b2 a prov:Activity ;
-    rdfs:label "Classify pitches in a roof, identifying an order from best to worst choice to install solar panel" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/4607d7fd-611a-4cb5-990f-e3215e5f7f3f> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1>,
-        <https://usage.geocat.live/catalogue/srv/api/records/91874db4-7086-4198-926c-d9e99a5f3024> ;
-    prov:wasInformedBy _:N354c42f84c1d40ba90569f9456b1eae9 .
-
-_:Nc35e40556d05441f829412a1bb774782 a prov:Activity ;
-    rdfs:label "Overlay and add attribute from spatial layers of non-applicable areas" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/1a3f1915-039d-478f-91f6-bedeea62bbd0>,
-        <https://usage.geocat.live/catalogue/srv/api/records/2518f252-b150-4c40-995b-75bcdffa4977>,
-        <https://usage.geocat.live/catalogue/srv/api/records/3318654a-3623-4a94-8f3c-84e2ed3a0fdb>,
-        <https://usage.geocat.live/catalogue/srv/api/records/9d7692d5-a22f-4e9d-80aa-8fea42d2e67e>,
-        <https://usage.geocat.live/catalogue/srv/api/records/a69ad095-02a5-40d1-a10c-41fb7a650d66> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/2dccbea6-8c1f-4402-af6d-78382cc6e8a1>,
-        <https://usage.geocat.live/catalogue/srv/api/records/91874db4-7086-4198-926c-d9e99a5f3024> ;
-    prov:wasInformedBy _:Ndb7a8869bd77431dae6b33048dadcc4e,
-        _:Ndc8776f6cac34a959e023057baa6c239 .
-
-_:Nd31cc8bdf3f64e8888e12e7854e561fe a <http://example.org/usage/prov/MergeActivity>,
+_:N0ac650785b4a472787796cb270d98390 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/2087f4e7-b631-4547-a5b6-17cb2dcf4d56> .
 
-_:Ndb7a8869bd77431dae6b33048dadcc4e a prov:Activity ;
+_:N24bbe2dbddf8404cb10771b604c9cfe2 a prov:Activity ;
     rdfs:label "DEDA: PV road proximity (historic centre)" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/7909cbcf-8f81-44ee-8908-30a206398d67>,
         <https://usage.geocat.live/catalogue/srv/api/records/de281376-ccbb-4703-bff6-716310e64c24> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/6f443f6d-c283-40c6-8c97-8047934f2cd5> ;
-    prov:wasInformedBy _:Nd31cc8bdf3f64e8888e12e7854e561fe .
+    prov:wasInformedBy _:N0ac650785b4a472787796cb270d98390 .
 
-_:Ndc8776f6cac34a959e023057baa6c239 a prov:Activity ;
-    rdfs:label "Solar and photovoltaic panels segmentation (Extract pv panels already installed from orthophoto) l" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1d76f6d0-7934-494f-af73-952dca3b9ef1> ;
-    prov:wasInformedBy _:Nd31cc8bdf3f64e8888e12e7854e561fe .
+_:N37b9e6cc80354b1496de0d2f5544a60a a prov:Activity ;
+    rdfs:label "PV Surface IrradiationMedian irradiation values per roof part and parking areas" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/60689a02-9b52-426e-bf90-6172f76147ea>,
+        <https://usage.geocat.live/catalogue/srv/api/records/b42ea803-b355-478e-99ed-b2594618cc89> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/510510f7-c51b-465b-b8d4-ba39069d3100> ;
+    prov:wasInformedBy _:N47ed881f81f5470dbb4dfdca591a29ff,
+        _:N5ba92bd09d5e495996c2b852be7dd322 .
 
-_:Ne436e6777d134aca8c943e62461c33f0 a <http://example.org/usage/prov/MergeActivity>,
+_:N47ed881f81f5470dbb4dfdca591a29ff a prov:Activity ;
+    rdfs:label "Roof SegmentationThe tool identifies, segments and classifies roofs falling within the specified Area of Interest, basing on surface aspect computed from DSM and using footprints to define roof outer limits. Segmented roof parts are labelled with respect to 4 aspect classes, corresponding to NE, SE, SW and NW." ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/4a561dec-b977-4bb1-a5e3-6743c8e98fcd>,
+        <https://usage.geocat.live/catalogue/srv/api/records/bada953d-51d0-468f-81e2-8d22d80c6df0> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/15b32427-5162-46a0-b09c-2a3cd44efe00> ;
+    prov:wasInformedBy _:Na24e503f877f4c28ac3533e1e678c827 .
+
+_:N5ba92bd09d5e495996c2b852be7dd322 a prov:Activity ;
+    rdfs:label "Calculate the irradiation values on the surfaces (from a nadir point of view) in the city [and calculate the received irradiation per year]" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/bada953d-51d0-468f-81e2-8d22d80c6df0>,
+        <https://www.soda-pro.com/help/general-knowledge/linke-turbidity-factor?p_l_back_url=https%3A%2F%2Fwww.soda-pro.com%2Fhome%3Fp_p_id%3Dcom_liferay_portal_search_web_portlet_SearchPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26p_p_mode%3Dview%26_com_liferay_portal_search_web_portlet_SearchPortlet_redirect%3Dhttps%253A%252F%252Fwww.soda-pro.com%252Fhome%253Fp_p_id%253Dcom_liferay_portal_search_web_portlet_SearchPortlet%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%26_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath%3D%252Fsearch.jsp%26_com_liferay_portal_search_web_portlet_SearchPortlet_keywords%3Dlinke%26_com_liferay_portal_search_web_portlet_SearchPortlet_formDate%3D1697446902332%26_com_liferay_portal_search_web_portlet_SearchPortlet_scope%3Dthis-site> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/85709f88-be74-46a8-977a-f15818d18739> ;
+    prov:wasInformedBy _:Na24e503f877f4c28ac3533e1e678c827 .
+
+_:Na24e503f877f4c28ac3533e1e678c827 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" .
 
-_:Ne8791842765d43f8bb872cdf2b01ff5d a prov:Activity ;
-    rdfs:label "The calculation of the surface area for the installation is carried out based on the average potential (kWh ) produced per m2: 7m2 = 1kwh. Suitable surface area/7 = Total potential kWh" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/1de9f514-9291-4c37-98fb-be01ec8e45df> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f85f91a2-ef39-4b28-b199-96820b6fff1b> ;
-    prov:wasInformedBy _:N9c20198a211e4fca906fb47f1d4061b2 .
+_:Nf601894b5c5f494195c9e1ddfb99dc75 a prov:Activity ;
+    rdfs:label "Solar and photovoltaic panels segmentation (Extract pv panels already installed from orthophoto) l" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/f4e9f405-5fbb-4e82-af15-d8045c14c89a> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1d76f6d0-7934-494f-af73-952dca3b9ef1> ;
+    prov:wasInformedBy _:N0ac650785b4a472787796cb270d98390 .
 

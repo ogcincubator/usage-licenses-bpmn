@@ -13,12 +13,16 @@
 <https://usage.geocat.live/catalogue/srv/api/records/7c840141-dce0-4b54-9bd7-7f0127b8745c> a prov:Entity ;
     rdfs:label "Land use map for parks and water (public accessible areas)" .
 
-<https://usage.geocat.live/catalogue/srv/api/records/e6991462-e031-4deb-a362-c5b55139316a> a prov:Entity ;
-    rdfs:label "High vegetation layer of surface material classification map" .
+<https://usage.geocat.live/catalogue/srv/api/records/9a4b1116-7c73-43df-8176-d8864c7b51b8> a prov:Entity ;
+    rdfs:label "Tree positions" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/0977038e-28c9-4354-89fe-1a9b52c7da3a> a prov:Agent,
         prov:SoftwareAgent ;
     rdfs:label "300m criterion" .
+
+<https://usage.geocat.live/catalogue/srv/api/records/48e58f2f-286f-4c92-b989-cb9bd8d22c1b> a prov:Agent,
+        prov:SoftwareAgent ;
+    rdfs:label "Single Tree Segmentation Tool" .
 
 <https://usage.geocat.live/catalogue/srv/api/records/59025e88-1ba8-4247-8f5d-2c8bb87ccc20> a prov:Entity ;
     rdfs:label "Boolean buildings - 30percent criterion" .
@@ -29,7 +33,7 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/a23ca88a-9fb1-4ea0-9313-8de2e01a61b9> a prov:Entity ;
     rdfs:label "Boolean buildings - 300m criterion" ;
-    prov:wasGeneratedBy _:N01b9f864946a431cbe918672e29eda4e .
+    prov:wasGeneratedBy _:N65d38f81cdca4f61aae6d5224c728e81 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/ba1d5529-ae39-420b-a8e6-5331dd29e531> a prov:Entity ;
     rdfs:label "Digital Terrain Model" .
@@ -45,10 +49,11 @@
             prov:wasInformedBy [ a <http://example.org/usage/prov/MergeActivity>,
                         prov:Activity ;
                     rdfs:label "Merge entities" ;
-                    prov:wasInformedBy _:N01b9f864946a431cbe918672e29eda4e,
+                    prov:wasInformedBy _:N65d38f81cdca4f61aae6d5224c728e81,
                         [ a prov:Activity ;
                             rdfs:label "calculate the amount of trees visible from each building (H: 3 m). Test: is the amount >3 or not? 0: no, 1: yes" ;
                             prov:used <https://usage.geocat.live/catalogue/srv/api/records/3f8220eb-fe9e-4dd4-85bb-e04faf7fa3e2>,
+                                <https://usage.geocat.live/catalogue/srv/api/records/6339aef0-d289-4d4c-b988-8ba5bdd9a830>,
                                 <https://usage.geocat.live/catalogue/srv/api/records/ba1d5529-ae39-420b-a8e6-5331dd29e531> ;
                             prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/e13cccc3-d6e3-49af-ac51-13dfee61eb17> ] ] ] .
 
@@ -63,6 +68,9 @@
         prov:SoftwareAgent ;
     rdfs:label "3tree criterion" .
 
+<https://usage.geocat.live/catalogue/srv/api/records/e8aadb78-8eeb-4ac1-89b5-669cefb967ec> a prov:Entity ;
+    rdfs:label "3D point cloud" .
+
 <https://usage.geocat.live/catalogue/srv/api/records/ee740f9b-bf7d-4570-a69f-95a509c2c845> a prov:Agent,
         prov:SoftwareAgent ;
     rdfs:label "3-30-300_Hexagons" .
@@ -73,43 +81,53 @@
 <https://usage.geocat.live/catalogue/srv/api/records/3f8220eb-fe9e-4dd4-85bb-e04faf7fa3e2> a prov:Entity ;
     rdfs:label "building footprints with height" .
 
+<https://usage.geocat.live/catalogue/srv/api/records/6339aef0-d289-4d4c-b988-8ba5bdd9a830> a prov:Entity ;
+    rdfs:label "Tree crowns",
+        "single tree canopies" ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            rdfs:label "extraction single tree from Lidar data" ;
+            prov:used <https://usage.geocat.live/catalogue/srv/api/records/e8aadb78-8eeb-4ac1-89b5-669cefb967ec> ;
+            prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/48e58f2f-286f-4c92-b989-cb9bd8d22c1b> ;
+            prov:wasInformedBy _:N7113476389f14834bbb9583e4e9241ce ] .
+
 <https://usage.geocat.live/catalogue/srv/api/records/c9c64337-8bae-484b-a959-cda5557b7c39> a prov:Entity ;
     rdfs:label "hexagon result 3-30-300 classification" ;
-    prov:wasGeneratedBy _:N51caad08cfd24bd4b99cc568b5e1ab19 .
-
-[] a prov:Activity ;
-    rdfs:label "WMS and/or a WFS using the USAGE GeoServer instance." ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/c9c64337-8bae-484b-a959-cda5557b7c39> ;
-    prov:wasInformedBy _:Na38beec9825745428a7b61bfc5db0051 .
+    prov:wasGeneratedBy _:N45ef2dd1483946399c2221421a9f0158 .
 
 [] a prov:Activity ;
     rdfs:label "To  be defined (e.g. print one or more A4 color maps, create a html page enabling easy interaction with DRI)" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/c9c64337-8bae-484b-a959-cda5557b7c39> ;
-    prov:wasInformedBy _:Na38beec9825745428a7b61bfc5db0051 .
+    prov:wasInformedBy _:Na5cb6e56af584d1dbf4936a668c26be8 .
 
 [] a prov:Activity ;
     rdfs:label "calculate the % of coverage of tree canopy in each district and check if the percentage is >30%. Assign the district characteristics to all buildings." ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/3f8220eb-fe9e-4dd4-85bb-e04faf7fa3e2> ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/3f8220eb-fe9e-4dd4-85bb-e04faf7fa3e2>,
+        <https://usage.geocat.live/catalogue/srv/api/records/6339aef0-d289-4d4c-b988-8ba5bdd9a830> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/8309b176-983c-4460-8361-d55bd8829c9c> ;
-    prov:wasInformedBy _:Nb84f9ac2ff184a3ebf44623582e248ac .
+    prov:wasInformedBy _:N7113476389f14834bbb9583e4e9241ce .
 
-_:N01b9f864946a431cbe918672e29eda4e a prov:Activity ;
-    rdfs:label "calculate the distance between the address point and  all green/blue infrastructure. Is the distance <300m to any of the green/blue infrastructures?" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/d676fe14-c4e5-4d43-80ca-d88facff75bf> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/0977038e-28c9-4354-89fe-1a9b52c7da3a> ;
-    prov:wasInformedBy _:Nb84f9ac2ff184a3ebf44623582e248ac .
+[] a prov:Activity ;
+    rdfs:label "To confirm the option to create a WMS and/or a WFS using the USAGE GeoServer instance." ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/c9c64337-8bae-484b-a959-cda5557b7c39> ;
+    prov:wasInformedBy _:Na5cb6e56af584d1dbf4936a668c26be8 .
 
-_:N51caad08cfd24bd4b99cc568b5e1ab19 a prov:Activity ;
+_:N45ef2dd1483946399c2221421a9f0158 a prov:Activity ;
     rdfs:label "create a hexagon map for better interpretation of regions" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/c35095df-b407-4050-8c42-89e0c24e1104> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ee740f9b-bf7d-4570-a69f-95a509c2c845> .
 
-_:Na38beec9825745428a7b61bfc5db0051 a <http://example.org/usage/prov/MergeActivity>,
+_:N65d38f81cdca4f61aae6d5224c728e81 a prov:Activity ;
+    rdfs:label "calculate the distance between the address point and  all green/blue infrastructure. Is the distance <300m to any of the green/blue infrastructures?" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/d676fe14-c4e5-4d43-80ca-d88facff75bf> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/0977038e-28c9-4354-89fe-1a9b52c7da3a> ;
+    prov:wasInformedBy _:N7113476389f14834bbb9583e4e9241ce .
+
+_:Na5cb6e56af584d1dbf4936a668c26be8 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" ;
-    prov:wasInformedBy _:N51caad08cfd24bd4b99cc568b5e1ab19 .
+    prov:wasInformedBy _:N45ef2dd1483946399c2221421a9f0158 .
 
-_:Nb84f9ac2ff184a3ebf44623582e248ac a <http://example.org/usage/prov/MergeActivity>,
+_:N7113476389f14834bbb9583e4e9241ce a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" .
 

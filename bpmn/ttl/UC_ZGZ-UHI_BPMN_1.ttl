@@ -7,7 +7,7 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/20ff581e-6e69-4558-90f4-f7fdd717d765> a prov:Entity ;
     rdfs:label "Sky View Factor (SVF) - UHI of Zaragoza" ;
-    prov:wasGeneratedBy _:N417f6e89b2244bee969d3f26b89a0a0b .
+    prov:wasGeneratedBy _:N2f57ce959e5f43ca977e4210f26aa425 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/558a09a9-73ae-4519-a574-dbb58a306778> a prov:Agent,
         prov:SoftwareAgent ;
@@ -18,13 +18,13 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/80fd5dcb-2dbf-4fca-aff4-1a8a85507905> a prov:Entity ;
     rdfs:label "Green Leaf Index (GLI) - UHI Zaragoza" ;
-    prov:wasGeneratedBy _:N2a1589ae992a413e917ae08b4103c18a .
+    prov:wasGeneratedBy _:N3373d1fe4f10485ca8193ecb3e0b5b33 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/89ff898a-40c5-4d14-8914-17b90c1bed91> a prov:Entity ;
     rdfs:label "Synthetic Socio-Climate Vulnerability Indicator (DRI)" ;
     prov:wasGeneratedBy [ a prov:Activity ;
             rdfs:label "Integrate the temperature data calculated in the previous steps in the vulnerability index, adding this \"temperature\" variables/indicators. A new socio-climate vulnerability index is developed. Tool: Pending methodology from the Catedra - Link to tool metadata missing" ;
-            prov:used _:Ndce51f0b496a4c4abf67e6126332c49b,
+            prov:used <https://usage.geocat.live/catalogue/>,
                 <https://usage.geocat.live/catalogue/srv/api/records/2e794929-cb87-4458-bfaa-ade25220a3c4>,
                 <https://usage.geocat.live/catalogue/srv/api/records/87091cb4-83b4-47c3-91bd-a7c8a5d9508f>,
                 <https://usage.geocat.live/catalogue/srv/api/records/bee7740e-90a9-43fc-bd92-9bca0b847880> ] .
@@ -35,8 +35,8 @@
 <https://usage.geocat.live/catalogue/srv/api/records/e4fbf560-3025-46d4-aba4-8c87d8dd8ffa> a prov:Entity ;
     rdfs:label "Normalized Built-up Area Index (NBAI) - UHI Zaragoza",
         "Normalized Difference Turbidity Index (NDTI) - UHI Zaragoza" ;
-    prov:wasGeneratedBy _:N4e538e20da5243828c054c1ff6c6d9c9,
-        _:Nf53b44b15f2f4d5d8b4f35e27bf71ae9 .
+    prov:wasGeneratedBy _:N300be54456ee4d6bbf6597bee84b4bda,
+        _:Nb5df2bf8b7e8412f9fde6224a8e8d721 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/f24f72f0-eccb-41ff-ac52-c5841dbe3b17> a prov:Agent,
         prov:SoftwareAgent ;
@@ -50,7 +50,7 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/7f48edc5-547d-459c-a4a1-236a7dc88908> a prov:Entity ;
     rdfs:label "Zaragoza Thermo-hygrometric sensor data, hourly: Air temperature and humidity" ;
-    prov:wasGeneratedBy _:N7b7d13b925fa4b269e8b486870e6deb3 .
+    prov:wasGeneratedBy _:Nad14d8c42cd34067b050011d6398faf7 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/87091cb4-83b4-47c3-91bd-a7c8a5d9508f> a prov:Entity ;
     rdfs:label "Raster data UHI Zaragoza" ;
@@ -68,11 +68,11 @@
             prov:wasInformedBy [ a <http://example.org/usage/prov/MergeActivity>,
                         prov:Activity ;
                     rdfs:label "Merge entities" ;
-                    prov:wasInformedBy _:N2a1589ae992a413e917ae08b4103c18a,
-                        _:N417f6e89b2244bee969d3f26b89a0a0b,
-                        _:N4e538e20da5243828c054c1ff6c6d9c9,
-                        _:N7b7d13b925fa4b269e8b486870e6deb3,
-                        _:Nf53b44b15f2f4d5d8b4f35e27bf71ae9 ] ] .
+                    prov:wasInformedBy _:N2f57ce959e5f43ca977e4210f26aa425,
+                        _:N300be54456ee4d6bbf6597bee84b4bda,
+                        _:N3373d1fe4f10485ca8193ecb3e0b5b33,
+                        _:Nad14d8c42cd34067b050011d6398faf7,
+                        _:Nb5df2bf8b7e8412f9fde6224a8e8d721 ] ] .
 
 <https://usage.geocat.live/catalogue/srv/api/records/bee7740e-90a9-43fc-bd92-9bca0b847880> a prov:Entity ;
     rdfs:label "Raster data Air Temperature Zaragoza" .
@@ -82,8 +82,24 @@
     rdfs:label "Google Earth Engine",
         "Google Earth Engine." .
 
+<https://usage.geocat.live/catalogue/> a prov:Entity ;
+    rdfs:label "Demographic indicatorsmissing",
+        "Household structure indicatorsmissing",
+        "Housing indicators missing",
+        "Income and Unemployment indicatorsmissing",
+        "Public facilities indicators missing",
+        "Synthetic Socio-Demographic Vulnerability Indicator",
+        "Zaragoza Thermo-hygrometric sensor data, hourly: Air temperature and humidity" ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            rdfs:label "Development of the Synthetic Vulnerability Indicator (SVI): It is a social-demographic index, with values between 0 and 30 (0: No vulnerability, 30: maximum vulnerability), calculated based on the weighted valuation of 50 variables that affect each individual resident in Zaragoza in relation to: * Demographic features: 14 indicators related to age, gender, education and nationality.* Household Structure: (8 indicators related to single-person households, elderly in single-person households, single-parent households, large families, number of generations in the household, etc.* Income and unemployment: 10 indicators related to household income per consumption unit and the number of house members.* Housing: 13 indicators related to residential space and overcrowding, housing prices, vertical accessibility, etc.* Public facilities: 5 indicators to evaluate the availability and accessibility from home to educational, health, cultural, and green spaces.  Tool: Pending methodology from the Catedra - Link to tool metadata missing" ;
+            prov:used <https://usage.geocat.live/catalogue/> ] .
+
 <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> a prov:Entity ;
     rdfs:label "Landsat images" .
+
+[] a prov:Activity ;
+    rdfs:label "Publication of the datasets harmonized in the City Council Geoserver" ;
+    prov:used <https://usage.geocat.live/catalogue/> .
 
 [] a prov:Activity ;
     rdfs:label "Development of a visualization service that displays the three type of data temperature (surface, air and UHI): - For the air and UHI data, there will be season, year and indicator layers.- For the surface temperature there will be year and night/day layers.This visualization service is implemented in the Zaragoza Spatial Data Infrastructure (IDEZAR (https://www.zaragoza.es/sede/portal/idezar/)) using the tool Leaflet (https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f6218a1f-845b-4cfb-a24d-9f64fda65cb7)" ;
@@ -92,63 +108,37 @@
         <https://usage.geocat.live/catalogue/srv/api/records/89ff898a-40c5-4d14-8914-17b90c1bed91>,
         <https://usage.geocat.live/catalogue/srv/api/records/bee7740e-90a9-43fc-bd92-9bca0b847880> .
 
-[] a prov:Activity ;
-    rdfs:label "Publication of the datasets harmonized in the City Council Geoserver" ;
-    prov:used _:Ndce51f0b496a4c4abf67e6126332c49b .
-
-_:N0a775b72b6db4d25825d3a7e4faa190a a prov:Entity ;
-    rdfs:label "Income and Unemployment indicatorsmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" .
-
-_:N52bc15866eda4b369435291aa13d715f a prov:Activity ;
-    rdfs:label "Development of the Synthetic Vulnerability Indicator (SVI): It is a social-demographic index, with values between 0 and 30 (0: No vulnerability, 30: maximum vulnerability), calculated based on the weighted valuation of 50 variables that affect each individual resident in Zaragoza in relation to: * Demographic features: 14 indicators related to age, gender, education and nationality.* Household Structure: (8 indicators related to single-person households, elderly in single-person households, single-parent households, large families, number of generations in the household, etc.* Income and unemployment: 10 indicators related to household income per consumption unit and the number of house members.* Housing: 13 indicators related to residential space and overcrowding, housing prices, vertical accessibility, etc.* Public facilities: 5 indicators to evaluate the availability and accessibility from home to educational, health, cultural, and green spaces.  Tool: Pending methodology from the Catedra - Link to tool metadata missing" ;
-    prov:used _:N0a775b72b6db4d25825d3a7e4faa190a,
-        [ a prov:Entity ;
-            rdfs:label "Public facilities indicators missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
-        [ a prov:Entity ;
-            rdfs:label "Household structure indicatorsmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
-        [ a prov:Entity ;
-            rdfs:label "Housing indicators missing link to dataset metadata (https://usage.geocat.live/catalogue/)" ],
-        [ a prov:Entity ;
-            rdfs:label "Demographic indicatorsmissing link to dataset metadata (https://usage.geocat.live/catalogue/)" ] .
-
-_:N855ac338ccd84338ab5d150c6a93e05b a prov:Entity ;
-    rdfs:label "Zaragoza Thermo-hygrometric sensor data, hourly: Air temperature and humiditylink to dataset metadata (https://usage.geocat.live/catalogue/)" .
-
-_:N2a1589ae992a413e917ae08b4103c18a a prov:Activity ;
-    rdfs:label "Calculate Green Leaf Index (GLI) Tool:" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> ;
-    prov:wasInformedBy _:N687ba5831b4a4d91abd81914d0dcb8aa .
-
-_:N417f6e89b2244bee969d3f26b89a0a0b a prov:Activity ;
+_:N2f57ce959e5f43ca977e4210f26aa425 a prov:Activity ;
     rdfs:label "Calculate Sky View Factor (SVF) from LiDAR data. Tool:" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/58c4d5de-1c86-4c26-b51d-fff998163c5e> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f24f72f0-eccb-41ff-ac52-c5841dbe3b17> ;
-    prov:wasInformedBy _:N687ba5831b4a4d91abd81914d0dcb8aa .
+    prov:wasInformedBy _:N2b5a1114d94c4165b927d68acb5672e2 .
 
-_:N4e538e20da5243828c054c1ff6c6d9c9 a prov:Activity ;
-    rdfs:label "Calculate Normalised Build-up Area Index (NBAI) Tool:" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> ;
-    prov:wasInformedBy _:N687ba5831b4a4d91abd81914d0dcb8aa .
-
-_:N7b7d13b925fa4b269e8b486870e6deb3 a prov:Activity ;
-    rdfs:label "Preprocess sensor data" ;
-    prov:used _:N855ac338ccd84338ab5d150c6a93e05b ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/558a09a9-73ae-4519-a574-dbb58a306778> ;
-    prov:wasInformedBy _:N687ba5831b4a4d91abd81914d0dcb8aa .
-
-_:Ndce51f0b496a4c4abf67e6126332c49b a prov:Entity ;
-    rdfs:label "Synthetic Socio-Demographic Vulnerability Indicatorlink to dataset metadata (https://usage.geocat.live/catalogue/)" ;
-    prov:wasGeneratedBy _:N52bc15866eda4b369435291aa13d715f .
-
-_:Nf53b44b15f2f4d5d8b4f35e27bf71ae9 a prov:Activity ;
+_:N300be54456ee4d6bbf6597bee84b4bda a prov:Activity ;
     rdfs:label "Calculate Normalized Difference Turbidity Index (NDTI). Tool:" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> ;
-    prov:wasInformedBy _:N687ba5831b4a4d91abd81914d0dcb8aa .
+    prov:wasInformedBy _:N2b5a1114d94c4165b927d68acb5672e2 .
 
-_:N687ba5831b4a4d91abd81914d0dcb8aa a <http://example.org/usage/prov/MergeActivity>,
+_:N3373d1fe4f10485ca8193ecb3e0b5b33 a prov:Activity ;
+    rdfs:label "Calculate Green Leaf Index (GLI) Tool:" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> ;
+    prov:wasInformedBy _:N2b5a1114d94c4165b927d68acb5672e2 .
+
+_:Nad14d8c42cd34067b050011d6398faf7 a prov:Activity ;
+    rdfs:label "Preprocess sensor data" ;
+    prov:used <https://usage.geocat.live/catalogue/> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/558a09a9-73ae-4519-a574-dbb58a306778> ;
+    prov:wasInformedBy _:N2b5a1114d94c4165b927d68acb5672e2 .
+
+_:Nb5df2bf8b7e8412f9fde6224a8e8d721 a prov:Activity ;
+    rdfs:label "Calculate Normalised Build-up Area Index (NBAI) Tool:" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/ddc4e931-db21-461a-a8a6-57f3e9667977> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/bb5933a3-f71b-4f51-92f4-5157a1b2ebe9> ;
+    prov:wasInformedBy _:N2b5a1114d94c4165b927d68acb5672e2 .
+
+_:N2b5a1114d94c4165b927d68acb5672e2 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" .
 

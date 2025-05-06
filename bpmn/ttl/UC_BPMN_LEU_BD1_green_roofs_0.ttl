@@ -1,16 +1,15 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/0202b8dd-1c7e-4331-8ba7-35e1fef4037a> a prov:Entity ;
+    rdfs:label "population data:" .
+
 <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/0da2e5e4-6886-426b-bb82-c0ffe6faeff6> a prov:Entity ;
     rdfs:label "DSM" .
 
-<https://usage.geocat.live/catalogue/srv/api/records/0f981a2d-1711-4c7e-bf18-17d7ca36d3fe> a prov:Entity ;
-    rdfs:label "Potential extensive green roof locations" ;
-    prov:wasGeneratedBy _:N0b60be75ec624b5db0140d7fe9dc9662 .
-
 <https://usage.geocat.live/catalogue/srv/api/records/200b7e3e-4e79-4300-ab9d-e63ebea05974> a prov:Entity ;
     rdfs:label "Surface material dataset" ;
-    prov:wasGeneratedBy _:Na142f69bd9fd4ed88b6c9634a19983c7 .
+    prov:wasGeneratedBy _:Naece71783957421394cbf14e671c6993 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/3ab7aa66-0352-443a-8934-f0df08b97f30> a prov:Agent,
         prov:SoftwareAgent ;
@@ -19,11 +18,11 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/3f97049c-19da-4cdd-b949-a86cda48e615> a prov:Entity ;
     rdfs:label "Roof materials(vector of roofs with materials attributes)" ;
-    prov:wasGeneratedBy _:Nf3a533a2b152438eb6b64741d83cd839 .
+    prov:wasGeneratedBy _:N48cda3a6232b401c8367ab570d869522 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/436a943d-c3ea-4bad-a057-ef0ff4dcd66c> a prov:Entity ;
     rdfs:label "NDVI" ;
-    prov:wasGeneratedBy _:N8dcc892533de4c6f84dce882307aae5d .
+    prov:wasGeneratedBy _:Nc7943d6d687e4ac78806c4130476b321 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/7C823055-7BBF-4D62-B55E-F85C30D53162> a prov:Entity ;
     rdfs:label "Ownership type (public/private)Cadaster" .
@@ -49,11 +48,11 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/e33b2d0a-5241-416d-af89-9103f6f5814f> a prov:Entity ;
     rdfs:label "Roof slopes(vector of roofs with slope attribute)" ;
-    prov:wasGeneratedBy _:N1e009f55021f4f308198bc786069b065 .
+    prov:wasGeneratedBy _:N55a45281008d43a6ad49306ef8866eee .
 
 <https://usage.geocat.live/catalogue/srv/api/records/e7f5bfeb-3ece-41d3-9f8b-abed59af7b87> a prov:Entity ;
     rdfs:label "Priority areas" ;
-    prov:wasGeneratedBy _:N3a046aad253941899fdaec06bb162242 .
+    prov:wasGeneratedBy _:N6be5bfda3369478c839a5029b88086e6 .
 
 <https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> a prov:Agent,
         prov:SoftwareAgent ;
@@ -62,68 +61,73 @@
 <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/b5835e44-e554-496b-b930-da4fca628a45> a prov:Entity ;
     rdfs:label "Buildings roofs/footprints vector data" .
 
+<https://usage.geocat.live/catalogue/srv/api/records/0f981a2d-1711-4c7e-bf18-17d7ca36d3fe> a prov:Entity ;
+    rdfs:label "Potential extensive green roof locations" ;
+    prov:wasGeneratedBy _:N79bb478d456d46de84f508409f1f8b81 .
+
 <https://usage.geocat.live/catalogue/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> a prov:Entity ;
     rdfs:label "aerial hyperspectral images" .
 
 [] a prov:Activity ;
     rdfs:label "Publish the map on ArcGIS online (https://www.arcgis.com/index.html)" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/0f981a2d-1711-4c7e-bf18-17d7ca36d3fe> ;
-    prov:wasInformedBy _:N0b60be75ec624b5db0140d7fe9dc9662 .
+    prov:wasInformedBy _:N79bb478d456d46de84f508409f1f8b81 .
 
-_:N1690c2680058464e95a4ae88eaebb7a2 a <http://example.org/usage/prov/MergeActivity>,
+[] a prov:Activity ;
+    rdfs:label "Provide an interactive map that will enable decision makers to explore the information of the identified buildings for green roofs." ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/0f981a2d-1711-4c7e-bf18-17d7ca36d3fe> .
+
+_:N76a817deede34b768cd924471d84145e a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" ;
-    prov:wasInformedBy _:N1e009f55021f4f308198bc786069b065,
-        _:N8dcc892533de4c6f84dce882307aae5d,
-        _:Na142f69bd9fd4ed88b6c9634a19983c7 .
+    prov:wasInformedBy _:N55a45281008d43a6ad49306ef8866eee,
+        _:Naece71783957421394cbf14e671c6993,
+        _:Nc7943d6d687e4ac78806c4130476b321 .
 
-_:N777e31569bf749468464dee44c4648f5 a prov:Entity ;
-    rdfs:label "population data:link to dataset metadata (https://usage.geocat.live/)" .
-
-_:N0b60be75ec624b5db0140d7fe9dc9662 a prov:Activity ;
-    rdfs:label "Combine the various datasets, and using the building foorprints as the base, and containing attributes of roof slopes, roof materials, area and prioroty level" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/3f97049c-19da-4cdd-b949-a86cda48e615>,
-        <https://usage.geocat.live/catalogue/srv/api/records/e33b2d0a-5241-416d-af89-9103f6f5814f>,
-        <https://usage.geocat.live/catalogue/srv/api/records/e7f5bfeb-3ece-41d3-9f8b-abed59af7b87> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/8c6388aa-9516-4f30-97be-234a4749a7cf> ;
-    prov:wasInformedBy _:N3a046aad253941899fdaec06bb162242 .
-
-_:N1e009f55021f4f308198bc786069b065 a prov:Activity ;
-    rdfs:label "Using building footprint and DSM data, delineate the roofs by intersecting building polygons with the raster, and generate a slope raster.Calculate roof slopes using the" ;
-    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/0da2e5e4-6886-426b-bb82-c0ffe6faeff6>,
-        <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/b5835e44-e554-496b-b930-da4fca628a45> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/c5ecc760-1d15-4c49-a8e0-0914b98b8935> ;
-    prov:wasInformedBy _:N9be7ad11c7324df6a39c658dc1eb3fe4 .
-
-_:N3a046aad253941899fdaec06bb162242 a prov:Activity ;
-    rdfs:label "FBK_UHI_vulnerability. Automatic low level of detail (10m / 50m resolution) UHI simulation tool to generate a list of vulnerabilities among the whole list of hotspots identified (based on a set of parameters to be applied to all hotspots)" ;
-    prov:used _:N777e31569bf749468464dee44c4648f5,
-        <https://usage.geocat.live/catalogue/srv/api/records/436a943d-c3ea-4bad-a057-ef0ff4dcd66c>,
-        <https://usage.geocat.live/catalogue/srv/api/records/7C823055-7BBF-4D62-B55E-F85C30D53162>,
-        <https://usage.geocat.live/catalogue/srv/api/records/c4548cee-2ede-4065-946e-f1ad4dfd8f1b> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b> ;
-    prov:wasInformedBy _:Nf3a533a2b152438eb6b64741d83cd839 .
-
-_:N8dcc892533de4c6f84dce882307aae5d a prov:Activity ;
-    rdfs:label "Calculate NDVI" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/caca9b99-3f3e-4d03-a3e8-9df00c238dd8> ;
-    prov:wasInformedBy _:N9be7ad11c7324df6a39c658dc1eb3fe4 .
-
-_:Na142f69bd9fd4ed88b6c9634a19983c7 a prov:Activity ;
-    rdfs:label "Generate surface material raster output from hyperspectral images classification (coming from other use cases)" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> ;
-    prov:wasInformedBy _:N9be7ad11c7324df6a39c658dc1eb3fe4 .
-
-_:Nf3a533a2b152438eb6b64741d83cd839 a prov:Activity ;
+_:N48cda3a6232b401c8367ab570d869522 a prov:Activity ;
     rdfs:label "Extract roof surface materials from classified surface raster using a vectorization process, that involves overlaying the raster with a vector and identify the majority pixels representing the roof surface material" ;
     prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/b5835e44-e554-496b-b930-da4fca628a45>,
         <https://usage.geocat.live/catalogue/srv/api/records/200b7e3e-4e79-4300-ab9d-e63ebea05974> ;
     prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/3ab7aa66-0352-443a-8934-f0df08b97f30> ;
-    prov:wasInformedBy _:N1690c2680058464e95a4ae88eaebb7a2 .
+    prov:wasInformedBy _:N76a817deede34b768cd924471d84145e .
 
-_:N9be7ad11c7324df6a39c658dc1eb3fe4 a <http://example.org/usage/prov/MergeActivity>,
+_:N55a45281008d43a6ad49306ef8866eee a prov:Activity ;
+    rdfs:label "Using building footprint and DSM data, delineate the roofs by intersecting building polygons with the raster, and generate a slope raster.Calculate roof slopes using the" ;
+    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/0da2e5e4-6886-426b-bb82-c0ffe6faeff6>,
+        <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/b5835e44-e554-496b-b930-da4fca628a45> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/c5ecc760-1d15-4c49-a8e0-0914b98b8935> ;
+    prov:wasInformedBy _:N52b3aea3332d4801ac30906bf8baf7e5 .
+
+_:N6be5bfda3369478c839a5029b88086e6 a prov:Activity ;
+    rdfs:label "Analysis of the impacts on Urban Heat Island (UHI) vulnerabilities" ;
+    prov:used <https://geonetwork.sdi.sadl.kuleuven.be/geonetwork/srv/api/records/0202b8dd-1c7e-4331-8ba7-35e1fef4037a>,
+        <https://usage.geocat.live/catalogue/srv/api/records/436a943d-c3ea-4bad-a057-ef0ff4dcd66c>,
+        <https://usage.geocat.live/catalogue/srv/api/records/7C823055-7BBF-4D62-B55E-F85C30D53162>,
+        <https://usage.geocat.live/catalogue/srv/api/records/c4548cee-2ede-4065-946e-f1ad4dfd8f1b> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b> ;
+    prov:wasInformedBy _:N48cda3a6232b401c8367ab570d869522 .
+
+_:N79bb478d456d46de84f508409f1f8b81 a prov:Activity ;
+    rdfs:label "Combine the various datasets, and using the building foorprints as the base, and containing attributes of building attributes,  roof slopes, roof materials, area and prioroty level" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/3f97049c-19da-4cdd-b949-a86cda48e615>,
+        <https://usage.geocat.live/catalogue/srv/api/records/e33b2d0a-5241-416d-af89-9103f6f5814f>,
+        <https://usage.geocat.live/catalogue/srv/api/records/e7f5bfeb-3ece-41d3-9f8b-abed59af7b87> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/8c6388aa-9516-4f30-97be-234a4749a7cf> ;
+    prov:wasInformedBy _:N6be5bfda3369478c839a5029b88086e6 .
+
+_:Naece71783957421394cbf14e671c6993 a prov:Activity ;
+    rdfs:label "Generate surface material raster output from hyperspectral images classification (coming from other use cases)" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/fd520039-50a1-46c0-94a1-9b5369333e2a> ;
+    prov:wasInformedBy _:N52b3aea3332d4801ac30906bf8baf7e5 .
+
+_:Nc7943d6d687e4ac78806c4130476b321 a prov:Activity ;
+    rdfs:label "Calculate NDVI" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/646cf671-26a1-4592-b2f1-5e939a2f967c> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/caca9b99-3f3e-4d03-a3e8-9df00c238dd8> ;
+    prov:wasInformedBy _:N52b3aea3332d4801ac30906bf8baf7e5 .
+
+_:N52b3aea3332d4801ac30906bf8baf7e5 a <http://example.org/usage/prov/MergeActivity>,
         prov:Activity ;
     rdfs:label "Merge entities" .
 

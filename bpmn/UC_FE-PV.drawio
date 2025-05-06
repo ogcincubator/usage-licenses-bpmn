@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.13">
   <diagram name="FE-PV" id="baLiT41wjzlTVZv35vuG">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iREojE_EcFUT60Zf4l-V-92" value="Assess solar potential for PV installation - &lt;a href=&quot;https://docs.google.com/document/d/17AJEKZw4RBO2aQTBiLZaIjXHWimf1JUN/edit?amp;ouid=100401313820260785715&amp;amp;amp;rtpof=true&amp;amp;amp;sd=true#heading=h.gjdgxs&quot;&gt;FE-PV&lt;/a&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="52" y="-2240" width="2500" height="3070" as="geometry">
+          <mxGeometry x="53" y="-2240" width="2500" height="2490" as="geometry">
             <mxRectangle x="99" y="-2240" width="40" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -14,25 +14,43 @@
             <mxRectangle x="20" width="1133" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8a_DFh1L9sIuB4qiLg9Q-2" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-94">
+          <mxGeometry x="107" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="iREojE_EcFUT60Zf4l-V-95" value="&lt;p&gt;Identify the average irradiation value per homogeneous areas on roof pitches or areas potentially usable for photovoltaic panels installations (unoccupied areas (parkings, stocking areas, plane roofs, etc.)&lt;/p&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-92">
           <mxGeometry x="20" y="540" width="2480" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-1" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Metadata doesn&#39;t have dataset included&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-95">
-          <mxGeometry x="418" y="321.5" width="80" height="59" as="geometry" />
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;PUG: flight path&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://dati.comune.fe.it/dataset/v2-69&quot; style=&quot;background-color: initial; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="AYdhGK95s8Jrub2KOEHg-2">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-95">
+            <mxGeometry x="717" y="110" width="30" height="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;PUG: indirect constraint&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;(Cultural Heritage)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;a style=&quot;background-color: initial; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/b42ea803-b355-478e-99ed-b2594618cc89&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="AYdhGK95s8Jrub2KOEHg-4">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-95">
+            <mxGeometry x="809.4" y="110" width="30" height="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AYdhGK95s8Jrub2KOEHg-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.266;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="iREojE_EcFUT60Zf4l-V-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="731.76" y="144" as="sourcePoint" />
+            <mxPoint x="731.76" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-125" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;Per i parcheggi si effettua ragionamento successivo&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-95">
-          <mxGeometry x="996.5" y="200" width="80" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Create metadata for parking lot irradiation&amp;nbsp;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;15/03 change metadata LINK&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-95">
-          <mxGeometry x="768" y="270" width="116" height="96" as="geometry" />
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;PUG: framework knowledge -&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp;public parking lots&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;a style=&quot;background-color: initial; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/9116da0a-e521-4c19-adfc-8bcdb5716a3a&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-120">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-95">
+            <mxGeometry x="617" y="110" width="30" height="34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AYdhGK95s8Jrub2KOEHg-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.266;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="iREojE_EcFUT60Zf4l-V-95" source="3B00jg4IUKN6mD5agiQT-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="634.6" y="180" as="sourcePoint" />
+            <mxPoint x="631.332" y="219.5999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iREojE_EcFUT60Zf4l-V-93" value="&lt;div&gt;Exclude not applicable areas&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;autosize=0;fixedWidth=0;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-92">
           <mxGeometry x="20" y="960" width="2480" height="790" as="geometry">
             <mxRectangle x="20" y="960" width="2198" height="58" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-2" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Metadata doesn&#39;t have dataset included&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-93">
-          <mxGeometry x="1129" y="686.5" width="80" height="59" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;Perimeter of the historic center of Ferrara&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-family: Arial; background-color: initial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/2518f252-b150-4c40-995b-75bcdffa4977&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-167">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=13;html=1;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-93">
@@ -42,66 +60,30 @@
         <mxCell id="3B00jg4IUKN6mD5agiQT-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="iREojE_EcFUT60Zf4l-V-93" source="3B00jg4IUKN6mD5agiQT-167" target="3B00jg4IUKN6mD5agiQT-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-17" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px; font-weight: 400;&quot;&gt;Solar and photovoltaic panels segmentation (&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Extract pv panels already installed from orthophoto) l&lt;/span&gt;&lt;/font&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/1d76f6d0-7934-494f-af73-952dca3b9ef1&quot; style=&quot;background-color: initial; font-size: 8px; font-weight: normal;&quot;&gt;ink to tool metadata&lt;/a&gt;&lt;span style=&quot;background-color: initial; font-size: 8px; color: rgb(255, 51, 51); font-weight: normal;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-93">
-          <mxGeometry x="1318" y="140" width="147" height="31" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Orthophoto 2022 10cm resolution&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f4e9f405-5fbb-4e82-af15-d8045c14c89a&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="yt7fV-2J0EI8xndOPAcs-18">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-93">
-            <mxGeometry x="1373.5" y="50" width="30" height="34" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="iREojE_EcFUT60Zf4l-V-93" source="yt7fV-2J0EI8xndOPAcs-18" target="yt7fV-2J0EI8xndOPAcs-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Estimate of photovoltaic panels&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(non suitable areas)&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/9d7692d5-a22f-4e9d-80aa-8fea42d2e67e&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="yt7fV-2J0EI8xndOPAcs-20">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-93">
-            <mxGeometry x="1380.5" y="199" width="30" height="34" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=7.5;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="iREojE_EcFUT60Zf4l-V-93">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1388.33" y="171" as="sourcePoint" />
-            <mxPoint x="1388.33" y="199" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1388.33" y="181" />
-              <mxPoint x="1388.33" y="181" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Cultural Heritage&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/3318654a-3623-4a94-8f3c-84e2ed3a0fdb&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-155">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=11;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-93">
             <mxGeometry x="1258" y="470" width="30" height="33" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="3B00jg4IUKN6mD5agiQT-121" value="&lt;div style=&quot;&quot;&gt;&lt;h6 style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 6px;&quot;&gt;Vectorial layer containing the roof pitches and other potential candidate areas in the city(possibly split in multiple sub-areas having homogeneous irradiation values) with associated received irradiation (KWh) per year, per m2? In semantics: plane surfaces should be marked somehow&lt;/span&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-93">
+          <mxGeometry x="148" y="360" width="127" height="49" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;Parking&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;lot&amp;nbsp; irradiation&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/1df99f59-c41c-4326-8998-2a82d28ad1c3&quot; style=&quot;background-color: initial; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-129">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#e1d5e7;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-93">
+            <mxGeometry x="687" y="50" width="30" height="34" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="iREojE_EcFUT60Zf4l-V-97" value="&lt;div&gt;Manual validation of exception cases (e.g. plane roofs in historical centres)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-92">
           <mxGeometry x="20" y="1750" width="2480" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-8" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Metadata doesn&#39;t have dataset included&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-97">
-          <mxGeometry x="1253" y="113" width="80" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="iREojE_EcFUT60Zf4l-V-154" value="&lt;div&gt;Classify pitches per preferable pitch / pitch area on which o install PV panels&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-92">
-          <mxGeometry x="20" y="1990" width="2480" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-9" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Metadata doesn&#39;t have dataset included.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;15/03 change metadata LINK with Potenziale solare edifici&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-154">
-          <mxGeometry x="1417" y="136.5" width="80" height="83.5" as="geometry" />
-        </mxCell>
-        <mxCell id="iREojE_EcFUT60Zf4l-V-155" value="&lt;div&gt;Calculate approximated yearly produced energy and energy value per pitch or pitch fraction&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-92">
-          <mxGeometry x="20" y="2240" width="2480" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-10" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Metadata doesn&#39;t have dataset included.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;15/03 change metadata LINK&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-155">
-          <mxGeometry x="1598" y="203" width="80" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-176" value="&lt;div style=&quot;&quot;&gt;&lt;h6 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 6px; font-weight: 400;&quot;&gt;(Manually) validated Vectorial layer containing the pitches or pitches fraction of the city with associated received irradiation (KWh) per year, per m2? on which it’s possible to install solar panels. Classified based on order of efficiency (from best to worst) per roof&lt;/span&gt;&lt;br&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-155">
-          <mxGeometry x="1346.5" y="30" width="167" height="44" as="geometry" />
-        </mxCell>
         <mxCell id="iREojE_EcFUT60Zf4l-V-156" value="Share Decision-REady Information&amp;nbsp;&lt;div&gt;with decision makers&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-92">
-          <mxGeometry x="20" y="2570" width="2480" height="500" as="geometry" />
+          <mxGeometry x="20" y="1990" width="2480" height="500" as="geometry" />
         </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-205" value="&lt;div&gt;Communicate to citizens in attractive way&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-156">
           <mxGeometry y="390" width="2480" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-186" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;webgis for visualization and interaction with citizens&amp;nbsp;&lt;/span&gt;GeoNext&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-weight: normal; font-size: 8px;&quot; color=&quot;#ff3333&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f4fe374e-0a56-4910-9f3a-e8b7519c373e&quot;&gt;Link to tool metadata&lt;/a&gt;&amp;nbsp;&lt;/font&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="3B00jg4IUKN6mD5agiQT-205">
-          <mxGeometry x="2099" y="30" width="178" height="30" as="geometry" />
+        <mxCell id="3B00jg4IUKN6mD5agiQT-186" value="&lt;h6 style=&quot;line-height: 90%; margin-top: 10.7332px; margin-bottom: 5.7332px; margin-left: 0px;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;webgis for visualization and interaction with citizens&amp;nbsp;&lt;/span&gt;GeoNext&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;background-color: initial; font-weight: normal; font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f4fe374e-0a56-4910-9f3a-e8b7519c373e&quot;&gt;Link to tool metadata&lt;/a&gt;&amp;nbsp;&lt;/font&gt;&lt;/h6&gt;&lt;h6 style=&quot;line-height: 90%; margin-top: 5.7332px; padding-left: 0px; margin-bottom: 5.7332px; margin-right: 0px;&quot;&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;background-color: initial; font-weight: normal; font-size: 8px;&quot;&gt;&lt;a href=&quot;https://sit.comune.fe.it/gnx/Accesso_diretto_usage_fast.html&quot;&gt;Link to Geonext map&lt;/a&gt;&lt;/font&gt;&lt;/h6&gt;&lt;h6 style=&quot;line-height: 90%; margin-top: 5.7332px; padding-left: 0px; margin-bottom: 5.7332px; margin-right: 0px;&quot;&gt;&lt;a style=&quot;font-weight: normal;&quot; href=&quot;https://sit.comune.fe.it/allegati/mappe/usage/10_potenziale_di_irraggiamento_solare_edifici.html&quot;&gt;Link to embeddable map&lt;/a&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="3B00jg4IUKN6mD5agiQT-205">
+          <mxGeometry x="2099" y="30" width="191" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-187" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="3B00jg4IUKN6mD5agiQT-205">
           <mxGeometry x="2349" y="30" width="30" height="30" as="geometry" />
@@ -109,13 +91,31 @@
         <mxCell id="3B00jg4IUKN6mD5agiQT-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3B00jg4IUKN6mD5agiQT-205" source="3B00jg4IUKN6mD5agiQT-186" target="3B00jg4IUKN6mD5agiQT-187">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3B00jg4IUKN6mD5agiQT-184" value="&lt;h6 style=&quot;line-height: 90%; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Share Decision Ready Information with decision makers with Gis viewers&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&amp;nbsp;as &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Geonext&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-weight: normal; font-size: 8px;&quot; color=&quot;#ff3333&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f4fe374e-0a56-4910-9f3a-e8b7519c373e&quot;&gt;Link to tool metadata&lt;/a&gt;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-weight: normal; font-size: 8px;&quot;&gt;or web data stories (e.g. &lt;a href=&quot;https://www.comune.ferrara.it/it/geoportale/dati/storie-di-dati&quot;&gt;stories&lt;/a&gt;) explain limitation of the reported production values (i.e. cloudy conditions, incliantion of installe pannel, effective installable surface on the roof (cimnies, roof boundaries)&lt;/font&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="iREojE_EcFUT60Zf4l-V-156">
+          <mxGeometry x="1873" y="232" width="205" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="3B00jg4IUKN6mD5agiQT-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iREojE_EcFUT60Zf4l-V-156" source="3B00jg4IUKN6mD5agiQT-184" target="3B00jg4IUKN6mD5agiQT-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MxaMl1WZHZWP-qelYsli-3" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="iREojE_EcFUT60Zf4l-V-92" source="3B00jg4IUKN6mD5agiQT-129" target="3B00jg4IUKN6mD5agiQT-184">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="787" y="2107.6470588235293" as="sourcePoint" />
+            <mxPoint x="1427" y="2630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="717" y="1044" />
+              <mxPoint x="717" y="2260" />
+              <mxPoint x="1847" y="2260" />
+              <mxPoint x="1847" y="2262" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="-1955" as="targetPoint" />
             <mxPoint x="210" y="-1955" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-102" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Calculate the irradiation values on the surfaces (from a nadir point of view) in the city [and calculate the received irradiation per year]&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/85709f88-be74-46a8-977a-f15818d18739&quot;&gt;&lt;b&gt;PV-potential&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;strokeColor=#d79b00;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="3B00jg4IUKN6mD5agiQT-102" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Calculate the irradiation values on the surfaces (from a nadir point of view) in the city [and calculate the received irradiation per year]&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/85709f88-be74-46a8-977a-f15818d18739&quot;&gt;&lt;b&gt;Solar Irradiation Calculation&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9b29;strokeColor=#d79b00;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="308" y="-2065.5" width="169" height="47.5" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;line-height: 100%; font-size: 8px;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;Linke-turbidity factor map&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;background-color: initial;&quot; href=&quot;https://www.soda-pro.com/help/general-knowledge/linke-turbidity-factor?p_l_back_url=https%3A%2F%2Fwww.soda-pro.com%2Fhome%3Fp_p_id%3Dcom_liferay_portal_search_web_portlet_SearchPortlet%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26p_p_mode%3Dview%26_com_liferay_portal_search_web_portlet_SearchPortlet_redirect%3Dhttps%253A%252F%252Fwww.soda-pro.com%252Fhome%253Fp_p_id%253Dcom_liferay_portal_search_web_portlet_SearchPortlet%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%26_com_liferay_portal_search_web_portlet_SearchPortlet_mvcPath%3D%252Fsearch.jsp%26_com_liferay_portal_search_web_portlet_SearchPortlet_keywords%3Dlinke%26_com_liferay_portal_search_web_portlet_SearchPortlet_formDate%3D1697446902332%26_com_liferay_portal_search_web_portlet_SearchPortlet_scope%3Dthis-site&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-103">
@@ -165,7 +165,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;b style=&quot;&quot;&gt;Total solar radiation Ferrara&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;a style=&quot;font-size: 8px; font-family: Arial; background-color: initial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/601806dd-3e61-40b4-8d47-6fec2e9addbe&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;l&lt;/font&gt;ink to dataset metadata&lt;/a&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-115">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=#FFFFFF;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
             <mxGeometry x="385.5" y="-1992" width="30" height="34" as="geometry" />
           </mxCell>
         </UserObject>
@@ -188,59 +188,17 @@
             <mxPoint x="733.0000000000002" y="-1373" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;Parking&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;lot&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/a482dbaa-ba7e-43d5-ad4d-5a9638b40637&quot; style=&quot;background-color: initial; font-family: Arial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-120">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="1">
-            <mxGeometry x="769" y="-1581" width="30" height="34" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-121" value="&lt;div style=&quot;&quot;&gt;&lt;h6 style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 6px;&quot;&gt;Vectorial layer containing the roof pitches and other potential candidate areas in the city(possibly split in multiple sub-areas having homogeneous irradiation values) with associated received irradiation (KWh) per year, per m2? In semantics: plane surfaces should be marked somehow&lt;/span&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="672" y="-1301" width="127" height="49" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-align: left; white-space: pre-wrap;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 8px;&quot;&gt;Segmented Roof Irradiation &lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;dMdXWaJS4YXUSSMsWkbs&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/2087f4e7-b631-4547-a5b6-17cb2dcf4d56&quot; style=&quot;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-122">
+        <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-align: left; white-space: pre-wrap;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 8px;&quot;&gt;Segmented Roofs Irradiation &lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;dMdXWaJS4YXUSSMsWkbs&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/2087f4e7-b631-4547-a5b6-17cb2dcf4d56&quot; style=&quot;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-122">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="1">
             <mxGeometry x="605" y="-1378.5" width="30" height="34" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.711;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-120" target="3B00jg4IUKN6mD5agiQT-118">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="784" y="-1501" />
-              <mxPoint x="757" y="-1501" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-124" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2h public parking lots from RUE and private interchange parking lots. &lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;15/03 change metadata LINK&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#FF0000;align=left;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="854" y="-1606" width="116" height="96" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-126" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=30;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-120" target="3B00jg4IUKN6mD5agiQT-124">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="725" y="-1671" as="sourcePoint" />
-            <mxPoint x="775" y="-1721" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1070" y="-1416.5" as="sourcePoint" />
             <mxPoint x="1070" y="-1416.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="762" y="-1391" />
-            </Array>
-            <mxPoint x="762" y="-1422" as="sourcePoint" />
-            <mxPoint x="762" y="-1391" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-129" target="3B00jg4IUKN6mD5agiQT-121">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;Parking&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;lot&amp;nbsp; irradiation&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a style=&quot;background-color: initial; font-family: Arial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/a482dbaa-ba7e-43d5-ad4d-5a9638b40637&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-129">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#e1d5e7;" vertex="1" parent="1">
-            <mxGeometry x="749" y="-1392" width="30" height="34" as="geometry" />
-          </mxCell>
-        </UserObject>
         <UserObject label="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Segmented Roofs&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/60689a02-9b52-426e-bf90-6172f76147ea&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-130">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="1">
             <mxGeometry x="391.25" y="-1581" width="30" height="32" as="geometry" />
@@ -256,12 +214,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-102" target="3B00jg4IUKN6mD5agiQT-118">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3B00jg4IUKN6mD5agiQT-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-102" target="3B00jg4IUKN6mD5agiQT-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="-2041.7714285714287" as="sourcePoint" />
+            <mxPoint x="722" y="-1481" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="-2042" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-108" target="3B00jg4IUKN6mD5agiQT-118">
+        <mxCell id="3B00jg4IUKN6mD5agiQT-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.188;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-108" target="3B00jg4IUKN6mD5agiQT-118">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="637" y="-1485" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="-1777" />
+              <mxPoint x="650" y="-1481" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-115">
@@ -286,6 +254,9 @@
         <mxCell id="3B00jg4IUKN6mD5agiQT-138" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;" vertex="1" parent="1">
           <mxGeometry x="843" y="-966" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="dheAqD6gMfz--8fMyvaC-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-139" target="3B00jg4IUKN6mD5agiQT-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-139" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 8px; font-weight: 400;&quot;&gt;Solar and photovoltaic panels segmentation (&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Extract pv panels already installed from orthophoto) l&lt;/span&gt;&lt;/font&gt;&lt;a style=&quot;background-color: initial; font-size: 8px; font-weight: normal;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/1d76f6d0-7934-494f-af73-952dca3b9ef1&quot;&gt;ink to tool metadata&lt;/a&gt;&lt;span style=&quot;background-color: initial; font-size: 8px; color: rgb(255, 51, 51); font-weight: normal;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="1">
           <mxGeometry x="983" y="-811" width="147" height="31" as="geometry" />
         </mxCell>
@@ -297,12 +268,6 @@
             <mxGeometry x="1125.5" y="-1232" width="30" height="34" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.865;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-143" target="3B00jg4IUKN6mD5agiQT-141">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-143" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 35, 79); font-size: 10px;&quot;&gt;?&lt;/font&gt;&lt;/b&gt;(semantics: name of the road? As for regulation).&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1252" y="-1198" width="68" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-138" target="3B00jg4IUKN6mD5agiQT-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -373,7 +338,7 @@
         <mxCell id="3B00jg4IUKN6mD5agiQT-159" value="&lt;div style=&quot;&quot;&gt;&lt;h6 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 6px; font-weight: 400;&quot;&gt;Vector layer containing the pitches or pitches fraction and other potential candidate areas in the city with associated received irradiation (KWh) per year, per m2? On which it’s possible to install solar panels&lt;/span&gt;&lt;br&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1132" y="-521" width="149" height="29.75" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;text-align: left; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Helvetica&quot;&gt;Roof Pitches eligible for Photovoltaic panel installation&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/7e081fdc-a43e-45ff-acaf-a674fe2546c7&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-160">
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 8px; background-color: rgb(255, 255, 255);&quot;&gt;Segmented roofs solar potential (eligible for PV)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/22d01fe4-c3b3-4b50-a01b-1ee69b212c23&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-160">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="1">
             <mxGeometry x="1315.5" y="-581" width="30" height="34" as="geometry" />
           </mxCell>
@@ -392,16 +357,6 @@
             <mxGeometry x="1475" y="-777" width="30" height="34" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.944;entryY=-0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-164" target="3B00jg4IUKN6mD5agiQT-137">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1465.0049999999997" y="-634.0025" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1490" y="-738" />
-              <mxPoint x="1485" y="-738" />
-              <mxPoint x="1485" y="-635" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Area of interest&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/ita/catalog.search#/metadata/de281376-ccbb-4703-bff6-716310e64c24&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-169">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="1">
             <mxGeometry x="1025" y="-1232" width="30" height="34" as="geometry" />
@@ -412,13 +367,13 @@
             <mxPoint x="1015" y="-1111" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-171" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;GIS application (qgis, etc..) to validate the dataset in input.&amp;nbsp; Well known and pubblicly available application&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ff3333&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/2dccbea6-8c1f-4402-af6d-78382cc6e8a1&quot;&gt;Link to QGis &lt;/a&gt;Link to Arcmap&amp;nbsp;&lt;/font&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="1">
+        <mxCell id="3B00jg4IUKN6mD5agiQT-171" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;GIS application (qgis, etc..) to validate the dataset in input.&amp;nbsp; Well known and pubblicly available application&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ff3333&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/2dccbea6-8c1f-4402-af6d-78382cc6e8a1&quot;&gt;Link to QGis&amp;nbsp;&lt;/a&gt; &lt;br&gt;&lt;/font&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="1">
           <mxGeometry x="1405" y="-441" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-172" value="&lt;div style=&quot;&quot;&gt;&lt;h6 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 6px; font-weight: 400;&quot;&gt;(Manually) validated vectorial layer containing the pitches or pitches fraction and other potential candidate areas in the city with associated received irradiation (KWh) per year, per m2? On which it’s possible to install solar panels&lt;/span&gt;&lt;br&gt;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1251.5" y="-291" width="167" height="29.75" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-align: left; white-space: pre-wrap;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 8px;&quot;&gt;Roof Pitches eligible of Photovoltaic panel installation (&lt;b&gt;validated&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-family: Arial; background-color: initial;&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/4607d7fd-611a-4cb5-990f-e3215e5f7f3f&quot; style=&quot;font-size: 8px; font-family: Arial; background-color: initial;&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-173">
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-align: left; white-space: pre-wrap;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center; white-space: nowrap;&quot;&gt;Segmented roofs solar potential&lt;/span&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Helvetica&quot;&gt; (&lt;b&gt;validated&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-family: Arial; background-color: initial;&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-family: Arial; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-size: 8px; font-family: Arial; background-color: initial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/22d01fe4-c3b3-4b50-a01b-1ee69b212c23&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-173">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
             <mxGeometry x="1467.5" y="-352" width="30" height="34" as="geometry" />
           </mxCell>
@@ -426,69 +381,17 @@
         <mxCell id="3B00jg4IUKN6mD5agiQT-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=7.5;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-171" target="3B00jg4IUKN6mD5agiQT-173">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-175" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Classify pitches in a roof, identifying an order from best to worst choice to install solar panel&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/91874db4-7086-4198-926c-d9e99a5f3024&quot;&gt;GDAL&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/2dccbea6-8c1f-4402-af6d-78382cc6e8a1&quot;&gt;QGIS&lt;/a&gt;&lt;/font&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="1">
-          <mxGeometry x="1553" y="-181" width="141" height="40" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); text-align: left; white-space: pre-wrap;&quot;&gt;Roof Pitches eligible of Photovoltaic panel installation sorted by solar potential &lt;/span&gt;&lt;a style=&quot;font-family: Arial; background-color: initial;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/1de9f514-9291-4c37-98fb-be01ec8e45df&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-177">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="1">
-            <mxGeometry x="1615.5" y="-101" width="30" height="34" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=7.5;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-175" target="3B00jg4IUKN6mD5agiQT-177">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-179" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;The calculation of the surface area for the installation is carried out based on the average potential (kWh ) produced per m2: 7m2 = 1kwh. Suitable surface area/7 = Total potential kWh&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-size: 8px;&quot; color=&quot;#ff3333&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f85f91a2-ef39-4b28-b199-96820b6fff1b&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;L&lt;/span&gt;ink to tool metadata&lt;/a&gt;&lt;/font&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="1">
-          <mxGeometry x="1706" y="137" width="178" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-180" value="&lt;div style=&quot;&quot;&gt;&lt;h6 style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;Decision Ready Information:&amp;nbsp;&lt;/span&gt;Vectorial map of the roof pitches containing: 1) per roof, which is the best pitch on which to install solar panel and in which area of the pitch&lt;span style=&quot;background-color: initial;&quot;&gt;- (maximum) annual solar power KWh/m2; 2)&lt;/span&gt;&amp;nbsp;(maximum) approximated potential annual savings in €/year.&amp;nbsp;&amp;nbsp;&lt;/span&gt;Add a field indicating the rules for excluding roofs and areas from the solar potential calculation. This operation occurs in the step &quot;Exclude not applicable areas&quot; - &quot;Overlay and exclude spatial layers of non-applicable areas&quot;&lt;/h6&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1705" y="296" width="183" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-181" value="&lt;font style=&quot;background-color: rgb(204, 255, 204); font-size: 5px;&quot;&gt;Raniero per metadato e attributi&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1658" y="310" width="60" height="30" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Average potential ( KWH ) for each suitable roof pitch.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;a style=&quot;&quot; href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/0f9db234-fb86-40ad-824a-8f330d2c41d6&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="3B00jg4IUKN6mD5agiQT-182">
-          <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-            <mxGeometry x="1789.5" y="228" width="30" height="34" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=7.5;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-179" target="3B00jg4IUKN6mD5agiQT-182">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-184" value="&lt;h6 style=&quot;line-height: 90%; font-size: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Share Decision Ready Information with decision makers with Gis viewers&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&amp;nbsp;as &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Geonext&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: initial; font-weight: normal; font-size: 8px;&quot; color=&quot;#ff3333&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/f4fe374e-0a56-4910-9f3a-e8b7519c373e&quot;&gt;Link to tool metadata&lt;/a&gt;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-weight: normal; font-size: 8px;&quot;&gt;or web data stories (e.g. &lt;a href=&quot;https://www.comune.ferrara.it/it/geoportale/dati/storie-di-dati&quot;&gt;stories&lt;/a&gt;) explain limitation of the reported production values (i.e. cloudy conditions, incliantion of installe pannel, effective installable surface on the roof (cimnies, roof boundaries)&lt;/font&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="1">
-          <mxGeometry x="1945" y="426" width="205" height="53" as="geometry" />
-        </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-160" target="3B00jg4IUKN6mD5agiQT-171">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-137" target="3B00jg4IUKN6mD5agiQT-171">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-171" target="3B00jg4IUKN6mD5agiQT-175">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-173" target="3B00jg4IUKN6mD5agiQT-175">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-175" target="3B00jg4IUKN6mD5agiQT-179">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-177" target="3B00jg4IUKN6mD5agiQT-179">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-182" target="3B00jg4IUKN6mD5agiQT-186">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-179" target="3B00jg4IUKN6mD5agiQT-184">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-184" target="3B00jg4IUKN6mD5agiQT-186">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-177" target="3B00jg4IUKN6mD5agiQT-184">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B00jg4IUKN6mD5agiQT-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-182" target="3B00jg4IUKN6mD5agiQT-184">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3B00jg4IUKN6mD5agiQT-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-173" target="3B00jg4IUKN6mD5agiQT-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1620" y="433.3333333333333" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1483" y="-240" />
+              <mxPoint x="1483" y="439" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="3B00jg4IUKN6mD5agiQT-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-122" target="3B00jg4IUKN6mD5agiQT-138">
           <mxGeometry relative="1" as="geometry">
@@ -498,15 +401,47 @@
             <mxPoint x="690" y="-1112" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.054;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-167" target="3B00jg4IUKN6mD5agiQT-137">
+        <mxCell id="MxaMl1WZHZWP-qelYsli-4" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-167" target="3B00jg4IUKN6mD5agiQT-137">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1216" y="-650" as="sourcePoint" />
-            <mxPoint x="1266" y="-700" as="targetPoint" />
+            <mxPoint x="1640" y="-440" as="sourcePoint" />
+            <mxPoint x="1242" y="-630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1242" y="-660" />
+              <mxPoint x="1252" y="-660" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yt7fV-2J0EI8xndOPAcs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.07;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yt7fV-2J0EI8xndOPAcs-20" target="3B00jg4IUKN6mD5agiQT-137">
+        <mxCell id="MxaMl1WZHZWP-qelYsli-5" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-164" target="3B00jg4IUKN6mD5agiQT-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="-640" as="sourcePoint" />
+            <mxPoint x="1430" y="-690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1490" y="-627" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxaMl1WZHZWP-qelYsli-7" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0;entryDx=7.5;entryDy=0;entryPerimeter=0;exitX=0.773;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-118" target="3B00jg4IUKN6mD5agiQT-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="-1250" as="sourcePoint" />
+            <mxPoint x="910" y="-1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpxlwrwxI7D49cAm3FrH-3" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="AYdhGK95s8Jrub2KOEHg-4" target="3B00jg4IUKN6mD5agiQT-118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="-1500" as="sourcePoint" />
+            <mxPoint x="820" y="-1460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="897" y="-1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpxlwrwxI7D49cAm3FrH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3B00jg4IUKN6mD5agiQT-173">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1380" y="-620" as="targetPoint" />
+            <mxPoint x="2170" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1482" y="190" />
+            </Array>
+            <mxPoint x="1492" y="-308" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>

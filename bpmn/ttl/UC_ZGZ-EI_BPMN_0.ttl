@@ -1,6 +1,10 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://docs.google.com/document/d/1V8L-nuOVWu0gRtdpm8-0Fwur1nQDfbIWrJPW_Yff3q8/edit?usp=sharing> a prov:Entity ;
+    rdfs:label "Dashboard Requirements" ;
+    prov:wasGeneratedBy _:Nccb43c41bdb846a18e72e2ee67a72ab1 .
+
 <https://usage.geocat.live/catalogue/srv/api/records/0a415354-4f2f-4799-bcdf-ca8c07c1386b> a prov:Entity ;
     rdfs:label "Industrial sector" .
 
@@ -74,6 +78,16 @@
 
 <https://usage.geocat.live/catalogue/srv/api/records/fcfab35e-4f9e-4136-b0e7-bd87b8757663> a prov:Entity ;
     rdfs:label "Waste sector" .
+
+<https://docs.google.com/presentation/d/11xBaoOx_yzrOTxgNgxCOMDbBqFCtumwa2TiuEKEXiyE/edit?usp=sharing> a prov:Entity ;
+    rdfs:label "Visualization Service Requirements" ;
+    prov:wasGeneratedBy _:Nccb43c41bdb846a18e72e2ee67a72ab1 .
+
+<https://usage.geocat.live/> a prov:Entity ;
+    rdfs:label "Knowledge Graph Emissions ZGZ" ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            rdfs:label "Create the Knowledge Graph by joining and uploading the RDF ntriples in" ;
+            prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/034dbe1e-ce4f-40ae-a29f-a83a476d220c> ] .
 
 <https://usage.geocat.live/catalogue/srv/api/records/01d3eb36-e5b4-4e3e-b963-373a1e89e473> a prov:Entity ;
     rdfs:label "Ontology Conceptualization - Zaragoza Emissions Inventory" ;
@@ -156,12 +170,91 @@
     rdfs:label "Chowlk Converter",
         "tool Chowlk" .
 
-[] a prov:Activity ;
-    rdfs:label "Check each file for possible errors in the data and fixed them. E.g. Incorrect year in the data. Create wkt formatted cell polygons from the given coordinates. Tool:" ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ad9205a9-c185-47c8-b3c1-30d0d6c89197> .
+[] a prov:Entity ;
+    rdfs:label "" .
 
 [] a prov:Entity ;
     rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Livestock sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "Tree cover sector link to dataset metadata" .
+
+[] a prov:Activity ;
+    rdfs:label "Generation of the dashboard with the aggregated data. Tool:" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/a6f6005f-6ac7-4673-9e15-77758dedc562> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ca4b6c71-6f14-4bba-ba8c-4b91b81624fe> .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Activity ;
+    rdfs:label "Validation of the ontology. Check if there is any pitfall in the ontology. Tool:" ;
+    prov:used <https://usage.geocat.live/catalogue/srv/api/records/71adf383-90c2-4e43-b4c1-5776b078af02> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1a5f6bbf-6278-41eb-a37f-df7e555e9afb> .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Tree cover sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Tree cover sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "IPPU sector link to dataset metadata" .
+
+[] a prov:Activity ;
+    rdfs:label "Transform the xml mappings into turtle (ttl) format. Tool:" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/d0dbf9f2-1d82-408e-a97c-de164c075042> .
 
 [] a prov:Entity ;
     rdfs:label "" .
@@ -174,6 +267,28 @@
 
 [] a prov:Entity ;
     rdfs:label "IPPU sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Activity ;
+    rdfs:label "Check each file for possible errors in the data and fixed them. E.g. Incorrect year in the data. Create wkt formatted cell polygons from the given coordinates. Tool:" ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ad9205a9-c185-47c8-b3c1-30d0d6c89197> .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Livestock sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "Tree cover sector link to dataset metadata" .
 
 [] a prov:Entity ;
     rdfs:label "" .
@@ -190,14 +305,10 @@
 [] a prov:Entity ;
     rdfs:label "" .
 
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
+[] a prov:Activity ;
+    rdfs:label "Perform a SPARQL query to the Knowledge Graph in order to obtain a unique csv file with all the data aggregated by sector and year. . Tool:" ;
+    prov:used <https://usage.geocat.live/> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/034dbe1e-ce4f-40ae-a29f-a83a476d220c> .
 
 [] a prov:Entity ;
     rdfs:label "" .
@@ -212,25 +323,6 @@
     rdfs:label "" .
 
 [] a prov:Entity ;
-    rdfs:label "Tree cover sector link to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Activity ;
-    rdfs:label "Generation of the dashboard with the aggregated data. Tool:" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/a6f6005f-6ac7-4673-9e15-77758dedc562> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/ca4b6c71-6f14-4bba-ba8c-4b91b81624fe> .
-
-[] a prov:Activity ;
-    rdfs:label "Map formally the data from the csv to the classes and properties of the ontology in RML. As output, there is a xml file with the mappings diagram per sector. Tool:" ;
-    prov:used <https://usage.geocat.live/catalogue/srv/api/records/71adf383-90c2-4e43-b4c1-5776b078af02> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/3368d504-19ae-40dc-b41e-f678b4b719c5> .
-
-[] a prov:Entity ;
-    rdfs:label "IPPU sector link to dataset metadata" .
-
-[] a prov:Entity ;
     rdfs:label "" .
 
 [] a prov:Entity ;
@@ -238,34 +330,6 @@
 
 [] a prov:Entity ;
     rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sector link to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sector link to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Dashboard Requirements link to dataset metadata (https://docs.google.com/document/d/1V8L-nuOVWu0gRtdpm8-0Fwur1nQDfbIWrJPW_Yff3q8/edit?usp=sharing)" ;
-    prov:wasGeneratedBy _:N906322cd73d94d6291f719795663e63b .
 
 [] a prov:Entity ;
     rdfs:label "Ontology validation report link to resource metadata (https://usage.geocat.live/)" .
@@ -277,92 +341,12 @@
     rdfs:label "" .
 
 [] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
+    rdfs:label "Tree cover sector link to dataset metadata" .
 
 [] a prov:Activity ;
-    rdfs:label "Validation of the ontology. Check if there is any pitfall in the ontology. Tool:" ;
+    rdfs:label "Map formally the data from the csv to the classes and properties of the ontology in RML. As output, there is a xml file with the mappings diagram per sector. Tool:" ;
     prov:used <https://usage.geocat.live/catalogue/srv/api/records/71adf383-90c2-4e43-b4c1-5776b078af02> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/1a5f6bbf-6278-41eb-a37f-df7e555e9afb> .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Activity ;
-    rdfs:label "Perform a SPARQL query to the Knowledge Graph in order to obtain a unique csv file with all the data aggregated by sector and year. . Tool:" ;
-    prov:used [ a prov:Entity ;
-            rdfs:label "Knowledge Graph Emissions ZGZ link to dataset metadata (https://usage.geocat.live/)" ;
-            prov:wasGeneratedBy [ a prov:Activity ;
-                    rdfs:label "Create the Knowledge Graph by joining and uploading the RDF ntriples in" ;
-                    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/034dbe1e-ce4f-40ae-a29f-a83a476d220c> ] ] ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/034dbe1e-ce4f-40ae-a29f-a83a476d220c> .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sector link to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Livestock sector link to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "IPPU sector link to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Activity ;
-    rdfs:label "Generation of the visualization service with the aggregated data in shapefile. Tool:" ;
-    prov:used [ a prov:Entity ;
-            rdfs:label "Visualization Service Requirements link to dataset metadata (https://docs.google.com/presentation/d/11xBaoOx_yzrOTxgNgxCOMDbBqFCtumwa2TiuEKEXiyE/edit?usp=sharing)" ;
-            prov:wasGeneratedBy _:N906322cd73d94d6291f719795663e63b ],
-        <https://usage.geocat.live/catalogue/srv/api/records/e4dd1b7f-e4d1-4f47-b05e-562b1ffd379e> ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f6218a1f-845b-4cfb-a24d-9f64fda65cb7> .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
-
-[] a prov:Entity ;
-    rdfs:label "Tree cover sector link to dataset metadata" .
-
-[] a prov:Entity ;
-    rdfs:label "" .
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/3368d504-19ae-40dc-b41e-f678b4b719c5> .
 
 [] a prov:Activity ;
     rdfs:label "Materialization of the mappings into RDF ntriples. Tool:" ;
@@ -378,12 +362,32 @@
     rdfs:label "" .
 
 [] a prov:Entity ;
-    rdfs:label "Livestock sector link to dataset metadata" .
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
+
+[] a prov:Entity ;
+    rdfs:label "IPPU sector link to dataset metadata" .
+
+[] a prov:Entity ;
+    rdfs:label "" .
 
 [] a prov:Activity ;
-    rdfs:label "Transform the xml mappings into turtle (ttl) format. Tool:" ;
-    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/d0dbf9f2-1d82-408e-a97c-de164c075042> .
+    rdfs:label "Generation of the visualization service with the aggregated data in shapefile. Tool:" ;
+    prov:used <https://docs.google.com/presentation/d/11xBaoOx_yzrOTxgNgxCOMDbBqFCtumwa2TiuEKEXiyE/edit?usp=sharing>,
+        <https://usage.geocat.live/catalogue/srv/api/records/e4dd1b7f-e4d1-4f47-b05e-562b1ffd379e> ;
+    prov:wasAssociatedWith <https://usage.geocat.live/catalogue/srv/api/records/f6218a1f-845b-4cfb-a24d-9f64fda65cb7> .
 
-_:N906322cd73d94d6291f719795663e63b a prov:Activity ;
+[] a prov:Entity ;
+    rdfs:label "" .
+
+_:Nccb43c41bdb846a18e72e2ee67a72ab1 a prov:Activity ;
     rdfs:label "Define the requirements of the dashboard and visualization service for the DecisionMakers. This data won't be available to the citizen." .
 

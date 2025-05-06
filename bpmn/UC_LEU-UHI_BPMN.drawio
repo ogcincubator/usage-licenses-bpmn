@@ -1,28 +1,13 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.8">
   <diagram name="LEU-UHI" id="5-YcaGYEjPbzkdf8p1iu">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="Lx3dMDMzQVTXeGKKECox-0" />
         <mxCell id="Lx3dMDMzQVTXeGKKECox-1" parent="Lx3dMDMzQVTXeGKKECox-0" />
         <mxCell id="Lx3dMDMzQVTXeGKKECox-2" value="with&amp;nbsp;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-1">
-          <mxGeometry x="150" y="-4380" width="1820" height="2130" as="geometry">
-            <mxRectangle x="99" y="-2240" width="40" height="50" as="alternateBounds" />
+          <mxGeometry x="150" y="-4380" width="1820" height="2330" as="geometry">
+            <mxRectangle x="150" y="-4380" width="40" height="50" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pBVGRH1MDpd358sIF_8C-1" value="&lt;div&gt;Validated layers published and made available through WMS and WFS protocols, as well as file formats&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-1">
-          <mxGeometry x="170" y="-2590" width="1800" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="pBVGRH1MDpd358sIF_8C-2" value="&lt;h6 style=&quot;line-height: 90%; font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Decision ready information:&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-weight: 400; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-family: Arial; font-weight: 400;&quot;&gt;1)Surface materials map, and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Arial; font-weight: 400;&quot;&gt;2)Hot spots map of Leuven 3) Vulnerability index map of Leuven.&amp;nbsp;&lt;/span&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="pBVGRH1MDpd358sIF_8C-1">
-          <mxGeometry x="1490" y="137.5" width="240" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="VDrF4sD4afR3QMWUaSCJ-11" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#33001a&quot;&gt;The maps will be published and accessible to the public using ArcGIS tools. The data will be available to the city, and can be findable from the metadata. A process of sharing data will be laid out later by the city.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="pBVGRH1MDpd358sIF_8C-1">
-          <mxGeometry x="1528.5" y="196" width="163" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="pBVGRH1MDpd358sIF_8C-31" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="pBVGRH1MDpd358sIF_8C-1">
-          <mxGeometry x="1760" y="148.75" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pBVGRH1MDpd358sIF_8C-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="pBVGRH1MDpd358sIF_8C-1" source="pBVGRH1MDpd358sIF_8C-2" target="pBVGRH1MDpd358sIF_8C-31">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;&lt;div&gt;Spectral signal extraction to identify and extract the regions of interest within the hyperspectral images.&lt;/div&gt;&lt;div&gt;Calculation of Spectral Indices&lt;/div&gt;&lt;/div&gt;" link="https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/582d7122-5924-467b-ae28-a07819c98fb5" id="Lx3dMDMzQVTXeGKKECox-3">
           <mxCell style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-1">
@@ -70,7 +55,7 @@
             <mxPoint x="644.5" y="317" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Hyperspectral Image 2021&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/7750576f-23af-48ce-941a-40dfdb3e5bc3&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="TJ6-mpOAyWIwksYSqs58-0">
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Hyperspectral Image&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot; style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/7750576f-23af-48ce-941a-40dfdb3e5bc3&quot;&gt;link to dataset metadata&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" id="TJ6-mpOAyWIwksYSqs58-0">
           <mxCell style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-3">
             <mxGeometry x="221" y="10" width="28" height="34" as="geometry" />
           </mxCell>
@@ -185,7 +170,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lx3dMDMzQVTXeGKKECox-34" value="&lt;div&gt;Urban heat island/ hotspots detection&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-1">
-          <mxGeometry x="170" y="-3350" width="1800" height="390" as="geometry" />
+          <mxGeometry x="170" y="-3350" width="1800" height="390" as="geometry">
+            <mxRectangle x="170" y="-3350" width="40" height="230" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Lx3dMDMzQVTXeGKKECox-35" value="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 8px; font-weight: 400;&quot;&gt;Urban heat Island detection using&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: initial; font-size: 8px;&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;algorithms that produce Land surface temperature raster layer at 30m including emissivity correction from hyperspectral images&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 12px; font-weight: 400; background-color: initial;&quot; face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Arial; font-size: 8px; font-weight: 400;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: initial; font-size: 8px; font-family: Arial;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/64646d7a-906a-418e-8c29-708c110b81a0&quot;&gt;FBK_UHI_DETECTION&lt;/a&gt;&lt;/b&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-34">
           <mxGeometry x="1112" y="137.5" width="190" height="42.5" as="geometry" />
@@ -244,7 +231,7 @@
         <mxCell id="Lx3dMDMzQVTXeGKKECox-56" value="&lt;div&gt;Determine priority areas for interventions based on vulnerability mapping&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-1">
           <mxGeometry x="170" y="-2960" width="1800" height="370" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;FBK_UHI_vulnerability.&amp;nbsp;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt;Automatic low level of detail (10m / 50m resolution) UHI simulation tool to generate a list of vulnerabilities among the whole list of hotspots identified (based on a set of parameters to be applied to all hotspots)&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ff3333&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b&quot;&gt;Link to tool metadata&lt;/a&gt;&lt;/font&gt;&lt;br&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" id="Lx3dMDMzQVTXeGKKECox-58">
+        <UserObject label="&lt;h6 style=&quot;line-height: 90%;&quot;&gt;&lt;span style=&quot;font-size: 8.04px; font-weight: normal;&quot;&gt;Analysis of the&lt;/span&gt;&lt;span style=&quot;font-size: 8px; font-weight: 400;&quot;&gt; impacts on Urban Heat Island (UHI) vulnerabilities&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;a href=&quot;https://usage.geocat.live/catalogue/srv/eng/catalog.search#/metadata/929158a4-eb6d-41c7-b8c5-4c3e17e87d6b&quot;&gt;Link to tool metadata&lt;/a&gt;&lt;/font&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" id="Lx3dMDMzQVTXeGKKECox-58">
           <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-56">
             <mxGeometry x="1302" y="110" width="178" height="50" as="geometry" />
           </mxCell>
@@ -312,6 +299,40 @@
               <mxPoint x="1780" y="-2820" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Das54fSS9GKNlDnU8kJZ-0" value="" style="group" vertex="1" connectable="0" parent="Lx3dMDMzQVTXeGKKECox-1">
+          <mxGeometry x="170" y="-2590" width="1800" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pBVGRH1MDpd358sIF_8C-1" value="&lt;div&gt;Validated layers published and made available through WMS and WFS protocols, as well as file formats&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=58;horizontal=0;whiteSpace=wrap;container=0;" vertex="1" parent="Das54fSS9GKNlDnU8kJZ-0">
+          <mxGeometry width="1800" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pBVGRH1MDpd358sIF_8C-2" value="&lt;h6 style=&quot;line-height: 90%; font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Decision ready information:&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-weight: 400; font-family: Arial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-family: Arial; font-weight: 400;&quot;&gt;1)Surface materials map, and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Arial; font-weight: 400;&quot;&gt;2)Hot spots map of Leuven 3) Vulnerability index map of Leuven.&amp;nbsp;&lt;/span&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="Das54fSS9GKNlDnU8kJZ-0">
+          <mxGeometry x="1490" y="137.5" width="240" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VDrF4sD4afR3QMWUaSCJ-11" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#33001a&quot;&gt;The maps will be published and accessible to the public using ArcGIS tools. The data will be available to the city, and can be findable from the metadata. A process of sharing data will be laid out later by the city.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;whiteSpace=wrap;spacing=2;fontSize=6;labelBackgroundColor=none;" vertex="1" parent="Das54fSS9GKNlDnU8kJZ-0">
+          <mxGeometry x="1528.5" y="196" width="163" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Das54fSS9GKNlDnU8kJZ-1" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: rgb(251, 251, 251); float: none; display: inline !important;&quot;&gt;DRI presentation to decision makers&lt;/span&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=60;" vertex="1" parent="Lx3dMDMzQVTXeGKKECox-1">
+          <mxGeometry x="170" y="-2250" width="1800" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pBVGRH1MDpd358sIF_8C-31" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="Das54fSS9GKNlDnU8kJZ-1">
+          <mxGeometry x="1740" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Das54fSS9GKNlDnU8kJZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Das54fSS9GKNlDnU8kJZ-1" source="Das54fSS9GKNlDnU8kJZ-3" target="pBVGRH1MDpd358sIF_8C-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Das54fSS9GKNlDnU8kJZ-3" value="&lt;h6 style=&quot;line-height: 90%; font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Present the &lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-family: Arial; font-weight: 400;&quot;&gt;Hot spots map and Vulnerability index map of Leuven to decision makers in digital format as interactive maps, and in print - to be finalized.&amp;nbsp;&lt;/span&gt;&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#ff9129;" vertex="1" parent="Das54fSS9GKNlDnU8kJZ-1">
+          <mxGeometry x="1440" y="98.75" width="240" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Das54fSS9GKNlDnU8kJZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="Lx3dMDMzQVTXeGKKECox-1" source="pBVGRH1MDpd358sIF_8C-20" target="Das54fSS9GKNlDnU8kJZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1561" y="-2125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Das54fSS9GKNlDnU8kJZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Lx3dMDMzQVTXeGKKECox-1" source="pBVGRH1MDpd358sIF_8C-2" target="pBVGRH1MDpd358sIF_8C-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
